@@ -31,9 +31,9 @@ Possible options:
 
 ```
   -h, --help            show this help message and exit
-  --nocleanup           Leave litedashds and test.* datadir on exit or error
-  --noshutdown          Don't stop litedashds after the test execution
-  --srcdir=SRCDIR       Source directory containing litedashd/litedash-cli
+  --nocleanup           Leave factords and test.* datadir on exit or error
+  --noshutdown          Don't stop factords after the test execution
+  --srcdir=SRCDIR       Source directory containing factord/factor-cli
                         (default: ../../src)
   --tmpdir=TMPDIR       Root directory for datadirs
   --tracerpc            Print out all RPC calls as they are made
@@ -58,7 +58,7 @@ to recover with:
 
 ```bash
 rm -rf cache
-killall litedashd
+killall factord
 ```
 
 Writing tests

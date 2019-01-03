@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.litedash.FactorPayment</string>
+      <string>io.factor.FactorPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>litedash</string>
+        <string>factor</string>
       </array>
     </dict>
   </array>
@@ -52,7 +52,7 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.litedash.paymentrequest</string>
+      <string>io.factor.paymentrequest</string>
       <key>UTTypeDescription</key>
       <string>Factor payment request</string>
       <key>UTTypeConformsTo</key>
@@ -62,7 +62,7 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-litedash-payment-request</string>
+        <string>application/x-factor-payment-request</string>
         <key>public.filename-extension</key>
         <array>
           <string>pmadimentrequest</string>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.litedash.paymentrequest</string>
+        <string>io.factor.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

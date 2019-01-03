@@ -44,9 +44,9 @@ QString BitcoinUnits::id(int unit)
 {
     switch(unit)
     {
-        case FACTOR: return QString("litedash");
-        case mFACTOR: return QString("mlitedash");
-        case uFACTOR: return QString::fromUtf8("ulitedash");
+        case FACTOR: return QString("factor");
+        case mFACTOR: return QString("mfactor");
+        case uFACTOR: return QString::fromUtf8("ufactor");
         case duffs: return QString("duffs");
         default: return QString("???");
     }

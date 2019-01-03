@@ -3051,7 +3051,7 @@ bool CWallet::CreateTransaction(const vector<CRecipient>& vecSend, CWalletTx& wt
 
                         // Fill a vout to ourself
                         // TODO: pass in scriptChange instead of reservekey so
-                        // change transaction isn't always pay-to-litedash-address
+                        // change transaction isn't always pay-to-factor-address
                         CScript scriptChange;
 
                         // coin control: send change to custom address

@@ -2,7 +2,7 @@ Factor Core 0.12
 ==================
 
 Factor Core tree 0.12.x release notes can be found here:
-- [v0.12.0](release-notes/litedash/release-notes-0.12.0.md)
+- [v0.12.0](release-notes/factor/release-notes-0.12.0.md)
 
 Factor Core tree 0.12.x is a fork of Bitcoin Core tree 0.10.2
 
@@ -27,8 +27,8 @@ to Factor.
 
 These release are considered obsolete. Old changelogs can be found here:
 
-- [v0.11.2](release-notes/litedash/release-notes-0.11.2.md) released Mar/25/2015
-- [v0.11.1](release-notes/litedash/release-notes-0.11.1.md) released Feb/10/2015
-- [v0.11.0](release-notes/litedash/release-notes-0.11.0.md) released Jan/15/2015
-- [v0.10.x](release-notes/litedash/release-notes-0.10.0.md) released Sep/25/2014
-- [v0.9.x](release-notes/litedash/release-notes-0.9.0.md) released Mar/13/2014
+- [v0.11.2](release-notes/factor/release-notes-0.11.2.md) released Mar/25/2015
+- [v0.11.1](release-notes/factor/release-notes-0.11.1.md) released Feb/10/2015
+- [v0.11.0](release-notes/factor/release-notes-0.11.0.md) released Jan/15/2015
+- [v0.10.x](release-notes/factor/release-notes-0.10.0.md) released Sep/25/2014
+- [v0.9.x](release-notes/factor/release-notes-0.9.0.md) released Mar/13/2014

@@ -309,16 +309,16 @@ static const CRPCCommand vRPCCommands[] =
     { "hidden",             "setmocktime",            &setmocktime,            true,      false,      false },
 
     /* Factor features */
-    { "litedash",               "masternode",             &masternode,             true,      true,       false },
-    { "litedash",               "masternodelist",         &masternodelist,         true,      true,       false },
-    { "litedash",               "masternodebroadcast",    &masternodebroadcast,    true,      true,       false },
-    { "litedash",               "mnbudget",               &mnbudget,               true,      true,       false },
-    { "litedash",               "mnbudgetvoteraw",        &mnbudgetvoteraw,        true,      true,       false },
-    { "litedash",               "mnfinalbudget",          &mnfinalbudget,          true,      true,       false },
-    { "litedash",               "mnsync",                 &mnsync,                 true,      true,       false },
-    { "litedash",               "spork",                  &spork,                  true,      true,       false },
+    { "factor",               "masternode",             &masternode,             true,      true,       false },
+    { "factor",               "masternodelist",         &masternodelist,         true,      true,       false },
+    { "factor",               "masternodebroadcast",    &masternodebroadcast,    true,      true,       false },
+    { "factor",               "mnbudget",               &mnbudget,               true,      true,       false },
+    { "factor",               "mnbudgetvoteraw",        &mnbudgetvoteraw,        true,      true,       false },
+    { "factor",               "mnfinalbudget",          &mnfinalbudget,          true,      true,       false },
+    { "factor",               "mnsync",                 &mnsync,                 true,      true,       false },
+    { "factor",               "spork",                  &spork,                  true,      true,       false },
 #ifdef ENABLE_WALLET
-    { "litedash",               "darksend",               &darksend,               false,     false,      true  }, /* not threadSafe because of SendMoney */
+    { "factor",               "darksend",               &darksend,               false,     false,      true  }, /* not threadSafe because of SendMoney */
 
     /* Wallet */
     { "wallet",             "addmultisigaddress",     &addmultisigaddress,     true,      false,      true },
@@ -587,10 +587,10 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-            _("To use litedashd, or the -server option to litedash-qt, you must set an rpcpassword in the configuration file:\n"
+            _("To use factord, or the -server option to factor-qt, you must set an rpcpassword in the configuration file:\n"
               "%s\n"
               "It is recommended you use the following random password:\n"
-              "rpcuser=litedashrpc\n"
+              "rpcuser=factorrpc\n"
               "rpcpassword=%s\n"
               "(you do not need to remember this password)\n"
               "The username and password MUST NOT be the same.\n"
@@ -1047,7 +1047,7 @@ json_spirit::Value CRPCTable::execute(const std::string &strMethod, const json_s
 }
 
 std::string HelpExampleCli(string methodname, string args){
-    return "> litedash-cli " + methodname + " " + args + "\n";
+    return "> factor-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args){

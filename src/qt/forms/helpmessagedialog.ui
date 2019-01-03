@@ -28,7 +28,7 @@
       </sizepolicy>
      </property>
      <property name="pixmap">
-      <pixmap resource="../litedash.qrc">:/images/about</pixmap>
+      <pixmap resource="../factor.qrc">:/images/about</pixmap>
      </property>
     </widget>
    </item>
@@ -87,7 +87,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../litedash.qrc"/>
+  <include location="../factor.qrc"/>
  </resources>
  <connections>
   <connection>

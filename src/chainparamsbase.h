@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between litedash-cli and litedashd)
+ * CBaseChainParams defines the base parameters (shared between factor-cli and factord)
  * of a given instance of the Factor system.
  */
 class CBaseChainParams

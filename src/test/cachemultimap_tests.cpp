@@ -2,7 +2,7 @@
 
 #include "cachemultimap.h"
 
-#include "test/test_litedash.h"
+#include "test/test_factor.h"
 
 #include <algorithm>
 #include <iostream>

@@ -62,7 +62,7 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent, bool about) :
     } else {
         setWindowTitle(tr("Command-line options"));
         QString header = tr("Usage:") + "\n" +
-            "  litedash-qt [" + tr("command-line options") + "]                     " + "\n";
+            "  factor-qt [" + tr("command-line options") + "]                     " + "\n";
 
         QString coreOptions = QString::fromStdString(HelpMessage(HMM_BITCOIN_QT));
 

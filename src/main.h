@@ -8,7 +8,7 @@
 #define BITCOIN_MAIN_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/litedash-config.h"
+#include "config/factor-config.h"
 #endif
 
 #include "amount.h"

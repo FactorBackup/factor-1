@@ -1,0 +1,22 @@
+[Unit]
+Description=Factor's distributed currency daemon
+After=network.target
+
+[Service]
+User=factor
+Group=factor
+
+Type=forking
+PIDFile=/var/lib/factord/factord.pid
+ExecStart=/usr/bin/factord -daemon -pid=/var/lib/factord/factord.pid \
+-conf=/etc/factor/factor.conf -datadir=/var/lib/factord -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,9 +1,9 @@
 Sample configuration files for:
 
-SystemD: litedashd.service
-Upstart: litedashd.conf
-OpenRC:  litedashd.openrc
-         litedashd.openrcconf
+SystemD: factord.service
+Upstart: factord.conf
+OpenRC:  factord.openrc
+         factord.openrcconf
 
 have been made available to assist packagers in creating node packages here.
 

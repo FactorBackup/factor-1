@@ -17,14 +17,14 @@ You need the Qt4 run-time libraries to run Factor-Qt. On Debian or Ubuntu:
 
 Unpack the files into a directory and run:
 
-- bin/32/litedash-qt (GUI, 32-bit) or bin/32/litedashd (headless, 32-bit)
-- bin/64/litedash-qt (GUI, 64-bit) or bin/64/litedashd (headless, 64-bit)
+- bin/32/factor-qt (GUI, 32-bit) or bin/32/factord (headless, 32-bit)
+- bin/64/factor-qt (GUI, 64-bit) or bin/64/factord (headless, 64-bit)
 
 
 
 ### Windows
 
-Unpack the files into a directory, and then run litedash-qt.exe.
+Unpack the files into a directory, and then run factor-qt.exe.
 
 ### OSX
 
@@ -35,7 +35,7 @@ Drag Factor-Qt to your applications folder, and then run Factor-Qt.
 * See the documentation at the [Factor Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
 * Ask for help on [#pmadi](http://webchat.freenode.net?channels=pmadi) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=pmadi).
-* Ask for help on the [FactorTalk](https://litedashtalk.org/) forums.
+* Ask for help on the [FactorTalk](https://factortalk.org/) forums.
 
 Building
 ---------------------
@@ -57,7 +57,7 @@ The Factor repo's [root README](https://github.com/pmadi/factor/blob/master/READ
 - [Unit Tests](unit-tests.md)
 
 ### Resources
-* Discuss on the [FactorTalk](https://litedashtalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on the [FactorTalk](https://factortalk.org/) forums, in the Development & Technical Discussion board.
 * Discuss on [#pmadi](http://webchat.freenode.net/?channels=pmadi) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=pmadi).
 
 ### Miscellaneous

@@ -31,9 +31,9 @@ SendCoinsEntry::SendCoinsEntry(QWidget *parent) :
     ui->addAsLabel->setPlaceholderText(tr("Enter a label for this address to add it to your address book"));
 #endif
 
-    // normal litedash address field
+    // normal factor address field
     GUIUtil::setupAddressWidget(ui->payTo, this);
-    // just a label for displaying litedash address(es)
+    // just a label for displaying factor address(es)
     ui->payTo_is->setFont(GUIUtil::bitcoinAddressFont());
 
     // Connect signals

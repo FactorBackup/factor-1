@@ -6,13 +6,13 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with 'make check'.
 
-To run the litedashd tests manually, launch src/test/test_litedash .
+To run the factord tests manually, launch src/test/test_factor .
 
-To add more litedashd tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more factord tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the test/ directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the litedash-qt tests manually, launch src/qt/test/litedash-qt_test
+To run the factor-qt tests manually, launch src/qt/test/factor-qt_test
 
-To add more litedash-qt tests, add them to the `src/qt/test/` directory and
+To add more factor-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.

@@ -1,9 +1,9 @@
 Factor Core staging tree 0.12
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/pmadi/litedash.svg?branch=master)](https://travis-ci.org/pmadi/litedash) `v0.12.0.x:` [![Build Status](https://travis-ci.org/pmadi/litedash.svg?branch=v0.12.0.x)](https://travis-ci.org/pmadi/litedash/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/pmadi/litedash.svg?branch=v0.12.1.x)](https://travis-ci.org/pmadi/litedash/branches)
+`master:` [![Build Status](https://travis-ci.org/pmadi/factor.svg?branch=master)](https://travis-ci.org/pmadi/factor) `v0.12.0.x:` [![Build Status](https://travis-ci.org/pmadi/factor.svg?branch=v0.12.0.x)](https://travis-ci.org/pmadi/factor/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/pmadi/factor.svg?branch=v0.12.1.x)](https://travis-ci.org/pmadi/factor/branches)
 
-https://www.litedash.org
+https://www.factor.org
 
 Copyright (c) 2009-2015 Bitcoin Core Developers
 
@@ -20,7 +20,7 @@ are carried out collectively by the network. Factor Core is the name of open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Factor Core software, see https://www.litedash.org/downloads.
+the Factor Core software, see https://www.factor.org/downloads.
 
 
 License
@@ -68,7 +68,7 @@ Translations
 ------------
 
 Changes to translations as well as new translations can be submitted to
-[Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/litedash/).
+[Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/factor/).
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.
@@ -76,7 +76,7 @@ Translations are periodically pulled from Transifex and merged into the git repo
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
 
-Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/litedash-translators). ***TODO***
+Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/factor-translators). ***TODO***
 
 Development tips and tricks
 ---------------------------
@@ -99,7 +99,7 @@ to see it.
 
 **testnet and regtest modes**
 
-Run with the -testnet option to run with "play litedash" on the test network, if you
+Run with the -testnet option to run with "play factor" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the -regtest option.

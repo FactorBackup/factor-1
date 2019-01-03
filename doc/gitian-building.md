@@ -26,7 +26,7 @@ Table of Contents
 - [Installing gitian](#installing-gitian)
 - [Setting up gitian images](#setting-up-gitian-images)
 - [Getting and building the inputs](#getting-and-building-the-inputs)
-- [Building Factor](#building-litedash)
+- [Building Factor](#building-factor)
 - [Building an alternative repository](#building-an-alternative-repository)
 - [Signing externally](#signing-externally)
 - [Uploading signatures](#uploading-signatures)
@@ -277,12 +277,12 @@ cd ..
 
 **Note**: When sudo asks for a password, enter the password for the user *debian* not for *root*.
 
-Clone the git repositories for litedash and gitian and then checkout the litedash version that you want to build.
+Clone the git repositories for factor and gitian and then checkout the factor version that you want to build.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
 git clone https://github.com/pmadi/factor.git
-cd litedash
+cd factor
 git checkout v${VERSION}
 cd ..
 ```
@@ -321,7 +321,7 @@ There will be a lot of warnings printed during build of the images. These can be
 Getting and building the inputs
 --------------------------------
 
-Follow the instructions in [doc/release-process.md](release-process.md) in the litedash repository
+Follow the instructions in [doc/release-process.md](release-process.md) in the factor repository
 under 'Fetch and build inputs' to install sources which require manual intervention. Also follow
 the next step: 'Seed the Gitian sources cache', which will fetch all necessary source files allowing
 for gitian to work offline.
@@ -330,7 +330,7 @@ Building Factor
 ----------------
 
 To build Factor (for Linux, OSX and Windows) just follow the steps under 'perform
-gitian builds' in [doc/release-process.md](release-process.md) in the litedash repository.
+gitian builds' in [doc/release-process.md](release-process.md) in the factor repository.
 
 This may take a long time as it also builds the dependencies needed for each descriptor.
 These dependencies will be cached after a successful build to avoid rebuilding them when possible.
@@ -345,7 +345,7 @@ tail -f var/build.log
 Output from `gbuild` will look something like
 
 ```bash
-    Initialized empty Git repository in /home/debian/gitian-builder/inputs/litedash/.git/
+    Initialized empty Git repository in /home/debian/gitian-builder/inputs/factor/.git/
     remote: Reusing existing pack: 35606, done.
     remote: Total 35606 (delta 0), reused 0 (delta 0)
     Receiving objects: 100% (35606/35606), 26.52 MiB | 4.28 MiB/s, done.
@@ -377,11 +377,11 @@ and inputs.
 
 For example:
 ```bash
-URL=https://github.com/crowning-/litedash.git
+URL=https://github.com/crowning-/factor.git
 COMMIT=b616fb8ef0d49a919b72b0388b091aaec5849b96
-./bin/gbuild --commit litedash=${COMMIT} --url litedash=${URL} ../litedash/contrib/gitian-descriptors/gitian-linux.yml
-./bin/gbuild --commit litedash=${COMMIT} --url litedash=${URL} ../litedash/contrib/gitian-descriptors/gitian-win.yml
-./bin/gbuild --commit litedash=${COMMIT} --url litedash=${URL} ../litedash/contrib/gitian-descriptors/gitian-osx.yml
+./bin/gbuild --commit factor=${COMMIT} --url factor=${URL} ../factor/contrib/gitian-descriptors/gitian-linux.yml
+./bin/gbuild --commit factor=${COMMIT} --url factor=${URL} ../factor/contrib/gitian-descriptors/gitian-win.yml
+./bin/gbuild --commit factor=${COMMIT} --url factor=${URL} ../factor/contrib/gitian-descriptors/gitian-osx.yml
 ```
 
 Signing externally
@@ -396,9 +396,9 @@ When you execute `gsign` you will get an error from GPG, which can be ignored. C
 in `gitian.sigs` to your signing machine and do
 
 ```bash
-    gpg --detach-sign ${VERSION}-linux/${SIGNER}/litedash-build.assert
-    gpg --detach-sign ${VERSION}-win/${SIGNER}/litedash-build.assert
-    gpg --detach-sign ${VERSION}-osx/${SIGNER}/litedash-build.assert
+    gpg --detach-sign ${VERSION}-linux/${SIGNER}/factor-build.assert
+    gpg --detach-sign ${VERSION}-win/${SIGNER}/factor-build.assert
+    gpg --detach-sign ${VERSION}-osx/${SIGNER}/factor-build.assert
 ```
 
 This will create the `.sig` files that can be committed together with the `.assert` files to assert your
@@ -408,6 +408,6 @@ Uploading signatures (not yet implemented)
 ---------------------
 
 In the future it will be possible to push your signatures (both the `.assert` and `.assert.sig` files) to the
-[litedash/gitian.sigs](https://github.com/pmadi/gitian.sigs/) repository, or if that's not possible to create a pull
+[factor/gitian.sigs](https://github.com/pmadi/gitian.sigs/) repository, or if that's not possible to create a pull
 request.
 There will be an official announcement when this repository is online.
