@@ -19,9 +19,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(FLOWERCOIN);
-    unitlist.append(mFLOWERCOIN);
-    unitlist.append(uFLOWERCOIN);
+    unitlist.append(LITEDASH);
+    unitlist.append(mLITEDASH);
+    unitlist.append(uLITEDASH);
     unitlist.append(duffs);
     return unitlist;
 }
@@ -30,9 +30,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case FLOWERCOIN:
-    case mFLOWERCOIN:
-    case uFLOWERCOIN:
+    case LITEDASH:
+    case mLITEDASH:
+    case uLITEDASH:
     case duffs:
         return true;
     default:
@@ -44,9 +44,9 @@ QString BitcoinUnits::id(int unit)
 {
     switch(unit)
     {
-        case FLOWERCOIN: return QString("flowercoin");
-        case mFLOWERCOIN: return QString("mflowercoin");
-        case uFLOWERCOIN: return QString::fromUtf8("uflowercoin");
+        case LITEDASH: return QString("flowercoin");
+        case mLITEDASH: return QString("mflowercoin");
+        case uLITEDASH: return QString::fromUtf8("uflowercoin");
         case duffs: return QString("duffs");
         default: return QString("???");
     }
@@ -58,9 +58,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case FLOWERCOIN: return QString("FLOWERCOIN");
-            case mFLOWERCOIN: return QString("mFLOWERCOIN");
-            case uFLOWERCOIN: return QString::fromUtf8("μFLOWERCOIN");
+            case LITEDASH: return QString("LITEDASH");
+            case mLITEDASH: return QString("mLITEDASH");
+            case uLITEDASH: return QString::fromUtf8("μLITEDASH");
             case duffs: return QString("duffs");
             default: return QString("???");
         }
@@ -69,9 +69,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case FLOWERCOIN: return QString("tFLOWERCOIN");
-            case mFLOWERCOIN: return QString("mtFLOWERCOIN");
-            case uFLOWERCOIN: return QString::fromUtf8("μtFLOWERCOIN");
+            case LITEDASH: return QString("tLITEDASH");
+            case mLITEDASH: return QString("mtLITEDASH");
+            case uLITEDASH: return QString::fromUtf8("μtLITEDASH");
             case duffs: return QString("tduffs");
             default: return QString("???");
         }
@@ -84,9 +84,9 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case FLOWERCOIN: return QString("Flowercoin");
-            case mFLOWERCOIN: return QString("Milli-Flowercoin (1 / 1" THIN_SP_UTF8 "000)");
-            case uFLOWERCOIN: return QString("Micro-Flowercoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case LITEDASH: return QString("Flowercoin");
+            case mLITEDASH: return QString("Milli-Flowercoin (1 / 1" THIN_SP_UTF8 "000)");
+            case uLITEDASH: return QString("Micro-Flowercoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-Flowercoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -95,9 +95,9 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case FLOWERCOIN: return QString("TestFlowercoins");
-            case mFLOWERCOIN: return QString("Milli-TestFlowercoin (1 / 1" THIN_SP_UTF8 "000)");
-            case uFLOWERCOIN: return QString("Micro-TestFlowercoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case LITEDASH: return QString("TestFlowercoins");
+            case mLITEDASH: return QString("Milli-TestFlowercoin (1 / 1" THIN_SP_UTF8 "000)");
+            case uLITEDASH: return QString("Micro-TestFlowercoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-TestFlowercoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -108,9 +108,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case FLOWERCOIN:  return 100000000;
-    case mFLOWERCOIN: return 100000;
-    case uFLOWERCOIN: return 100;
+    case LITEDASH:  return 100000000;
+    case mLITEDASH: return 100000;
+    case uLITEDASH: return 100;
     case duffs: return 1;
     default:   return 100000000;
     }
@@ -120,9 +120,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case FLOWERCOIN: return 8;
-    case mFLOWERCOIN: return 5;
-    case uFLOWERCOIN: return 2;
+    case LITEDASH: return 8;
+    case mLITEDASH: return 5;
+    case uLITEDASH: return 2;
     case duffs: return 0;
     default: return 0;
     }

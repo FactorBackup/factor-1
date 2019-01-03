@@ -1,4 +1,4 @@
-TOR SUPPORT IN FLOWERCOIN
+TOR SUPPORT IN LITEDASH
 =======================
 
 It is possible to run Flowercoin as a Tor hidden service, and connect to such services.

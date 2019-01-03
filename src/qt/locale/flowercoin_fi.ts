@@ -176,8 +176,8 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLOWERCOIN&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakon ja unohdat salasanan, &lt;b&gt;MENETÄT KAIKKI FLOWERCOINisi&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITEDASH&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakon ja unohdat salasanan, &lt;b&gt;MENETÄT KAIKKI LITEDASHisi&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -864,11 +864,11 @@ Osoite: %4
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 FLOWERCOIN</source>
+        <source>Use 2 separate masternodes to mix funds up to 1000 LITEDASH</source>
         <translation>Käytä 2 erillistä masternodea sekoittaaksesi varoja</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 FLOWERCOIN</source>
+        <source>Use 8 separate masternodes to mix funds up to 1000 LITEDASH</source>
         <translation>Käytä 8 erillistä masternodea sekoittaaksesi varoja</translation>
     </message>
     <message>
@@ -876,16 +876,16 @@ Osoite: %4
         <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 FLOWERCOIN to anonymize 1000 FLOWERCOIN</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 FLOWERCOIN kun anonymisoidaan 1000 FLOWERCOIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 LITEDASH to anonymize 1000 LITEDASH</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 LITEDASH kun anonymisoidaan 1000 LITEDASH</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 FLOWERCOIN to anonymize 1000 FLOWERCOIN</source>
-        <translation>Tämä vaihtoehto on keskinopea ja maksaa noin ~0.05 FLOWERCOIN kun anonymisoidaan 1000 FLOWERCOIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 LITEDASH to anonymize 1000 LITEDASH</source>
+        <translation>Tämä vaihtoehto on keskinopea ja maksaa noin ~0.05 LITEDASH kun anonymisoidaan 1000 LITEDASH</translation>
     </message>
     <message>
-        <source>0.1 FLOWERCOIN per 1000 FLOWERCOIN you anonymize.</source>
-        <translation>0.1 FLOWERCOIN maksu per 1000 FLOWERCOIN jonka anonymisoit.</translation>
+        <source>0.1 LITEDASH per 1000 LITEDASH you anonymize.</source>
+        <translation>0.1 LITEDASH maksu per 1000 LITEDASH jonka anonymisoit.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1432,8 +1432,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Määrä ja Kierrokset:</translation>
     </message>
     <message>
-        <source>0 FLOWERCOIN / 0 Rounds</source>
-        <translation>0 FLOWERCOIN / 0 Kierrosta</translation>
+        <source>0 LITEDASH / 0 Rounds</source>
+        <translation>0 LITEDASH / 0 Kierrosta</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -3281,8 +3281,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Lähetä Flowercoineja</translation>
     </message>
     <message>
-        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 FLOWERCOIN.</source>
-        <translation>InstantX ei tue näin korkeaa lähetysmäärää vielä. Siirtotapahtumat on tällä hetkellä rajoitettu %1 FLOWERCOIN.</translation>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 LITEDASH.</source>
+        <translation>InstantX ei tue näin korkeaa lähetysmäärää vielä. Siirtotapahtumat on tällä hetkellä rajoitettu %1 LITEDASH.</translation>
     </message>
 </context>
 <context>
@@ -3395,8 +3395,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Ei tarpeeksi Darksend anonymisoituja varoja tälle siirtotapahtumalle.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 FLOWERCOIN.</source>
-        <translation>Ei tarpeeksi Darksend ei-anonymisoituja varoja tälle siirtotapahtumalle, joka ei ole 1000 FLOWERCOIN.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 LITEDASH.</source>
+        <translation>Ei tarpeeksi Darksend ei-anonymisoituja varoja tälle siirtotapahtumalle, joka ei ole 1000 LITEDASH.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3639,12 +3639,12 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Virhe: Ei tuettu argumentti -socks. SOCKS version asettaminen ei ole enää mahdollista, vain SOCKS5 proxyt ovat tuettuja.</translation>
     </message>
     <message>
-        <source>Fees (in FLOWERCOIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Siirtomaksut (FLOWERCOIN/Kb) jotka ovat pienempiä kuin tämä, tulkitaan nollamaksuksi välityksessä (oletus: %s)</translation>
+        <source>Fees (in LITEDASH/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Siirtomaksut (LITEDASH/Kb) jotka ovat pienempiä kuin tämä, tulkitaan nollamaksuksi välityksessä (oletus: %s)</translation>
     </message>
     <message>
-        <source>Fees (in FLOWERCOIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Siirtomaksut (FLOWERCOIN/Kb) jotka ovat pienempiä kuin tämä, tulkitaan nollamaksuksi siirtotapahtuman luonnissa (oletus: %s)</translation>
+        <source>Fees (in LITEDASH/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Siirtomaksut (LITEDASH/Kb) jotka ovat pienempiä kuin tämä, tulkitaan nollamaksuksi siirtotapahtuman luonnissa (oletus: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3741,8 +3741,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Flowercoin Hälytys" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 FLOWERCOIN.</source>
-        <translation>Ei tarpeeksi varoja tälle siirtotapahtumalle, joka ei ole 1000 FLOWERCOIN.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 LITEDASH.</source>
+        <translation>Ei tarpeeksi varoja tälle siirtotapahtumalle, joka ei ole 1000 LITEDASH.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3855,8 +3855,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Flowercoin Hälytys" admin@foo.com
         <translation>Virhe: Ei tuettu argumentti -tor löytyi, käytä -onion.</translation>
     </message>
     <message>
-        <source>Fee (in FLOWERCOIN/kB) to add to transactions you send (default: %s)</source>
-        <translation>Lisättävä siirtomaksu (FLOWERCOIN/Kb) siirtotapahtumaan jonka lähetät (oletus: %s)</translation>
+        <source>Fee (in LITEDASH/kB) to add to transactions you send (default: %s)</source>
+        <translation>Lisättävä siirtomaksu (LITEDASH/Kb) siirtotapahtumaan jonka lähetät (oletus: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4223,8 +4223,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Flowercoin Hälytys" admin@foo.com
         <translation>KeePassHttp avain AES salattuun viestintään</translation>
     </message>
     <message>
-        <source>Keep N FLOWERCOIN anonymized (default: %u)</source>
-        <translation>Pidä N FLOWERCOIN anonymisoituna (oletus: %u)</translation>
+        <source>Keep N LITEDASH anonymized (default: %u)</source>
+        <translation>Pidä N LITEDASH anonymisoituna (oletus: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

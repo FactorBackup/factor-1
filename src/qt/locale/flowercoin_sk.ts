@@ -176,8 +176,8 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLOWERCOIN&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje FLOWERCOIN-y&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITEDASH&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje LITEDASH-y&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -863,28 +863,28 @@ Adresa: %4</translation>
         <translation>Prosím vyberte úroveň súkromia.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 FLOWERCOIN</source>
-        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 FLOWERCOIN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 LITEDASH</source>
+        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 LITEDASH</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 FLOWERCOIN</source>
-        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 FLOWERCOIN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 LITEDASH</source>
+        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 LITEDASH</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použiť 16 rozdielnych masternode</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 FLOWERCOIN to anonymize 1000 FLOWERCOIN</source>
-        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 FLOWERCOIN pre anonimizáciu 1000 FLOWERCOIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 LITEDASH to anonymize 1000 LITEDASH</source>
+        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 LITEDASH pre anonimizáciu 1000 LITEDASH</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 FLOWERCOIN to anonymize 1000 FLOWERCOIN</source>
-        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 FLOWERCOIN pre anonimizáciu 1000 FLOWERCOIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 LITEDASH to anonymize 1000 LITEDASH</source>
+        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 LITEDASH pre anonimizáciu 1000 LITEDASH</translation>
     </message>
     <message>
-        <source>0.1 FLOWERCOIN per 1000 FLOWERCOIN you anonymize.</source>
-        <translation>0.1 FLOWERCOIN za 1000 FLOWERCOIN ktoré spravíte anonymnými.</translation>
+        <source>0.1 LITEDASH per 1000 LITEDASH you anonymize.</source>
+        <translation>0.1 LITEDASH za 1000 LITEDASH ktoré spravíte anonymnými.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1430,8 +1430,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Čiastka a kolá:</translation>
     </message>
     <message>
-        <source>0 FLOWERCOIN / 0 Rounds</source>
-        <translation>0 FLOWERCOIN / 0 Kôl</translation>
+        <source>0 LITEDASH / 0 Rounds</source>
+        <translation>0 LITEDASH / 0 Kôl</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -3275,8 +3275,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Poslať Bitcoins</translation>
     </message>
     <message>
-        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 FLOWERCOIN.</source>
-        <translation>InstantX zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 FLOWERCOIN.</translation>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 LITEDASH.</source>
+        <translation>InstantX zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 LITEDASH.</translation>
     </message>
 </context>
 <context>
@@ -3389,8 +3389,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Nedá sa nájsť dostatok denominácií Darksend pre túto transakciu. </translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 FLOWERCOIN.</source>
-        <translation>Nedá sa nájsť dostatok ne-denominovaných Darksend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 FLOWERCOIN.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 LITEDASH.</source>
+        <translation>Nedá sa nájsť dostatok ne-denominovaných Darksend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 LITEDASH.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3633,12 +3633,12 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Chyba: Nájdený nepodporovaný argument -socks. Nastavenie SOCKS verzie nie je už možné, podporované sú už iba proxy SOCKS5.</translation>
     </message>
     <message>
-        <source>Fees (in FLOWERCOIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Poplatky (v FLOWERCOIN za Kb) menšie ako toto, sú považované za nulový poplatok pre prenos (predvolené: %s)</translation>
+        <source>Fees (in LITEDASH/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Poplatky (v LITEDASH za Kb) menšie ako toto, sú považované za nulový poplatok pre prenos (predvolené: %s)</translation>
     </message>
     <message>
-        <source>Fees (in FLOWERCOIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Poplatky (v FLOWERCOIN za Kb) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
+        <source>Fees (in LITEDASH/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Poplatky (v LITEDASH za Kb) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3733,8 +3733,8 @@ napríklad: alertnotify=echo %%s | mail -s "Flowercoin Upozornenie" admin@foo.co
 </translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 FLOWERCOIN.</source>
-        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 FLOWERCOIN.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 LITEDASH.</source>
+        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 LITEDASH.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3847,8 +3847,8 @@ napríklad: alertnotify=echo %%s | mail -s "Flowercoin Upozornenie" admin@foo.co
         <translation>Chyba: nájdený nepodporovaný argument -tor, použite -onion.</translation>
     </message>
     <message>
-        <source>Fee (in FLOWERCOIN/kB) to add to transactions you send (default: %s)</source>
-        <translation>Pridať poplatok (v FLOWERCOIN za kB) do transakcií ktoré posielate (predvolené: %s)</translation>
+        <source>Fee (in LITEDASH/kB) to add to transactions you send (default: %s)</source>
+        <translation>Pridať poplatok (v LITEDASH za kB) do transakcií ktoré posielate (predvolené: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4215,8 +4215,8 @@ napríklad: alertnotify=echo %%s | mail -s "Flowercoin Upozornenie" admin@foo.co
         <translation>Kľúč KeePassHttp pre šifrovanú AES komunikáciu s KeePass</translation>
     </message>
     <message>
-        <source>Keep N FLOWERCOIN anonymized (default: %u)</source>
-        <translation>Udržiavať N FLOWERCOIN anonymizovaných (predvolené: %u)</translation>
+        <source>Keep N LITEDASH anonymized (default: %u)</source>
+        <translation>Udržiavať N LITEDASH anonymizovaných (predvolené: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

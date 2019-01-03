@@ -57,9 +57,9 @@ public:
      */
     enum Unit
     {
-        FLOWERCOIN,
-        mFLOWERCOIN,
-        uFLOWERCOIN,
+        LITEDASH,
+        mLITEDASH,
+        uLITEDASH,
         duffs
     };
 

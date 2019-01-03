@@ -4,7 +4,7 @@
 
 	* means the category has an associated class
 	
-	CFlowercoinNetwork: FLOWERCOIN NETWORK (ROOT)
+	CFlowercoinNetwork: LITEDASH NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
 		vector<CFlowercoinProject> vecProjects;
@@ -19,7 +19,7 @@
 
 */
 
-	// FLOWERCOIN NETWORK (ROOT)
+	// LITEDASH NETWORK (ROOT)
 	// 	-> NETWORK VARIABLE
 	// 		-> switch, setting
 	// 	-> CATEGORIES
@@ -49,7 +49,7 @@
 	// 			-> USER1 (only users are allowed here in this scope)
 	// 			-> USER2
 	// 		-> GROUP2 (EVO)
-	// 			-> VALUEOVERRIDE (STORE=FLOWERCOINDRIVE)
+	// 			-> VALUEOVERRIDE (STORE=LITEDASHDRIVE)
 	// 			-> USER1
 
 	// 	-> COMPANIES

@@ -5,7 +5,7 @@
 #ifndef GOVERNANCE_H
 #define GOVERNANCE_H
 
-//#define ENABLE_FLOWERCOIN_DEBUG
+//#define ENABLE_LITEDASH_DEBUG
 
 #include "bloom.h"
 #include "cachemap.h"

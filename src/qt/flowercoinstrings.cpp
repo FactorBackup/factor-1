@@ -77,10 +77,10 @@ QT_TRANSLATE_NOOP("flowercoin-core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),
 QT_TRANSLATE_NOOP("flowercoin-core", ""
-"Fees (in FLOWERCOIN/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in LITEDASH/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("flowercoin-core", ""
-"Fees (in FLOWERCOIN/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in LITEDASH/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("flowercoin-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -167,10 +167,10 @@ QT_TRANSLATE_NOOP("flowercoin-core", ""
 "Unable to locate enough Darksend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("flowercoin-core", ""
 "Unable to locate enough Darksend non-denominated funds for this transaction "
-"that are not equal 1000 FLOWERCOIN."),
+"that are not equal 1000 LITEDASH."),
 QT_TRANSLATE_NOOP("flowercoin-core", ""
 "Unable to locate enough funds for this transaction that are not equal 1000 "
-"FLOWERCOIN."),
+"LITEDASH."),
 QT_TRANSLATE_NOOP("flowercoin-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
@@ -270,7 +270,7 @@ QT_TRANSLATE_NOOP("flowercoin-core", "Error: Wallet locked, unable to create tra
 QT_TRANSLATE_NOOP("flowercoin-core", "Error: You already have pending entries in the Darksend pool"),
 QT_TRANSLATE_NOOP("flowercoin-core", "Failed to listen on any port. Use -listen=0 if you want this."),
 QT_TRANSLATE_NOOP("flowercoin-core", "Failed to read block"),
-QT_TRANSLATE_NOOP("flowercoin-core", "Fee (in FLOWERCOIN/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("flowercoin-core", "Fee (in LITEDASH/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("flowercoin-core", "Finalizing transaction."),
 QT_TRANSLATE_NOOP("flowercoin-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("flowercoin-core", "Found enough users, signing ( waiting %s )"),
@@ -303,7 +303,7 @@ QT_TRANSLATE_NOOP("flowercoin-core", "Invalid private key."),
 QT_TRANSLATE_NOOP("flowercoin-core", "Invalid script detected."),
 QT_TRANSLATE_NOOP("flowercoin-core", "KeePassHttp id for the established association"),
 QT_TRANSLATE_NOOP("flowercoin-core", "KeePassHttp key for AES encrypted communication with KeePass"),
-QT_TRANSLATE_NOOP("flowercoin-core", "Keep N FLOWERCOIN anonymized (default: %u)"),
+QT_TRANSLATE_NOOP("flowercoin-core", "Keep N LITEDASH anonymized (default: %u)"),
 QT_TRANSLATE_NOOP("flowercoin-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
 QT_TRANSLATE_NOOP("flowercoin-core", "Last Darksend was too recent."),
 QT_TRANSLATE_NOOP("flowercoin-core", "Last successful Darksend action was too recent."),

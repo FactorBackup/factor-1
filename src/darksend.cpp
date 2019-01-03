@@ -35,7 +35,7 @@ map<uint256, CDarksendBroadcastTx> mapDarksendBroadcastTxes;
 // Keep track of the active Masternode
 CActiveMasternode activeMasternode;
 
-/* *** BEGIN DARKSEND MAGIC - FLOWERCOIN **********
+/* *** BEGIN DARKSEND MAGIC - LITEDASH **********
     Copyright (c) 2014-2015, Flowercoin Developers
         eduffield - evan@iondis.io
         udjinm6   - udjinm6@iondis.io

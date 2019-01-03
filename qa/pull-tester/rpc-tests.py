@@ -62,10 +62,10 @@ for arg in sys.argv[1:]:
 
 #Set env vars
 buildDir = BUILDDIR
-if "FLOWERCOIND" not in os.environ:
-    os.environ["FLOWERCOIND"] = buildDir + '/src/flowercoind' + EXEEXT
-if "FLOWERCOINCLI" not in os.environ:
-    os.environ["FLOWERCOINCLI"] = buildDir + '/src/flowercoin-cli' + EXEEXT
+if "LITEDASHD" not in os.environ:
+    os.environ["LITEDASHD"] = buildDir + '/src/flowercoind' + EXEEXT
+if "LITEDASHCLI" not in os.environ:
+    os.environ["LITEDASHCLI"] = buildDir + '/src/flowercoin-cli' + EXEEXT
 
 if EXEEXT == ".exe" and "-win" not in opts:
     # https://github.com/bitcoin/bitcoin/commit/d52802551752140cf41f0d9a225a43e84404d3e9

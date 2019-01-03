@@ -219,8 +219,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLOWERCOIN&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLOWERCOIN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITEDASH&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITEDASH&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1090,13 +1090,13 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 1000 FLOWERCOIN</source>
-        <translation>Use 2 separate masternodes to mix funds up to 1000 FLOWERCOIN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 LITEDASH</source>
+        <translation>Use 2 separate masternodes to mix funds up to 1000 LITEDASH</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 1000 FLOWERCOIN</source>
-        <translation>Use 8 separate masternodes to mix funds up to 1000 FLOWERCOIN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 LITEDASH</source>
+        <translation>Use 8 separate masternodes to mix funds up to 1000 LITEDASH</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1105,18 +1105,18 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 FLOWERCOIN to anonymize 1000 FLOWERCOIN</source>
-        <translation>This option is the quickest and will cost about ~0.025 FLOWERCOIN to anonymize 1000 FLOWERCOIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 LITEDASH to anonymize 1000 LITEDASH</source>
+        <translation>This option is the quickest and will cost about ~0.025 LITEDASH to anonymize 1000 LITEDASH</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 FLOWERCOIN to anonymize 1000 FLOWERCOIN</source>
-        <translation>This option is moderately fast and will cost about 0.05 FLOWERCOIN to anonymize 1000 FLOWERCOIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 LITEDASH to anonymize 1000 LITEDASH</source>
+        <translation>This option is moderately fast and will cost about 0.05 LITEDASH to anonymize 1000 LITEDASH</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>0.1 FLOWERCOIN per 1000 FLOWERCOIN you anonymize.</source>
-        <translation>0.1 FLOWERCOIN per 1000 FLOWERCOIN you anonymize.</translation>
+        <source>0.1 LITEDASH per 1000 LITEDASH you anonymize.</source>
+        <translation>0.1 LITEDASH per 1000 LITEDASH you anonymize.</translation>
     </message>
     <message>
         <location line="-13"/>
@@ -1800,8 +1800,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>0 FLOWERCOIN / 0 Rounds</source>
-        <translation>0 FLOWERCOIN / 0 Rounds</translation>
+        <source>0 LITEDASH / 0 Rounds</source>
+        <translation>0 LITEDASH / 0 Rounds</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -4189,8 +4189,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     <message>
         <location line="-20"/>
         <location line="+9"/>
-        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 FLOWERCOIN.</source>
-        <translation>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 FLOWERCOIN.</translation>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 LITEDASH.</source>
+        <translation>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 LITEDASH.</translation>
     </message>
 </context>
 <context>
@@ -4330,8 +4330,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 FLOWERCOIN.</source>
-        <translation>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 FLOWERCOIN.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 LITEDASH.</source>
+        <translation>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 LITEDASH.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -4635,13 +4635,13 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+12"/>
-        <source>Fees (in FLOWERCOIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Fees (in FLOWERCOIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
+        <source>Fees (in LITEDASH/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Fees (in LITEDASH/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in FLOWERCOIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Fees (in FLOWERCOIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
+        <source>Fees (in LITEDASH/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Fees (in LITEDASH/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4755,8 +4755,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Flowercoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+20"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 FLOWERCOIN.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 1000 FLOWERCOIN.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 LITEDASH.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 1000 LITEDASH.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4897,8 +4897,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Flowercoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+5"/>
-        <source>Fee (in FLOWERCOIN/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in FLOWERCOIN/kB) to add to transactions you send (default: %s)</translation>
+        <source>Fee (in LITEDASH/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in LITEDASH/kB) to add to transactions you send (default: %s)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5357,8 +5357,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Flowercoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+1"/>
-        <source>Keep N FLOWERCOIN anonymized (default: %u)</source>
-        <translation>Keep N FLOWERCOIN anonymized (default: %u)</translation>
+        <source>Keep N LITEDASH anonymized (default: %u)</source>
+        <translation>Keep N LITEDASH anonymized (default: %u)</translation>
     </message>
     <message>
         <location line="+1"/>

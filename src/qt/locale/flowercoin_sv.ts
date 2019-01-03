@@ -164,8 +164,8 @@
         <translation>Bekräfta plånbokskryptering</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLOWERCOIN&lt;/b&gt;!</source>
-        <translation>Varning: Om du krypterar din plånbok och förlorar din lösenfras kommer du att &lt;b&gt;FÖRLORA ALLA DINA FLOWERCOIN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITEDASH&lt;/b&gt;!</source>
+        <translation>Varning: Om du krypterar din plånbok och förlorar din lösenfras kommer du att &lt;b&gt;FÖRLORA ALLA DINA LITEDASH&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -758,28 +758,28 @@ Adress: %4
         <translation>Vänligen välj en integritetsnivå.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 FLOWERCOIN</source>
-        <translation>Använd 2 enskilda masternoder för att mixa medel upp till 1000 FLOWERCOIN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 LITEDASH</source>
+        <translation>Använd 2 enskilda masternoder för att mixa medel upp till 1000 LITEDASH</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 FLOWERCOIN</source>
-        <translation>Använd 8 enskilda masternoder för att mixa medel upp till 1000 FLOWERCOIN.</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 LITEDASH</source>
+        <translation>Använd 8 enskilda masternoder för att mixa medel upp till 1000 LITEDASH.</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Använd 16 enskilda masternoder</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 FLOWERCOIN to anonymize 1000 FLOWERCOIN</source>
-        <translation>Detta alternativ är det snabbaste och kommer att kosta omkring ~0,025 FLOWERCOIN för att anonymisera 1000 FLOWERCOIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 LITEDASH to anonymize 1000 LITEDASH</source>
+        <translation>Detta alternativ är det snabbaste och kommer att kosta omkring ~0,025 LITEDASH för att anonymisera 1000 LITEDASH</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 FLOWERCOIN to anonymize 1000 FLOWERCOIN</source>
-        <translation>Detta alternativ är relativt snabbt och kommer att kosta omkring 0,05 FLOWERCOIN för att anonymisera 1000 FLOWERCOIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 LITEDASH to anonymize 1000 LITEDASH</source>
+        <translation>Detta alternativ är relativt snabbt och kommer att kosta omkring 0,05 LITEDASH för att anonymisera 1000 LITEDASH</translation>
     </message>
     <message>
-        <source>0.1 FLOWERCOIN per 1000 FLOWERCOIN you anonymize.</source>
-        <translation>0,1 FLOWERCOIN per 1000 FLOWERCOIN du anonymiserar.</translation>
+        <source>0.1 LITEDASH per 1000 LITEDASH you anonymize.</source>
+        <translation>0,1 LITEDASH per 1000 LITEDASH du anonymiserar.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1238,8 +1238,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Mängd och omgångar:</translation>
     </message>
     <message>
-        <source>0 FLOWERCOIN / 0 Rounds</source>
-        <translation>0 FLOWERCOIN/0 omgångar</translation>
+        <source>0 LITEDASH / 0 Rounds</source>
+        <translation>0 LITEDASH/0 omgångar</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -2726,8 +2726,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Kunde inte hitta tillräckliga Darksend-denominationsmedel för denna transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 FLOWERCOIN.</source>
-        <translation>Kunde inte hitta tillräckliga Darksend-icke-denominationsmedel för denna transaktion som inte är likvärdiga 1000 FLOWERCOIN.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 LITEDASH.</source>
+        <translation>Kunde inte hitta tillräckliga Darksend-icke-denominationsmedel för denna transaktion som inte är likvärdiga 1000 LITEDASH.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
