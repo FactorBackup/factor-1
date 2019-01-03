@@ -23,8 +23,8 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
 Homepage: http://www.dmrtsvetkov.io/
-Vcs-Git: git://github.com/dmrtsvetkov/flowercoin.git
-Vcs-Browser: http://github.com/dmrtsvetkov/flowercoin
+Vcs-Git: git://github.com/iondis/litedash.git
+Vcs-Browser: http://github.com/iondis/litedash
 
 Package: flowercoind
 Architecture: any

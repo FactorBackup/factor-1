@@ -33,10 +33,10 @@ Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/dmrtsvetkov/flowercoin/tags) are created to indicate new official,
+[Tags](https://github.com/iondis/litedash/tags) are created to indicate new official,
 stable release versions of Flowercoin Core.
 
-The contribution workflow is described in [CONTRIBUTING.md](https://github.com/dmrtsvetkov/flowercoin/blob/v0.12.1.x/CONTRIBUTING.md).
+The contribution workflow is described in [CONTRIBUTING.md](https://github.com/iondis/litedash/blob/v0.12.1.x/CONTRIBUTING.md).
 
 
 Testing

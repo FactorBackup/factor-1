@@ -46,7 +46,7 @@ The following are developer notes on how to build Flowercoin on your native plat
 
 Development
 ---------------------
-The Flowercoin repo's [root README](https://github.com/dmrtsvetkov/flowercoin/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Flowercoin repo's [root README](https://github.com/iondis/litedash/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Coding Guidelines](coding.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

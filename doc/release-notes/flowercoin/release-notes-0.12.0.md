@@ -8,7 +8,7 @@ Flowercoin Core version 0.12.0 is now available from:
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/dmrtsvetkov/flowercoin/issues
+  https://github.com/iondis/litedash/issues
 
 
 How to Upgrade
