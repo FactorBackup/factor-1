@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Flowercoin developers
+// Copyright (c) 2014-2015 The Litedash developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -229,10 +229,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Flowercoin server.");
+            "\nStop Litedash server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Flowercoin server stopping";
+    return "Litedash server stopping";
 }
 
 
@@ -308,7 +308,7 @@ static const CRPCCommand vRPCCommands[] =
     { "hidden",             "reconsiderblock",        &reconsiderblock,        true,      true,       false },
     { "hidden",             "setmocktime",            &setmocktime,            true,      false,      false },
 
-    /* Flowercoin features */
+    /* Litedash features */
     { "flowercoin",               "masternode",             &masternode,             true,      true,       false },
     { "flowercoin",               "masternodelist",         &masternodelist,         true,      true,       false },
     { "flowercoin",               "masternodebroadcast",    &masternodebroadcast,    true,      true,       false },
@@ -596,7 +596,7 @@ void StartRPCThreads()
               "The username and password MUST NOT be the same.\n"
               "If the file does not exist, create it with owner-readable-only file permissions.\n"
               "It is also recommended to set alertnotify so you are notified of problems;\n"
-              "for example: alertnotify=echo %%s | mail -s \"Flowercoin Alert\" admin@foo.com\n"),
+              "for example: alertnotify=echo %%s | mail -s \"Litedash Alert\" admin@foo.com\n"),
                 GetConfigFile().string(),
                 EncodeBase58(&rand_pwd[0],&rand_pwd[0]+32)),
                 "", CClientUIInterface::MSG_ERROR | CClientUIInterface::SECURE);

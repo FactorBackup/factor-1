@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The Flowercoin Core developers
+// Copyright (c) 2014-2017 The Litedash Core developers
 
 #include "cachemultimap.h"
 

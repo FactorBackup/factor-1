@@ -58,7 +58,7 @@ Release Process
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
-###Build Flowercoin Core for Linux, Windows, and OS X:
+###Build Litedash Core for Linux, Windows, and OS X:
 
 	./bin/gbuild --commit flowercoin=v${VERSION} ../flowercoin/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../flowercoin/contrib/gitian-descriptors/gitian-linux.yml
@@ -153,7 +153,7 @@ rm SHA256SUMS
 
   - Release sticky on flowercointalk: https://flowercointalk.org/index.php?board=1.0 ***TODO***
 
-  - Flowercoin-development mailing list
+  - Litedash-development mailing list
 
   - Update title of #iondis on Freenode IRC
 

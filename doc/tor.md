@@ -1,7 +1,7 @@
 TOR SUPPORT IN LITEDASH
 =======================
 
-It is possible to run Flowercoin as a Tor hidden service, and connect to such services.
+It is possible to run Litedash as a Tor hidden service, and connect to such services.
 
 The following directions assume you have a Tor proxy running on port 9050. Many
 distributions default to having a SOCKS proxy listening on port 9050, but others
@@ -13,7 +13,7 @@ for how to properly configure Tor.
 1. Run flowercoin behind a Tor proxy
 ----------------------------------
 
-The first step is running Flowercoin behind a Tor proxy. This will already make all
+The first step is running Litedash behind a Tor proxy. This will already make all
 outgoing connections be anonymized, but more is possible.
 
 	-proxy=ip:port  Set the proxy server. If SOCKS5 is selected (default), this proxy

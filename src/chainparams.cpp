@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Flowercoin developers
+// Copyright (c) 2014-2015 The Litedash developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -104,14 +104,14 @@ public:
         pchMessageStart[3] = 0xbd;
         vAlertPubKey = ParseHex("04dfe1ae214b0332437db6517f7f013c62e6d9c154659f9712bc5a6fe26454c74611a492287cee9ba35236bb11bee0b227ef96375ce5e36a88c1d6d4ea087a7e8a");
         nDefaultPort = 1993;
-        bnProofOfWorkLimit = ~uint256(0) >> 20;  // Flowercoin starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20;  // Litedash starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 10 * 60 * 60; // Flowercoin: 10 hours
-        nTargetSpacing = 1 * 60; // Flowercoin: 1 minutes
+        nTargetTimespan = 10 * 60 * 60; // Litedash: 10 hours
+        nTargetSpacing = 1 * 60; // Litedash: 1 minutes
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -144,12 +144,12 @@ public:
 
         vSeeds.clear();
 
-        base58Prefixes[PUBKEY_ADDRESS] = list_of( 36);                    // Flowercoin addresses start with 'F'
-        base58Prefixes[SCRIPT_ADDRESS] = list_of( 16);                    // Flowercoin script addresses start with '7'
-        base58Prefixes[SECRET_KEY] =     list_of(204);                    // Flowercoin private keys start with '7' or 'X'
-        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x02)(0xFE)(0x52)(0xF8); // Flowercoin BIP32 pubkeys start with 'drkv'
-        base58Prefixes[EXT_SECRET_KEY] = list_of(0x02)(0xFE)(0x52)(0xCC); // Flowercoin BIP32 prvkeys start with 'drkp'
-        base58Prefixes[EXT_COIN_TYPE]  = list_of(0x80000005);             // Flowercoin BIP44 coin type is '5'
+        base58Prefixes[PUBKEY_ADDRESS] = list_of( 36);                    // Litedash addresses start with 'F'
+        base58Prefixes[SCRIPT_ADDRESS] = list_of( 16);                    // Litedash script addresses start with '7'
+        base58Prefixes[SECRET_KEY] =     list_of(204);                    // Litedash private keys start with '7' or 'X'
+        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x02)(0xFE)(0x52)(0xF8); // Litedash BIP32 pubkeys start with 'drkv'
+        base58Prefixes[EXT_SECRET_KEY] = list_of(0x02)(0xFE)(0x52)(0xCC); // Litedash BIP32 prvkeys start with 'drkp'
+        base58Prefixes[EXT_COIN_TYPE]  = list_of(0x80000005);             // Litedash BIP44 coin type is '5'
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
@@ -194,8 +194,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 10 * 60 * 60; // Flowercoin: 10 hours
-        nTargetSpacing = 1 * 60; // Flowercoin: 1 minutes
+        nTargetTimespan = 10 * 60 * 60; // Litedash: 10 hours
+        nTargetSpacing = 1 * 60; // Litedash: 1 minutes
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1495303201;
@@ -254,8 +254,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 10 * 60 * 60; // Flowercoin: 10 hours
-        nTargetSpacing = 1 * 60; // Flowercoin: 1 minutes
+        nTargetTimespan = 10 * 60 * 60; // Litedash: 10 hours
+        nTargetSpacing = 1 * 60; // Litedash: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1495303202;
         genesis.nBits = 0x207fffff;

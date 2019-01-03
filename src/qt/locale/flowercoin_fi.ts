@@ -62,12 +62,12 @@
         <translation>Vastaanottava osoite</translation>
     </message>
     <message>
-        <source>These are your Flowercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat Flowercoin osoitteesi maksujen lähetykseen. Tarkista aina lähetettävä määrä ja vastaanottajan osoite ennen kuin lähetät varoja.</translation>
+        <source>These are your Litedash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat Litedash osoitteesi maksujen lähetykseen. Tarkista aina lähetettävä määrä ja vastaanottajan osoite ennen kuin lähetät varoja.</translation>
     </message>
     <message>
-        <source>These are your Flowercoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat Flowercoin osoitteesi suoritusten vastaanottamiseen. Suositellaan että annat uuden osoitteen kullekin siirtotapahtumalle.</translation>
+        <source>These are your Litedash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat Litedash osoitteesi suoritusten vastaanottamiseen. Suositellaan että annat uuden osoitteen kullekin siirtotapahtumalle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Lompakko salattu</translation>
     </message>
     <message>
-        <source>Flowercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your flowercoins from being stolen by malware infecting your computer.</source>
-        <translation>Flowercoin sulkeutuu nyt salauksen viimeistelyä varten. Muista että salaus pelkästään ei voi estää Flowercoiniesi varastamista jos koneesi saastuu haittaohjelmilla tai viruksilla.</translation>
+        <source>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your flowercoins from being stolen by malware infecting your computer.</source>
+        <translation>Litedash sulkeutuu nyt salauksen viimeistelyä varten. Muista että salaus pelkästään ei voi estää Litedashiesi varastamista jos koneesi saastuu haittaohjelmilla tai viruksilla.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Core</translation>
+        <source>Litedash Core</source>
+        <translation>Litedash Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,8 +255,8 @@
         <translation>L&amp;ähetä</translation>
     </message>
     <message>
-        <source>Send coins to a Flowercoin address</source>
-        <translation>Lähetä varoja Flowercoin osoitteeseen</translation>
+        <source>Send coins to a Litedash address</source>
+        <translation>Lähetä varoja Litedash osoitteeseen</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -264,7 +264,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and flowercoin: URIs)</source>
-        <translation>Pyydä maksuja (Luo QR koodit ja Flowercoin: URIt)</translation>
+        <translation>Pyydä maksuja (Luo QR koodit ja Litedash: URIt)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Sulje ohjelma</translation>
     </message>
     <message>
-        <source>&amp;About Flowercoin Core</source>
-        <translation>Tietoja &amp;Flowercoin Core:sta</translation>
+        <source>&amp;About Litedash Core</source>
+        <translation>Tietoja &amp;Litedash Core:sta</translation>
     </message>
     <message>
-        <source>Show information about Flowercoin Core</source>
-        <translation>Näytä tietoja Flowercoin Core:sta</translation>
+        <source>Show information about Litedash Core</source>
+        <translation>Näytä tietoja Litedash Core:sta</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Asetukset...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Flowercoin</source>
-        <translation>Muuta Flowercoin asetuksia</translation>
+        <source>Modify configuration options for Litedash</source>
+        <translation>Muuta Litedash asetuksia</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -312,7 +312,7 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota Flowercoin pääikkuna</translation>
+        <translation>Näytä tai piilota Litedash pääikkuna</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
@@ -355,16 +355,16 @@
         <translation>&amp;Allekirjoita Viesti...</translation>
     </message>
     <message>
-        <source>Sign messages with your Flowercoin addresses to prove you own them</source>
-        <translation>Allekirjoita viestit Flowercoin osoitteillasi todistaaksesi että omistat ne</translation>
+        <source>Sign messages with your Litedash addresses to prove you own them</source>
+        <translation>Allekirjoita viestit Litedash osoitteillasi todistaaksesi että omistat ne</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Tarkista Viesti...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Flowercoin addresses</source>
-        <translation>Tarkista viestit ollaksesi varma että ne on allekirjoitettu määritetyillä Flowercoin osoitteilla</translation>
+        <source>Verify messages to ensure they were signed with specified Litedash addresses</source>
+        <translation>Tarkista viestit ollaksesi varma että ne on allekirjoitettu määritetyillä Litedash osoitteilla</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -444,15 +444,15 @@
     </message>
     <message>
         <source>Open a flowercoin: URI or payment request</source>
-        <translation>Avaa Flowercoin: URI tai maksupyyntö</translation>
+        <translation>Avaa Litedash: URI tai maksupyyntö</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message>
-        <source>Flowercoin Core client</source>
-        <translation>Flowercoin Core asiakasohjelma</translation>
+        <source>Litedash Core client</source>
+        <translation>Litedash Core asiakasohjelma</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synkronoidaan lisätietoja: %p%</translation>
     </message>
     <message>
-        <source>Show the Flowercoin Core help message to get a list with possible Flowercoin command-line options</source>
-        <translation>Näytä Flowercoin Core ohjelista komentorivin valinnoista</translation>
+        <source>Show the Litedash Core help message to get a list with possible Litedash command-line options</source>
+        <translation>Näytä Litedash Core ohjelista komentorivin valinnoista</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Välilehtipalkki</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Flowercoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys Flowercoin verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Flowercoin verkkoon</numerusform></translation>
+        <source>%n active connection(s) to Litedash network</source>
+        <translation><numerusform>%n aktiivinen yhteys Litedash verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Litedash verkkoon</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -896,16 +896,16 @@ Osoite: %4
         <translation>Darksend Asetukset</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Flowercoin's configuration screen.</source>
-        <translation>Darksend on asetettu perusasetuksiin (%1 and 2 kierrosta). Voit muuttaa asetuksia milloin vain Flowercoin asetuksista.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Litedash's configuration screen.</source>
+        <translation>Darksend on asetettu perusasetuksiin (%1 and 2 kierrosta). Voit muuttaa asetuksia milloin vain Litedash asetuksista.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Flowercoin's configuration screen.</source>
-        <translation>Darksend on asetettu keskitason asetuksiin (%1 and 8 kierrosta). Voit muuttaa asetuksia milloin vain Flowercoin asetuksista.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Litedash's configuration screen.</source>
+        <translation>Darksend on asetettu keskitason asetuksiin (%1 and 8 kierrosta). Voit muuttaa asetuksia milloin vain Litedash asetuksista.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Flowercoin's configuration screen.</source>
-        <translation>Darksend on asetettu maksimitason asetuksiin (%1 and 16 kierrosta). Voit muuttaa asetuksia milloin vain Flowercoin asetuksista.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Litedash's configuration screen.</source>
+        <translation>Darksend on asetettu maksimitason asetuksiin (%1 and 16 kierrosta). Voit muuttaa asetuksia milloin vain Litedash asetuksista.</translation>
     </message>
 </context>
 <context>
@@ -947,8 +947,8 @@ Osoite: %4
         <translation>Muokkaa lähettävää osoitetta</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Flowercoin address.</source>
-        <translation>Annettu osoite "%1" ei ole pätevä Flowercoin osoite.</translation>
+        <source>The entered address "%1" is not a valid Litedash address.</source>
+        <translation>Annettu osoite "%1" ei ole pätevä Litedash osoite.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -989,8 +989,8 @@ Osoite: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Core</translation>
+        <source>Litedash Core</source>
+        <translation>Litedash Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Osoite: %4
         <translation>(%1-bittinen)</translation>
     </message>
     <message>
-        <source>About Flowercoin Core</source>
-        <translation>Tietoja Flowercoin Core:sta</translation>
+        <source>About Litedash Core</source>
+        <translation>Tietoja Litedash Core:sta</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,17 +1048,17 @@ Osoite: %4
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to Flowercoin Core.</source>
-        <translation>Flowercoin Core - Tervetuloa.</translation>
+        <source>Welcome to Litedash Core.</source>
+        <translation>Litedash Core - Tervetuloa.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Flowercoin Core will store its data.</source>
-        <translation>Koska tämä on ensimmäinen kerta kun ohjelma käynnistetään, voit valita minne Flowercoin Core tallettaa datansa.
+        <source>As this is the first time the program is launched, you can choose where Litedash Core will store its data.</source>
+        <translation>Koska tämä on ensimmäinen kerta kun ohjelma käynnistetään, voit valita minne Litedash Core tallettaa datansa.
 Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd levyltä, ohjaa talletettava data eri levyasemalle turvalliseen paikkaan.</translation>
     </message>
     <message>
-        <source>Flowercoin Core will download and store a copy of the Flowercoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Flowercoin Core lataa ja tallettaa kopion lohkoketjusta. Vähintään %1GB dataa talletetaan tähän hakemistoon, ja se myös kasvaa ajan myötä. Myös lompakko talletetaan tähän hakemistoon.</translation>
+        <source>Litedash Core will download and store a copy of the Litedash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Litedash Core lataa ja tallettaa kopion lohkoketjusta. Vähintään %1GB dataa talletetaan tähän hakemistoon, ja se myös kasvaa ajan myötä. Myös lompakko talletetaan tähän hakemistoon.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1069,8 +1069,8 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
         <translation>Määritä oma hakemisto:</translation>
     </message>
     <message>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Core</translation>
+        <source>Litedash Core</source>
+        <translation>Litedash Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1123,12 +1123,12 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
         <translation>&amp;Yleiset</translation>
     </message>
     <message>
-        <source>Automatically start Flowercoin after logging in to the system.</source>
-        <translation>Käynnistä Flowercoin automaattisesti kun järjestelmään kirjaudutaan.</translation>
+        <source>Automatically start Litedash after logging in to the system.</source>
+        <translation>Käynnistä Litedash automaattisesti kun järjestelmään kirjaudutaan.</translation>
     </message>
     <message>
-        <source>&amp;Start Flowercoin on system login</source>
-        <translation>&amp;Käynnistä Flowercoin järjestelmään kirjauduttaessa</translation>
+        <source>&amp;Start Litedash on system login</source>
+        <translation>&amp;Käynnistä Litedash järjestelmään kirjauduttaessa</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1155,8 +1155,8 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
         <translation>Tämä määrä toimii rajana keskeytykselle kun Darksend anonymisointi sen saavuttaa.</translation>
     </message>
     <message>
-        <source>Amount of Flowercoin to keep anonymized</source>
-        <translation>Flowercoin määrä joka pidetään anonymisoituna</translation>
+        <source>Amount of Litedash to keep anonymized</source>
+        <translation>Litedash määrä joka pidetään anonymisoituna</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1175,8 +1175,8 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
         <translation>Salli sisään tulevat yhteydet</translation>
     </message>
     <message>
-        <source>Connect to the Flowercoin network through a SOCKS5 proxy.</source>
-        <translation>Kytkeydy Flowercoin verkkoon käyttäen SOCKS5 proxy:a.</translation>
+        <source>Connect to the Litedash network through a SOCKS5 proxy.</source>
+        <translation>Kytkeydy Litedash verkkoon käyttäen SOCKS5 proxy:a.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1207,8 +1207,8 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>Automatically open the Flowercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa automaattisesti Flowercoin asiakasohjelmalle portti reitittimeen. Tämä toimii vain jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the Litedash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa automaattisesti Litedash asiakasohjelmalle portti reitittimeen. Tämä toimii vain jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1244,7 +1244,7 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Ikkunaa suljettaessa pienennä Flowercoin asiakasohjelman ikkuna lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
+        <translation>Ikkunaa suljettaessa pienennä Litedash asiakasohjelman ikkuna lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
@@ -1259,8 +1259,8 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
         <translation>&amp;Käyttöliittymän kieli</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Flowercoin.</source>
-        <translation>Käyttöliittymän kieli asetetaan tässä, Asetus tulee voimaan kun Flowercoin asiakasohjelma käynnistetään uudelleen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Litedash.</source>
+        <translation>Käyttöliittymän kieli asetetaan tässä, Asetus tulee voimaan kun Litedash asiakasohjelma käynnistetään uudelleen.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1348,8 +1348,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Lomake</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Flowercoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajan tasalla.&lt;br&gt;Lompakkosi synkronoituu automaattisesti Flowercoin verkkoon kun&lt;br&gt;yhteys on muodostettu, mutta tämä prosessi ei vielä ole valmis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litedash network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajan tasalla.&lt;br&gt;Lompakkosi synkronoituu automaattisesti Litedash verkkoon kun&lt;br&gt;yhteys on muodostettu, mutta tämä prosessi ei vielä ole valmis.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1570,7 +1570,7 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <source>Cannot start flowercoin: click-to-pay handler</source>
-        <translation>Ei voi käynnistää Flowercoinia: click-to-pay handler</translation>
+        <translation>Ei voi käynnistää Litedashia: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1589,8 +1589,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Virheellinen maksuosoite %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Flowercoin address or malformed URI parameters.</source>
-        <translation>URI:a ei voida jäsentää! Tämä voi johtua virheellisestä Flowercoin osoitteesta tai virheellisestä URI:n muuttujasta. </translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Litedash address or malformed URI parameters.</source>
+        <translation>URI:a ei voida jäsentää! Tämä voi johtua virheellisestä Litedash osoitteesta tai virheellisestä URI:n muuttujasta. </translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1675,8 +1675,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>Enter a Flowercoin address (e.g. %1)</source>
-        <translation>Syötä Flowercoin osoite (esim. %1)</translation>
+        <source>Enter a Litedash address (e.g. %1)</source>
+        <translation>Syötä Litedash osoite (esim. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1765,8 +1765,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Yhteyksien määrä</translation>
     </message>
     <message>
-        <source>Open the Flowercoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa Flowercoin debug lokitiedosto nykyisestä datahakemistosta. Tämä saattaa kestää muutaman sekunnin isoilla tiedostoilla.</translation>
+        <source>Open the Litedash debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa Litedash debug lokitiedosto nykyisestä datahakemistosta. Tämä saattaa kestää muutaman sekunnin isoilla tiedostoilla.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1977,8 +1977,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the Flowercoin RPC console.</source>
-        <translation>Tervetuloa Flowercoin RPC konsoliin.</translation>
+        <source>Welcome to the Litedash RPC console.</source>
+        <translation>Tervetuloa Litedash RPC konsoliin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2040,8 +2040,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>&amp;Uudelleenkäytä vastaanottavaa osoitetta (ei suositella)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Flowercoin network.</source>
-        <translation>Valinnainen viesti liitettäväksi maksupyyntöön, joka näytetään kun pyyntö on avattu.&lt;br&gt;Huomio: Viestiä ei lähetetä maksun mukana Flowercoin verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litedash network.</source>
+        <translation>Valinnainen viesti liitettäväksi maksupyyntöön, joka näytetään kun pyyntö on avattu.&lt;br&gt;Huomio: Viestiä ei lähetetä maksun mukana Litedash verkkoon.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2052,8 +2052,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Valinnainen nimi liitetään uuteen vastaanottavaan osoitteeseen.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Flowercoin network.</source>
-        <translation>Valinnainen viesti liitettäväksi maksupyyntöön, joka näytetään kun pyyntö on avattu.&lt;br&gt;Huomio: Viestiä ei lähetetä maksun mukana Flowercoin verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Litedash network.</source>
+        <translation>Valinnainen viesti liitettäväksi maksupyyntöön, joka näytetään kun pyyntö on avattu.&lt;br&gt;Huomio: Viestiä ei lähetetä maksun mukana Litedash verkkoon.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2501,8 +2501,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Maksa vain minimi siirtomaksu %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Flowercoin address</source>
-        <translation>Varoitus: Virheellinen Flowercoin osoite</translation>
+        <source>Warning: Invalid Litedash address</source>
+        <translation>Varoitus: Virheellinen Litedash osoite</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2524,8 +2524,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Maksun &amp;saaja:</translation>
     </message>
     <message>
-        <source>The Flowercoin address to send the payment to</source>
-        <translation>Flowercoin osoite johon maksu lähetetään</translation>
+        <source>The Litedash address to send the payment to</source>
+        <translation>Litedash osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2564,8 +2564,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Viesti:</translation>
     </message>
     <message>
-        <source>A message that was attached to the flowercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Flowercoin network.</source>
-        <translation>Viesti joka liitettiin Flowercoin: URI joka talletetaan siirtotapahtuman kanssa viitteeksi sinulle. Huomio: Tätä viestiä ei lähetetä Flowercoin verkkoon.</translation>
+        <source>A message that was attached to the flowercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</source>
+        <translation>Viesti joka liitettiin Litedash: URI joka talletetaan siirtotapahtuman kanssa viitteeksi sinulle. Huomio: Tätä viestiä ei lähetetä Litedash verkkoon.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2591,8 +2591,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Flowercoin Core is shutting down...</source>
-        <translation>Flowercoin Core sulkeutuu...</translation>
+        <source>Litedash Core is shutting down...</source>
+        <translation>Litedash Core sulkeutuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2614,8 +2614,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Voit allekirjoittaa viestit omilla osoitteillasi todistaaksesi että omistat ne. Ole huolellinen että et allekirjoita mitään epämääräistä, phishing-hyökkäjä voi huijata sinua allekirjoittamaan henkilöllisyytesi omasta puolestaan. Allekirjoita vain yksityiskohtaisesti täytetty selvitys johon sitoudut.</translation>
     </message>
     <message>
-        <source>The Flowercoin address to sign the message with</source>
-        <translation>Flowercoin osoite jolla viesti allekirjoitetaan</translation>
+        <source>The Litedash address to sign the message with</source>
+        <translation>Litedash osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2646,8 +2646,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Kopioi tämän hetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Flowercoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi että omistat tämän Flowercoin osoitteen</translation>
+        <source>Sign the message to prove you own this Litedash address</source>
+        <translation>Allekirjoita viesti todistaaksesi että omistat tämän Litedash osoitteen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2670,12 +2670,12 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Syötä allekirjoittava osoite, viesti ja allekirjoitus alla oleviin kenttiin varmistaaksesi allekirjoituksen aitouden. Varmista että kopioit kaikki kentät täsmälleen oikein, myös rivinvaihdot, välilyönnit, tabulaattorit, jne.</translation>
     </message>
     <message>
-        <source>The Flowercoin address the message was signed with</source>
-        <translation>Flowercoin osoite jolla viesti on allekirjoitettu</translation>
+        <source>The Litedash address the message was signed with</source>
+        <translation>Litedash osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Flowercoin address</source>
-        <translation>Tarkista että viesti on allekirjoitettu määritetyllä Flowercoin osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified Litedash address</source>
+        <translation>Tarkista että viesti on allekirjoitettu määritetyllä Litedash osoitteella</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2741,8 +2741,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Core</translation>
+        <source>Litedash Core</source>
+        <translation>Litedash Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2753,8 +2753,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Bitcoin Core kehittäjät</translation>
     </message>
     <message>
-        <source>The Flowercoin Core developers</source>
-        <translation>Flowercoin Core kehittäjät</translation>
+        <source>The Litedash Core developers</source>
+        <translation>Litedash Core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3086,7 +3086,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Destination address of transaction.</source>
-        <translation>Siirtotapahtuman Flowercoin kohdeosoite</translation>
+        <translation>Siirtotapahtuman Litedash kohdeosoite</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -3278,7 +3278,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä Flowercoineja</translation>
+        <translation>Lähetä Litedasheja</translation>
     </message>
     <message>
         <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 LITEDASH.</source>
@@ -3331,8 +3331,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Kytkeydy annettuun osoitteeseen ja pidä linja aina auki. Käytä [host]:port merkintätapaa IPv6:lle.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Flowercoin Core is probably already running.</source>
-        <translation>Ei voida lukita data hakemistoa %s. Flowercoin Core on luultavasti jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s. Litedash Core is probably already running.</source>
+        <translation>Ei voida lukita data hakemistoa %s. Litedash Core on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3387,8 +3387,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Tämä on esi-julkaistu testiversio - Käytä omalla vastuulla - Älä käytä louhimiseen tai kauppasovelluksiin.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Flowercoin Core is probably already running.</source>
-        <translation>Ei voida yhdistää %s tässä tietokoneessa. Flowercoin Core on luultavasti jo käynnissä.</translation>
+        <source>Unable to bind to %s on this computer. Litedash Core is probably already running.</source>
+        <translation>Ei voida yhdistää %s tässä tietokoneessa. Litedash Core on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3404,7 +3404,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Varoitus: Flowercoin verkossa on ristiriitoja! Louhijat näyttävät kokevan virhetilanteita.</translation>
+        <translation>Varoitus: Litedash verkossa on ristiriitoja! Louhijat näyttävät kokevan virhetilanteita.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
@@ -3619,8 +3619,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Poista kaikki lompakon siirtotapahtumat ja palauta vain nuo osat lohkoketjusta -rescan valinnan avulla käynnistyksessä</translation>
     </message>
     <message>
-        <source>Disable all Flowercoin specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Kytke pois käytöstä kaikki Flowercoin:in erityistoiminnot (Masternodet, Darksend, InstantX, Budjetointi) (0-1, oletus: %u)</translation>
+        <source>Disable all Litedash specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Kytke pois käytöstä kaikki Litedash:in erityistoiminnot (Masternodet, Darksend, InstantX, Budjetointi) (0-1, oletus: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3726,7 +3726,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Flowercoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Litedash Alert" admin@foo.com
 </source>
         <translation>Käyttääksesi flowercoind:ia tai -server valintaa flowercoin-qt:lle, sinun tulee asettaa rpc salasana asetustiedostossa:
 %s
@@ -3737,7 +3737,7 @@ rpcpassword=%s
 Käyttäjätunnus ja salasana on oltava ERILAISET.
 Jos tiedostoa ei ole, luo se vain omistajan-luku-oikeudella.
 Suositellaan asetettavaksi alertnotify jotta saat tietoa ongelmista,
-esimerkiksi: alertnotify=echo %%s | mail -s "Flowercoin Hälytys" admin@foo.com
+esimerkiksi: alertnotify=echo %%s | mail -s "Litedash Hälytys" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3753,8 +3753,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Flowercoin Hälytys" admin@foo.com
         <translation>Varoitus: -maxtxfee on asetettu erittäin korkeaksi! Näin isot siirtomaksut voitaisiin maksaa yhdessä siirtotapahtumassa.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Flowercoin Core will not work properly.</source>
-        <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat oikein! Flowercoin ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Litedash Core will not work properly.</source>
+        <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat oikein! Litedash ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3807,8 +3807,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Flowercoin Hälytys" admin@foo.com
         <translation>Copyright (C) 2009-%i Bitcoin Core Kehittäjät</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Flowercoin Core Developers</source>
-        <translation>Copyright (C) 2014-%i Flowercoin Core Kehittäjät</translation>
+        <source>Copyright (C) 2014-%i The Litedash Core Developers</source>
+        <translation>Copyright (C) 2014-%i Litedash Core Kehittäjät</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3839,8 +3839,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Flowercoin Hälytys" admin@foo.com
         <translation>Virhe masternode:en kytkeytymisessä.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Flowercoin Core</source>
-        <translation>Virhe ladattaessa wallet.dat: Lompakko vaatii uudemman version Flowercoin Core:sta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Litedash Core</source>
+        <translation>Virhe ladattaessa wallet.dat: Lompakko vaatii uudemman version Litedash Core:sta</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3911,8 +3911,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Flowercoin Hälytys" admin@foo.com
         <translation>Tietoa</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Flowercoin Core is shutting down.</source>
-        <translation>Alkuperäisyyden tarkistus epäonnistui. Flowercoin Core sulkeutuu.</translation>
+        <source>Initialization sanity check failed. Litedash Core is shutting down.</source>
+        <translation>Alkuperäisyyden tarkistus epäonnistui. Litedash Core sulkeutuu.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4163,8 +4163,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Flowercoin Hälytys" admin@foo.com
         <translation>Käytä UPnP:tä kuunneltavan portin kartoitukseen (oletus: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Flowercoin Core to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä Flowercoin Core uudestaan viimeistelyä varten</translation>
+        <source>Wallet needed to be rewritten: restart Litedash Core to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä Litedash Core uudestaan viimeistelyä varten</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

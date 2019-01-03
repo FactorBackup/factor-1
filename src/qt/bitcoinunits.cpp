@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Flowercoin developers
+// Copyright (c) 2014-2015 The Litedash developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -84,10 +84,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case LITEDASH: return QString("Flowercoin");
-            case mLITEDASH: return QString("Milli-Flowercoin (1 / 1" THIN_SP_UTF8 "000)");
-            case uLITEDASH: return QString("Micro-Flowercoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-Flowercoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case LITEDASH: return QString("Litedash");
+            case mLITEDASH: return QString("Milli-Litedash (1 / 1" THIN_SP_UTF8 "000)");
+            case uLITEDASH: return QString("Micro-Litedash (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-Litedash (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -95,10 +95,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case LITEDASH: return QString("TestFlowercoins");
-            case mLITEDASH: return QString("Milli-TestFlowercoin (1 / 1" THIN_SP_UTF8 "000)");
-            case uLITEDASH: return QString("Micro-TestFlowercoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestFlowercoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case LITEDASH: return QString("TestLitedashs");
+            case mLITEDASH: return QString("Milli-TestLitedash (1 / 1" THIN_SP_UTF8 "000)");
+            case uLITEDASH: return QString("Micro-TestLitedash (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-TestLitedash (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }

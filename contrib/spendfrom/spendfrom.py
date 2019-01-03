@@ -7,7 +7,7 @@
 #  spendfrom.py  # Lists available funds
 #  spendfrom.py --from=ADDRESS --to=ADDRESS --amount=11.00
 #
-# Assumes it will talk to a flowercoind or Flowercoin-Qt running
+# Assumes it will talk to a flowercoind or Litedash-Qt running
 # on localhost.
 #
 # Depends on jsonrpc
@@ -35,9 +35,9 @@ def check_json_precision():
 def determine_db_dir():
     """Return the default location of the flowercoin data directory"""
     if platform.system() == "Darwin":
-        return os.path.expanduser("~/Library/Application Support/Flowercoin/")
+        return os.path.expanduser("~/Library/Application Support/Litedash/")
     elif platform.system() == "Windows":
-        return os.path.join(os.environ['APPDATA'], "Flowercoin")
+        return os.path.join(os.environ['APPDATA'], "Litedash")
     return os.path.expanduser("~/.flowercoin")
 
 def read_bitcoin_config(dbdir):

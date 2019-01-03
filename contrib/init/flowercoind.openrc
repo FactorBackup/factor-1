@@ -16,8 +16,8 @@ BITCOIND_USER=${BITCOIND_USER:-flowercoin}
 BITCOIND_GROUP=${BITCOIND_GROUP:-flowercoin}
 BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/flowercoind}
 
-name="Flowercoin Core Daemon"
-description="Flowercoin crypto-currency p2p network daemon"
+name="Litedash Core Daemon"
+description="Litedash crypto-currency p2p network daemon"
 
 command="/usr/bin/flowercoind"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Flowercoin Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Litedash Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

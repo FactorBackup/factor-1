@@ -1,4 +1,4 @@
-Flowercoin Core staging tree 0.12
+Litedash Core staging tree 0.12
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/iondis/flowercoin.svg?branch=master)](https://travis-ci.org/iondis/flowercoin) `v0.12.0.x:` [![Build Status](https://travis-ci.org/iondis/flowercoin.svg?branch=v0.12.0.x)](https://travis-ci.org/iondis/flowercoin/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/iondis/flowercoin.svg?branch=v0.12.1.x)](https://travis-ci.org/iondis/flowercoin/branches)
@@ -7,26 +7,26 @@ https://www.flowercoin.org
 
 Copyright (c) 2009-2015 Bitcoin Core Developers
 
-Copyright (c) 2014-2015 Flowercoin Core Developers
+Copyright (c) 2014-2015 Litedash Core Developers
 
 
-What is Flowercoin?
+What is Litedash?
 ----------------
 
-Flowercoin is an experimental new digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. Flowercoin uses peer-to-peer technology
+Litedash is an experimental new digital currency that enables anonymous, instant
+payments to anyone, anywhere in the world. Litedash uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Flowercoin Core is the name of open
+are carried out collectively by the network. Litedash Core is the name of open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Flowercoin Core software, see https://www.flowercoin.org/downloads.
+the Litedash Core software, see https://www.flowercoin.org/downloads.
 
 
 License
 -------
 
-Flowercoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Litedash Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see http://opensource.org/licenses/MIT.
 
 Development Process
@@ -34,7 +34,7 @@ Development Process
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
 [Tags](https://github.com/iondis/litedash/tags) are created to indicate new official,
-stable release versions of Flowercoin Core.
+stable release versions of Litedash Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](https://github.com/iondis/litedash/blob/v0.12.1.x/CONTRIBUTING.md).
 
@@ -55,7 +55,7 @@ submit new unit tests for old code. Unit tests can be compiled and run (assuming
 Every pull request is built for both Windows and Linux on a dedicated server,
 and unit and sanity tests are automatically run. The binaries produced may be
 used for manual QA testing — a link to them will appear in a comment on the
-pull request posted by [FlowercoinPullTester](https://github.com/iondis/PullTester). See https://github.com/TheBlueMatt/test-scripts
+pull request posted by [LitedashPullTester](https://github.com/iondis/PullTester). See https://github.com/TheBlueMatt/test-scripts
 for the build/test scripts. ***TODO***
 
 ### Manual Quality Assurance (QA) Testing
@@ -108,7 +108,7 @@ that run in -regtest mode.
 
 **DEBUG_LOCKORDER**
 
-Flowercoin Core is a multithreaded application, and deadlocks or other multithreading bugs
+Litedash Core is a multithreaded application, and deadlocks or other multithreading bugs
 can be very difficult to track down. Compiling with -DDEBUG_LOCKORDER (configure
 CXXFLAGS="-DDEBUG_LOCKORDER -g") inserts run-time checks to keep track of which locks
 are held, and adds warnings to the debug.log file if inconsistencies are detected.

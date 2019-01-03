@@ -29,7 +29,7 @@ class QUrl;
 class QWidget;
 QT_END_NAMESPACE
 
-/** Utility functions used by the Flowercoin Qt UI.
+/** Utility functions used by the Litedash Qt UI.
  */
 namespace GUIUtil
 {
@@ -37,7 +37,7 @@ namespace GUIUtil
     QString dateTimeStr(const QDateTime &datetime);
     QString dateTimeStr(qint64 nTime);
 
-    // Render Flowercoin addresses in monospace font
+    // Render Litedash addresses in monospace font
     QFont bitcoinAddressFont();
 
     // Set up widgets for address and amounts

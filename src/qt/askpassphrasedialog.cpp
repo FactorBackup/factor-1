@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Flowercoin developers
+// Copyright (c) 2014-2015 The Litedash developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -124,7 +124,7 @@ void AskPassphraseDialog::accept()
                 {
                     QMessageBox::warning(this, tr("Wallet encrypted"),
                                          "<qt>" +
-                                         tr("Flowercoin will close now to finish the encryption process. "
+                                         tr("Litedash will close now to finish the encryption process. "
                                          "Remember that encrypting your wallet cannot fully protect "
                                          "your flowercoins from being stolen by malware infecting your computer.") +
                                          "<br><br><b>" +

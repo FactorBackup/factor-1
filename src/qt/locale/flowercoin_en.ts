@@ -78,13 +78,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Flowercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Flowercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Litedash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Litedash addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Flowercoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your Flowercoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <source>These are your Litedash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>These are your Litedash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -235,8 +235,8 @@
     </message>
     <message>
         <location line="-57"/>
-        <source>Flowercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your flowercoins from being stolen by malware infecting your computer.</source>
-        <translation>Flowercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your flowercoins from being stolen by malware infecting your computer.</translation>
+        <source>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your flowercoins from being stolen by malware infecting your computer.</source>
+        <translation>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your flowercoins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -296,8 +296,8 @@
     <message>
         <location filename="../bitcoingui.cpp" line="+108"/>
         <location line="+752"/>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Core</translation>
+        <source>Litedash Core</source>
+        <translation>Litedash Core</translation>
     </message>
     <message>
         <location line="-743"/>
@@ -326,8 +326,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Send coins to a Flowercoin address</source>
-        <translation>Send coins to a Flowercoin address</translation>
+        <source>Send coins to a Litedash address</source>
+        <translation>Send coins to a Litedash address</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -361,13 +361,13 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;About Flowercoin Core</source>
-        <translation>&amp;About Flowercoin Core</translation>
+        <source>&amp;About Litedash Core</source>
+        <translation>&amp;About Litedash Core</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Flowercoin Core</source>
-        <translation>Show information about Flowercoin Core</translation>
+        <source>Show information about Litedash Core</source>
+        <translation>Show information about Litedash Core</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -387,8 +387,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Modify configuration options for Flowercoin</source>
-        <translation>Modify configuration options for Flowercoin</translation>
+        <source>Modify configuration options for Litedash</source>
+        <translation>Modify configuration options for Litedash</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -452,8 +452,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Sign messages with your Flowercoin addresses to prove you own them</source>
-        <translation>Sign messages with your Flowercoin addresses to prove you own them</translation>
+        <source>Sign messages with your Litedash addresses to prove you own them</source>
+        <translation>Sign messages with your Litedash addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -462,8 +462,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Verify messages to ensure they were signed with specified Flowercoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Flowercoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Litedash addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Litedash addresses</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -572,8 +572,8 @@
     </message>
     <message>
         <location line="+196"/>
-        <source>Flowercoin Core client</source>
-        <translation>Flowercoin Core client</translation>
+        <source>Litedash Core client</source>
+        <translation>Litedash Core client</translation>
     </message>
     <message numerus="yes">
         <location line="+182"/>
@@ -587,8 +587,8 @@
     </message>
     <message>
         <location line="-407"/>
-        <source>Show the Flowercoin Core help message to get a list with possible Flowercoin command-line options</source>
-        <translation>Show the Flowercoin Core help message to get a list with possible Flowercoin command-line options</translation>
+        <source>Show the Litedash Core help message to get a list with possible Litedash command-line options</source>
+        <translation>Show the Litedash Core help message to get a list with possible Litedash command-line options</translation>
     </message>
     <message>
         <location line="+36"/>
@@ -617,8 +617,8 @@
     </message>
     <message numerus="yes">
         <location line="+256"/>
-        <source>%n active connection(s) to Flowercoin network</source>
-        <translation><numerusform>%n active connection to Flowercoin network</numerusform><numerusform>%n active connections to Flowercoin network</numerusform></translation>
+        <source>%n active connection(s) to Litedash network</source>
+        <translation><numerusform>%n active connection to Litedash network</numerusform><numerusform>%n active connections to Litedash network</numerusform></translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1132,18 +1132,18 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Flowercoin&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Flowercoin&apos;s configuration screen.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Litedash&apos;s configuration screen.</source>
+        <translation>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Litedash&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Flowercoin&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Flowercoin&apos;s configuration screen.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Litedash&apos;s configuration screen.</source>
+        <translation>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Litedash&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Flowercoin&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Flowercoin&apos;s configuration screen.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Litedash&apos;s configuration screen.</source>
+        <translation>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Litedash&apos;s configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -1195,8 +1195,8 @@ Address: %4
     </message>
     <message>
         <location line="+71"/>
-        <source>The entered address &quot;%1&quot; is not a valid Flowercoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Flowercoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Litedash address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Litedash address.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1246,8 +1246,8 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+32"/>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Core</translation>
+        <source>Litedash Core</source>
+        <translation>Litedash Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1262,8 +1262,8 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>About Flowercoin Core</source>
-        <translation>About Flowercoin Core</translation>
+        <source>About Litedash Core</source>
+        <translation>About Litedash Core</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1320,18 +1320,18 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Flowercoin Core.</source>
-        <translation>Welcome to Flowercoin Core.</translation>
+        <source>Welcome to Litedash Core.</source>
+        <translation>Welcome to Litedash Core.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Flowercoin Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where Flowercoin Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Litedash Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where Litedash Core will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Flowercoin Core will download and store a copy of the Flowercoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Flowercoin Core will download and store a copy of the Flowercoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>Litedash Core will download and store a copy of the Litedash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Litedash Core will download and store a copy of the Litedash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1345,8 +1345,8 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Core</translation>
+        <source>Litedash Core</source>
+        <translation>Litedash Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1411,13 +1411,13 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically start Flowercoin after logging in to the system.</source>
-        <translation>Automatically start Flowercoin after logging in to the system.</translation>
+        <source>Automatically start Litedash after logging in to the system.</source>
+        <translation>Automatically start Litedash after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Flowercoin on system login</source>
-        <translation>&amp;Start Flowercoin on system login</translation>
+        <source>&amp;Start Litedash on system login</source>
+        <translation>&amp;Start Litedash on system login</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1451,8 +1451,8 @@ Address: %4
     </message>
     <message>
         <location line="+15"/>
-        <source>Amount of Flowercoin to keep anonymized</source>
-        <translation>Amount of Flowercoin to keep anonymized</translation>
+        <source>Amount of Litedash to keep anonymized</source>
+        <translation>Amount of Litedash to keep anonymized</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -1476,8 +1476,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Flowercoin network through a SOCKS5 proxy.</source>
-        <translation>Connect to the Flowercoin network through a SOCKS5 proxy.</translation>
+        <source>Connect to the Litedash network through a SOCKS5 proxy.</source>
+        <translation>Connect to the Litedash network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1516,8 +1516,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Flowercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Flowercoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Litedash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Litedash client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1581,8 +1581,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Flowercoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Flowercoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Litedash.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Litedash.</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1695,8 +1695,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <location line="+53"/>
         <location line="+1015"/>
         <location line="+77"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Flowercoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Flowercoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litedash network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Litedash network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-843"/>
@@ -2017,8 +2017,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Flowercoin address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid Flowercoin address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Litedash address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid Litedash address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2125,8 +2125,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+110"/>
-        <source>Enter a Flowercoin address (e.g. %1)</source>
-        <translation>Enter a Flowercoin address (e.g. %1)</translation>
+        <source>Enter a Litedash address (e.g. %1)</source>
+        <translation>Enter a Litedash address (e.g. %1)</translation>
     </message>
     <message>
         <location line="+760"/>
@@ -2259,8 +2259,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+76"/>
-        <source>Open the Flowercoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Flowercoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Litedash debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Litedash debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2521,8 +2521,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="-35"/>
-        <source>Welcome to the Flowercoin RPC console.</source>
-        <translation>Welcome to the Flowercoin RPC console.</translation>
+        <source>Welcome to the Litedash RPC console.</source>
+        <translation>Welcome to the Litedash RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2601,8 +2601,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Flowercoin network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Flowercoin network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litedash network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litedash network.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2617,8 +2617,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="-14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Flowercoin network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Flowercoin network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Litedash network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Litedash network.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3186,8 +3186,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+129"/>
-        <source>Warning: Invalid Flowercoin address</source>
-        <translation>Warning: Invalid Flowercoin address</translation>
+        <source>Warning: Invalid Litedash address</source>
+        <translation>Warning: Invalid Litedash address</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -3214,8 +3214,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Flowercoin address to send the payment to</source>
-        <translation>The Flowercoin address to send the payment to</translation>
+        <source>The Litedash address to send the payment to</source>
+        <translation>The Litedash address to send the payment to</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3268,8 +3268,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the flowercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Flowercoin network.</source>
-        <translation>A message that was attached to the flowercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Flowercoin network.</translation>
+        <source>A message that was attached to the flowercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</source>
+        <translation>A message that was attached to the flowercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</translation>
     </message>
     <message>
         <location line="+426"/>
@@ -3303,8 +3303,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+43"/>
-        <source>Flowercoin Core is shutting down...</source>
-        <translation>Flowercoin Core is shutting down...</translation>
+        <source>Litedash Core is shutting down...</source>
+        <translation>Litedash Core is shutting down...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3331,8 +3331,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Flowercoin address to sign the message with</source>
-        <translation>The Flowercoin address to sign the message with</translation>
+        <source>The Litedash address to sign the message with</source>
+        <translation>The Litedash address to sign the message with</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3373,8 +3373,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Flowercoin address</source>
-        <translation>Sign the message to prove you own this Flowercoin address</translation>
+        <source>Sign the message to prove you own this Litedash address</source>
+        <translation>Sign the message to prove you own this Litedash address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3404,13 +3404,13 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The Flowercoin address the message was signed with</source>
-        <translation>The Flowercoin address the message was signed with</translation>
+        <source>The Litedash address the message was signed with</source>
+        <translation>The Litedash address the message was signed with</translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Flowercoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Flowercoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Litedash address</source>
+        <translation>Verify the message to ensure it was signed with the specified Litedash address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3498,8 +3498,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Core</translation>
+        <source>Litedash Core</source>
+        <translation>Litedash Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3513,8 +3513,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>The Flowercoin Core developers</source>
-        <translation>The Flowercoin Core developers</translation>
+        <source>The Litedash Core developers</source>
+        <translation>The Litedash Core developers</translation>
     </message>
     <message>
         <location filename="../networkstyle.cpp" line="+19"/>
@@ -4250,8 +4250,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Cannot obtain a lock on data directory %s. Flowercoin Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Flowercoin Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. Litedash Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. Litedash Core is probably already running.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -4320,8 +4320,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+20"/>
-        <source>Unable to bind to %s on this computer. Flowercoin Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Flowercoin Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Litedash Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Litedash Core is probably already running.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4610,8 +4610,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Disable all Flowercoin specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Disable all Flowercoin specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</translation>
+        <source>Disable all Litedash specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Disable all Litedash specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4739,7 +4739,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Flowercoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Litedash Alert&quot; admin@foo.com
 </source>
         <translation>To use flowercoind, or the -server option to flowercoin-qt, you must set an rpcpassword in the configuration file:
 %s
@@ -4750,7 +4750,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Flowercoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Litedash Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -4770,8 +4770,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Flowercoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+6"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Flowercoin Core will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Flowercoin Core will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Litedash Core will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Litedash Core will not work properly.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -4837,8 +4837,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Flowercoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The Flowercoin Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Flowercoin Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Litedash Core Developers</source>
+        <translation>Copyright (C) 2014-%i The Litedash Core Developers</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4877,8 +4877,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Flowercoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+6"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Flowercoin Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Flowercoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Litedash Core</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Litedash Core</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4967,8 +4967,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Flowercoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Flowercoin Core is shutting down.</source>
-        <translation>Initialization sanity check failed. Flowercoin Core is shutting down.</translation>
+        <source>Initialization sanity check failed. Litedash Core is shutting down.</source>
+        <translation>Initialization sanity check failed. Litedash Core is shutting down.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5282,8 +5282,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Flowercoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+9"/>
-        <source>Wallet needed to be rewritten: restart Flowercoin Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart Flowercoin Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart Litedash Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart Litedash Core to complete</translation>
     </message>
     <message>
         <location line="+5"/>

@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Flowercoin"
-            VALUE "FileDescription",    "Darkcoind (OSS daemon/client for Flowercoin)"
+            VALUE "CompanyName",        "Litedash"
+            VALUE "FileDescription",    "Darkcoind (OSS daemon/client for Litedash)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "flowercoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR

@@ -47,7 +47,7 @@ static bool AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Flowercoin Core flowercoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Litedash Core flowercoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
               "  flowercoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded flowercoin transaction") + "\n" +
               "  flowercoin-tx [options] -create [commands]   " + _("Create hex-encoded flowercoin transaction") + "\n" +

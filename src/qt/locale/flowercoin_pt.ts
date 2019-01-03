@@ -62,12 +62,12 @@
         <translation>Endereços para recepção</translation>
     </message>
     <message>
-        <source>These are your Flowercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os endereços Flowercoin para envio de pagamentos. Confirme sempre a quantia e o endereço antes de enviar as moedas.</translation>
+        <source>These are your Litedash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os endereços Litedash para envio de pagamentos. Confirme sempre a quantia e o endereço antes de enviar as moedas.</translation>
     </message>
     <message>
-        <source>These are your Flowercoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estes são os seus endereços Flowercoin para receber pagamentos. É recomendado que seja usado um novo endereço para cada transacção.</translation>
+        <source>These are your Litedash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estes são os seus endereços Litedash para receber pagamentos. É recomendado que seja usado um novo endereço para cada transacção.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Carteira cifrada</translation>
     </message>
     <message>
-        <source>Flowercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your flowercoins from being stolen by malware infecting your computer.</source>
-        <translation>O cliente Flowercoin irá fechar para finalizar o processo de cifra. Lembre-se que cifrar a sua carteira não consegue proteger totalmente as suas flowercoins contra roubos feitos por malware presente no seu computador.</translation>
+        <source>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your flowercoins from being stolen by malware infecting your computer.</source>
+        <translation>O cliente Litedash irá fechar para finalizar o processo de cifra. Lembre-se que cifrar a sua carteira não consegue proteger totalmente as suas flowercoins contra roubos feitos por malware presente no seu computador.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Core</translation>
+        <source>Litedash Core</source>
+        <translation>Litedash Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,8 +255,8 @@
         <translation>&amp;Enviar</translation>
     </message>
     <message>
-        <source>Send coins to a Flowercoin address</source>
-        <translation>Enviar moedas para um endereço Flowercoin</translation>
+        <source>Send coins to a Litedash address</source>
+        <translation>Enviar moedas para um endereço Litedash</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -283,12 +283,12 @@
         <translation>Sair da aplicação</translation>
     </message>
     <message>
-        <source>&amp;About Flowercoin Core</source>
-        <translation>&amp;Acerca do Flowercoin Core</translation>
+        <source>&amp;About Litedash Core</source>
+        <translation>&amp;Acerca do Litedash Core</translation>
     </message>
     <message>
-        <source>Show information about Flowercoin Core</source>
-        <translation>Mostra informação acerca do Flowercoin Core</translation>
+        <source>Show information about Litedash Core</source>
+        <translation>Mostra informação acerca do Litedash Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Opções...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Flowercoin</source>
-        <translation>Modificar opções de configuração do Flowercoin</translation>
+        <source>Modify configuration options for Litedash</source>
+        <translation>Modificar opções de configuração do Litedash</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>&amp;Assinar Mensagem</translation>
     </message>
     <message>
-        <source>Sign messages with your Flowercoin addresses to prove you own them</source>
-        <translation>Assine mensagens com os seus endereços Flowercoin para provar que são seus</translation>
+        <source>Sign messages with your Litedash addresses to prove you own them</source>
+        <translation>Assine mensagens com os seus endereços Litedash para provar que são seus</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verificar Mensagem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Flowercoin addresses</source>
-        <translation>Verifica mensagens para garantir que foram assinadas com um endereço Flowercoin específico</translation>
+        <source>Verify messages to ensure they were signed with specified Litedash addresses</source>
+        <translation>Verifica mensagens para garantir que foram assinadas com um endereço Litedash específico</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -451,16 +451,16 @@
         <translation>Opções de linha de &amp;comandos</translation>
     </message>
     <message>
-        <source>Flowercoin Core client</source>
-        <translation>Cliente Flowercoin Core</translation>
+        <source>Litedash Core client</source>
+        <translation>Cliente Litedash Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
         <translation><numerusform>%n bloco do histórico de transacções processado.</numerusform><numerusform>%n blocos do histórico de transacções processados.</numerusform></translation>
     </message>
     <message>
-        <source>Show the Flowercoin Core help message to get a list with possible Flowercoin command-line options</source>
-        <translation>Mostra a mensagem de ajuda do Flowercoin Core para obter a lista com as possíveis opções de linha de comandos</translation>
+        <source>Show the Litedash Core help message to get a list with possible Litedash command-line options</source>
+        <translation>Mostra a mensagem de ajuda do Litedash Core para obter a lista com as possíveis opções de linha de comandos</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -483,8 +483,8 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Flowercoin network</source>
-        <translation><numerusform>%n ligação activa à rede Flowercoin</numerusform><numerusform>%n ligações activas à rede Flowercoin</numerusform></translation>
+        <source>%n active connection(s) to Litedash network</source>
+        <translation><numerusform>%n ligação activa à rede Litedash</numerusform><numerusform>%n ligações activas à rede Litedash</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -892,16 +892,16 @@ Endereço: %4
         <translation>Configuração Darksend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Flowercoin's configuration screen.</source>
-        <translation>Darksend foi colocado com sucesso no modo básico (%1 e 2 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração Flowercoin.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Litedash's configuration screen.</source>
+        <translation>Darksend foi colocado com sucesso no modo básico (%1 e 2 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração Litedash.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Flowercoin's configuration screen.</source>
-        <translation>Darksend foi colocado com sucesso no modo alto (%1 e 8 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração Flowercoin.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Litedash's configuration screen.</source>
+        <translation>Darksend foi colocado com sucesso no modo alto (%1 e 8 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração Litedash.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Flowercoin's configuration screen.</source>
-        <translation>Darksend foi colocado com sucesso no modo máximo (%1 e 16 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração Flowercoin.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Litedash's configuration screen.</source>
+        <translation>Darksend foi colocado com sucesso no modo máximo (%1 e 16 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração Litedash.</translation>
     </message>
 </context>
 <context>
@@ -943,8 +943,8 @@ Endereço: %4
         <translation>Editar endereço de envio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Flowercoin address.</source>
-        <translation>O endereço introduzido "%1" não é um endereço Flowercoin válido.</translation>
+        <source>The entered address "%1" is not a valid Litedash address.</source>
+        <translation>O endereço introduzido "%1" não é um endereço Litedash válido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -985,8 +985,8 @@ Endereço: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Core</translation>
+        <source>Litedash Core</source>
+        <translation>Litedash Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -997,8 +997,8 @@ Endereço: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Flowercoin Core</source>
-        <translation>Acerca do Flowercoin Core</translation>
+        <source>About Litedash Core</source>
+        <translation>Acerca do Litedash Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1044,16 +1044,16 @@ Endereço: %4
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to Flowercoin Core.</source>
-        <translation>Bem-vindo ao Flowercoin Core.</translation>
+        <source>Welcome to Litedash Core.</source>
+        <translation>Bem-vindo ao Litedash Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Flowercoin Core will store its data.</source>
-        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente Flowercoin Core irá guardar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where Litedash Core will store its data.</source>
+        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente Litedash Core irá guardar os seus dados.</translation>
     </message>
     <message>
-        <source>Flowercoin Core will download and store a copy of the Flowercoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O cliente Flowercoin Core irá descarregar e guardar uma copia da cadeia de blocos Flowercoin. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
+        <source>Litedash Core will download and store a copy of the Litedash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O cliente Litedash Core irá descarregar e guardar uma copia da cadeia de blocos Litedash. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1064,8 +1064,8 @@ Endereço: %4
         <translation>Usar uma pasta de dados personalizada</translation>
     </message>
     <message>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Core</translation>
+        <source>Litedash Core</source>
+        <translation>Litedash Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1118,12 +1118,12 @@ Endereço: %4
         <translation>&amp;Geral</translation>
     </message>
     <message>
-        <source>Automatically start Flowercoin after logging in to the system.</source>
-        <translation>Executar automaticamente o cliente Flowercoin quando entrar no sistema.</translation>
+        <source>Automatically start Litedash after logging in to the system.</source>
+        <translation>Executar automaticamente o cliente Litedash quando entrar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Flowercoin on system login</source>
-        <translation>&amp;Iniciar o cliente Flowercoin ao entrar no sistema</translation>
+        <source>&amp;Start Litedash on system login</source>
+        <translation>&amp;Iniciar o cliente Litedash ao entrar no sistema</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1150,8 +1150,8 @@ Endereço: %4
         <translation>Esta quantia actua como um limite, a partir do qual o Darksend é desligado.</translation>
     </message>
     <message>
-        <source>Amount of Flowercoin to keep anonymized</source>
-        <translation>Quantia de Flowercoin a manter anonimizada</translation>
+        <source>Amount of Litedash to keep anonymized</source>
+        <translation>Quantia de Litedash a manter anonimizada</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1170,8 +1170,8 @@ Endereço: %4
         <translation>Aceitar ligações de entrada</translation>
     </message>
     <message>
-        <source>Connect to the Flowercoin network through a SOCKS5 proxy.</source>
-        <translation>Efectuar a ligação à rede Flowercoin através de um proxy SOCKS5.</translation>
+        <source>Connect to the Litedash network through a SOCKS5 proxy.</source>
+        <translation>Efectuar a ligação à rede Litedash através de um proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1202,8 +1202,8 @@ Endereço: %4
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>Automatically open the Flowercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente Flowercoin no router. Isto só funciona quando o seu router suporta UPnP e este está activo.</translation>
+        <source>Automatically open the Litedash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente Litedash no router. Isto só funciona quando o seu router suporta UPnP e este está activo.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1254,7 +1254,7 @@ Endereço: %4
         <translation>&amp;Linguagem do interface:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Flowercoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Litedash.</source>
         <translation>A linguagem do interface pode ser definida aqui. Esta definição terá efeito depois de reiniciar a aplicação.</translation>
     </message>
     <message>
@@ -1343,8 +1343,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>De</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Flowercoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desactualizada. A sua carteira sincroniza automaticamente com a rede Flowercoin assim que for estabelecida uma ligação, mas este processo ainda não terminou.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litedash network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desactualizada. A sua carteira sincroniza automaticamente com a rede Litedash assim que for estabelecida uma ligação, mas este processo ainda não terminou.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1584,8 +1584,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Endereço de pagamento inválido %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Flowercoin address or malformed URI parameters.</source>
-        <translation>O URI não pode ser carregado! Isto pode ser causado por um endereço Flowercoin inválido ou parâmetros do URI incorrectos.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Litedash address or malformed URI parameters.</source>
+        <translation>O URI não pode ser carregado! Isto pode ser causado por um endereço Litedash inválido ou parâmetros do URI incorrectos.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1670,8 +1670,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Quantia</translation>
     </message>
     <message>
-        <source>Enter a Flowercoin address (e.g. %1)</source>
-        <translation>Insira um endereço Flowercoin (ex. %1)</translation>
+        <source>Enter a Litedash address (e.g. %1)</source>
+        <translation>Insira um endereço Litedash (ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1760,8 +1760,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Número de ligações</translation>
     </message>
     <message>
-        <source>Open the Flowercoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir o ficheiro de registo de depuração Flowercoin a partir da pasta de dados actual. Para grandes ficheiros de registo pode demorar alguns segundos.</translation>
+        <source>Open the Litedash debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir o ficheiro de registo de depuração Litedash a partir da pasta de dados actual. Para grandes ficheiros de registo pode demorar alguns segundos.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1968,8 +1968,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Saída:</translation>
     </message>
     <message>
-        <source>Welcome to the Flowercoin RPC console.</source>
-        <translation>Bem-vindo à consola RPC Flowercoin</translation>
+        <source>Welcome to the Litedash RPC console.</source>
+        <translation>Bem-vindo à consola RPC Litedash</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2031,8 +2031,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>R&amp;eutilizar um endereço de recebimento existente (não recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Flowercoin network.</source>
-        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. Nota: A mensagem não será enviada com o pagamento através da rede Flowercoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litedash network.</source>
+        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. Nota: A mensagem não será enviada com o pagamento através da rede Litedash.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2043,8 +2043,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Rótulo opcional para associar com o novo endereço de recebimento.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Flowercoin network.</source>
-        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. &lt;br&gt;Nota: A mensagem não será enviada com o pagamento através da rede Flowercoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Litedash network.</source>
+        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. &lt;br&gt;Nota: A mensagem não será enviada com o pagamento através da rede Litedash.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2480,8 +2480,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Pagar somente a taxa mínima de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Flowercoin address</source>
-        <translation>Aviso: Endereço Flowercoin inválido</translation>
+        <source>Warning: Invalid Litedash address</source>
+        <translation>Aviso: Endereço Litedash inválido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2503,8 +2503,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>&amp;Pagar a:</translation>
     </message>
     <message>
-        <source>The Flowercoin address to send the payment to</source>
-        <translation>O endereço Flowercoin para onde enviar o pagamento</translation>
+        <source>The Litedash address to send the payment to</source>
+        <translation>O endereço Litedash para onde enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2543,8 +2543,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Mensagem:</translation>
     </message>
     <message>
-        <source>A message that was attached to the flowercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Flowercoin network.</source>
-        <translation>Mensagem que foi anexada ao flowercoin: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede Flowercoin.</translation>
+        <source>A message that was attached to the flowercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</source>
+        <translation>Mensagem que foi anexada ao flowercoin: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede Litedash.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2570,8 +2570,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Flowercoin Core is shutting down...</source>
-        <translation>O Flowercoin Core está a desligar...</translation>
+        <source>Litedash Core is shutting down...</source>
+        <translation>O Litedash Core está a desligar...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2593,8 +2593,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção para não assinar mensagens vagas, já que, ataques de phishing podem levá-lo a assinar a sua própria identidade para os atacantes. Apenas assine declarações detalhadas com as quais concorde.</translation>
     </message>
     <message>
-        <source>The Flowercoin address to sign the message with</source>
-        <translation>Endereço Flowercoin com o qual deseja assinar a mensagem</translation>
+        <source>The Litedash address to sign the message with</source>
+        <translation>Endereço Litedash com o qual deseja assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2625,8 +2625,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Copiar a assinatura actual para a área de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Flowercoin address</source>
-        <translation>Assinar a mensagem para provar que é o proprietário deste endereço Flowercoin</translation>
+        <source>Sign the message to prove you own this Litedash address</source>
+        <translation>Assinar a mensagem para provar que é o proprietário deste endereço Litedash</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2649,12 +2649,12 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Introduza o endereço de assinatura, mensagem (assegure-se que copia exactamente as quebras de linha, espaços, tabulações, etc) e assinatura abaixo para verificar a mensagem. Tenha atenção para não ler mais na assinatura do que o que estiver na mensagem assinada, para evitar ser enganado por um atacante que se encontre entre si e quem assinou a mensagem.</translation>
     </message>
     <message>
-        <source>The Flowercoin address the message was signed with</source>
-        <translation>Endereço Flowercoin com o qual a mensagem foi assinada</translation>
+        <source>The Litedash address the message was signed with</source>
+        <translation>Endereço Litedash com o qual a mensagem foi assinada</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Flowercoin address</source>
-        <translation>Verificar a mensagem de forma a garantir que foi assinada com o endereço Flowercoin especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified Litedash address</source>
+        <translation>Verificar a mensagem de forma a garantir que foi assinada com o endereço Litedash especificado</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2720,8 +2720,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Flowercoin Core</source>
-        <translation>Flowercoin Core</translation>
+        <source>Litedash Core</source>
+        <translation>Litedash Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2732,8 +2732,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Os programadores Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Flowercoin Core developers</source>
-        <translation>Os programadores Flowercoin Core</translation>
+        <source>The Litedash Core developers</source>
+        <translation>Os programadores Litedash Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3310,8 +3310,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Vincular a um determinado endereço e ouvir sempre aí. Use a notação [endereço]:porta para IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Flowercoin Core is probably already running.</source>
-        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o Flowercoin Core já se encontra em execução.</translation>
+        <source>Cannot obtain a lock on data directory %s. Litedash Core is probably already running.</source>
+        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o Litedash Core já se encontra em execução.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3366,8 +3366,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Esta é uma compilação prévia de teste - use por sua conta e risco - não use para minar nem em aplicações comerciais</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Flowercoin Core is probably already running.</source>
-        <translation>Não foi possível vincular a %s neste computador. Provavelmente o Flowercoin Core já está a ser executado.</translation>
+        <source>Unable to bind to %s on this computer. Litedash Core is probably already running.</source>
+        <translation>Não foi possível vincular a %s neste computador. Provavelmente o Litedash Core já está a ser executado.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3650,8 +3650,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Aviso: -maxtxfee é demasiado alta! Taxas deste tamanho podem ser pagas em apenas uma transacção.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Flowercoin Core will not work properly.</source>
-        <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o Flowercoin Core não vai funcionar correctamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Litedash Core will not work properly.</source>
+        <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o Litedash Core não vai funcionar correctamente.</translation>
     </message>
     <message>
         <source>(1993 could be used only on mainnet)</source>
@@ -3696,8 +3696,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Flowercoin Core Developers</source>
-        <translation>Copyright (C) 2014-%i Flowercoin Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Litedash Core Developers</source>
+        <translation>Copyright (C) 2014-%i Litedash Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3728,8 +3728,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Erro conectando ao Masternode</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Flowercoin Core</source>
-        <translation>Erro carregando wallet.dat Carteira precisa de nova versão do Flowercoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Litedash Core</source>
+        <translation>Erro carregando wallet.dat Carteira precisa de nova versão do Litedash Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3800,8 +3800,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Informação</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Flowercoin Core is shutting down.</source>
-        <translation>A verificação de consistência no arranque falhou. O Flowercoin Core está a encerrar.</translation>
+        <source>Initialization sanity check failed. Litedash Core is shutting down.</source>
+        <translation>A verificação de consistência no arranque falhou. O Litedash Core está a encerrar.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4044,8 +4044,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Utilize UPNP para mapear porta de escuta (default: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Flowercoin Core to complete</source>
-        <translation>Carteira necessita de ser re-escrita: reinicie Flowercoin Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart Litedash Core to complete</source>
+        <translation>Carteira necessita de ser re-escrita: reinicie Litedash Core para completar</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4185,7 +4185,7 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Opções RPC SSL: (para instruções de configuração SSL dirija-se à Flowercoin Wiki)</translation>
+        <translation>Opções RPC SSL: (para instruções de configuração SSL dirija-se à Litedash Wiki)</translation>
     </message>
     <message>
         <source>RPC server options:</source>

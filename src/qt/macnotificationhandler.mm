@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.iondis.Flowercoin-Qt";
+        return @"io.iondis.Litedash-Qt";
     } else {
         return [self __bundleIdentifier];
     }

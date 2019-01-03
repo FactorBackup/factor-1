@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between flowercoin-cli and flowercoind)
- * of a given instance of the Flowercoin system.
+ * of a given instance of the Litedash system.
  */
 class CBaseChainParams
 {

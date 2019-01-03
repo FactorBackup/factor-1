@@ -137,7 +137,7 @@ I usually confirm that remote is on the correct block by issuing:
 
 ```flowercoind getinfo```
 
-And compare with the official explorer at http://explorer.iondis.io/chain/Flowercoin
+And compare with the official explorer at http://explorer.iondis.io/chain/Litedash
 
 ### Local
 

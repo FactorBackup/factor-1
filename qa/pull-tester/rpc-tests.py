@@ -149,7 +149,7 @@ testScriptsExt = [
     'p2p-acceptblock.py', # NOTE: needs flowercoin_hash to pass
     'mempool_packages.py',
     'maxuploadtarget.py',
-    # 'replace-by-fee.py', # RBF is disabled in Flowercoin Core
+    # 'replace-by-fee.py', # RBF is disabled in Litedash Core
 ]
 
 def runtests():

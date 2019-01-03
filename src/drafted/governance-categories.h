@@ -4,15 +4,15 @@
 
 	* means the category has an associated class
 	
-	CFlowercoinNetwork: LITEDASH NETWORK (ROOT)
+	CLitedashNetwork: LITEDASH NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<CFlowercoinProject> vecProjects;
+		vector<CLitedashProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	CFlowercoinProject:
+	CLitedashProject:
 	has:
 		name
 		employees

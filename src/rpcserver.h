@@ -93,7 +93,7 @@ public:
 };
 
 /**
- * Flowercoin RPC command dispatcher.
+ * Litedash RPC command dispatcher.
  */
 class CRPCTable
 {

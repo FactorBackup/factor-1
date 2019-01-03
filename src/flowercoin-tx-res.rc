@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Flowercoin"
-            VALUE "FileDescription",    "flowercoin-tx (CLI Flowercoin transaction editor utility)"
+            VALUE "CompanyName",        "Litedash"
+            VALUE "FileDescription",    "flowercoin-tx (CLI Litedash transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "flowercoin-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR

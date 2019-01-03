@@ -16,9 +16,9 @@ enum GovernanceObjectType {
     ValueOverride = 1, 
 
     // -------------------------------
-    // FlowercoinNetwork - is the root node
-    FlowercoinNetwork = 1000,
-    FlowercoinNetworkVariable = 1001,
+    // LitedashNetwork - is the root node
+    LitedashNetwork = 1000,
+    LitedashNetworkVariable = 1001,
     Category = 1002,
 
     // Actors
