@@ -1,9 +1,9 @@
 Sample configuration files for:
 
-SystemD: flowercoind.service
-Upstart: flowercoind.conf
-OpenRC:  flowercoind.openrc
-         flowercoind.openrcconf
+SystemD: litedashd.service
+Upstart: litedashd.conf
+OpenRC:  litedashd.openrc
+         litedashd.openrcconf
 
 have been made available to assist packagers in creating node packages here.
 

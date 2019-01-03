@@ -188,7 +188,7 @@
         <translation>Lompakko salattu</translation>
     </message>
     <message>
-        <source>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your flowercoins from being stolen by malware infecting your computer.</source>
+        <source>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litedashs from being stolen by malware infecting your computer.</source>
         <translation>Litedash sulkeutuu nyt salauksen viimeistelyä varten. Muista että salaus pelkästään ei voi estää Litedashiesi varastamista jos koneesi saastuu haittaohjelmilla tai viruksilla.</translation>
     </message>
     <message>
@@ -263,7 +263,7 @@
         <translation>&amp;Vastaanota</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and flowercoin: URIs)</source>
+        <source>Request payments (generates QR codes and litedash: URIs)</source>
         <translation>Pyydä maksuja (Luo QR koodit ja Litedash: URIt)</translation>
     </message>
     <message>
@@ -443,7 +443,7 @@
         <translation>Avaa &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a flowercoin: URI or payment request</source>
+        <source>Open a litedash: URI or payment request</source>
         <translation>Avaa Litedash: URI tai maksupyyntö</translation>
     </message>
     <message>
@@ -1264,9 +1264,9 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/flowercoin/</source>
+https://www.transifex.com/projects/p/litedash/</source>
         <translation>Puuttuuko sopiva kieli tai käännös on kesken? Auta käännöstyössä täällä:
-https://www.transifex.com/projects/p/flowercoin/</translation>
+https://www.transifex.com/projects/p/litedash/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1569,7 +1569,7 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Maksupyyntövirhe</translation>
     </message>
     <message>
-        <source>Cannot start flowercoin: click-to-pay handler</source>
+        <source>Cannot start litedash: click-to-pay handler</source>
         <translation>Ei voi käynnistää Litedashia: click-to-pay handler</translation>
     </message>
     <message>
@@ -2297,7 +2297,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Jos mukautettu siirtomaksu on asetettu 1000 duff ja siirtotapahtuma on vain 250 tavua,&lt;br /&gt;tällöin "per kilotavu" maksaa vain 250 duffs siirtomaksun, kun taas "yhteensä vähintään" maksaa 1000 duffs.&lt;br /&gt;Siirtotapahtumat jotka ovat isompia kuin kilotavu, molemmat maksaa "per kilotavu".</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for flowercoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for litedash transactions than the network can process.</source>
         <translation>Minimi siirtomaksun maksaminen on ok niin kauan kun siirtotapahtumien määrä on pienempi kuin tila lohkoissa.&lt;br /&gt;Mutta ota huomioon että tämä voi johtaa siirtotapahtumaan jota ei vahvisteta koskaan, jos siirtotapahtumia on enemmän kuin verkko voi käsitellä.</translation>
     </message>
     <message>
@@ -2564,7 +2564,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Viesti:</translation>
     </message>
     <message>
-        <source>A message that was attached to the flowercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</source>
+        <source>A message that was attached to the litedash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</source>
         <translation>Viesti joka liitettiin Litedash: URI joka talletetaan siirtotapahtuman kanssa viitteeksi sinulle. Huomio: Tätä viestiä ei lähetetä Litedash verkkoon.</translation>
     </message>
     <message>
@@ -3325,7 +3325,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
 </context>
 <context>
-    <name>flowercoin-core</name>
+    <name>litedash-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Kytkeydy annettuun osoitteeseen ja pidä linja aina auki. Käytä [host]:port merkintätapaa IPv6:lle.</translation>
@@ -3717,10 +3717,10 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
 Käännös päivitetty: 1.9.2015 by AjM.</translation>
     </message>
     <message>
-        <source>To use flowercoind, or the -server option to flowercoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use litedashd, or the -server option to litedash-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=flowercoinrpc
+rpcuser=litedashrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3728,10 +3728,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Litedash Alert" admin@foo.com
 </source>
-        <translation>Käyttääksesi flowercoind:ia tai -server valintaa flowercoin-qt:lle, sinun tulee asettaa rpc salasana asetustiedostossa:
+        <translation>Käyttääksesi litedashd:ia tai -server valintaa litedash-qt:lle, sinun tulee asettaa rpc salasana asetustiedostossa:
 %s
 Suositellaan että käytät allaolevaa satunnaista salasanaa:
-rpcuser=flowercoinrpc
+rpcuser=litedashrpc
 rpcpassword=%s
 (sinun ei tarvitse muistaa tätä salasanaa)
 Käyttäjätunnus ja salasana on oltava ERILAISET.

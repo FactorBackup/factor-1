@@ -188,7 +188,7 @@
         <translation>Портфейлът е шифриран</translation>
     </message>
     <message>
-        <source>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your flowercoins from being stolen by malware infecting your computer.</source>
+        <source>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litedashs from being stolen by malware infecting your computer.</source>
         <translation>Litedash ще се затвори, за да завърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да ви предпази от кражба на монетите чрез зловреден софтуер инфектирал компютъра ви. </translation>
     </message>
     <message>
@@ -263,7 +263,7 @@
         <translation>&amp;Получаване</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and flowercoin: URIs)</source>
+        <source>Request payments (generates QR codes and litedash: URIs)</source>
         <translation>Заявка за плащане (генерира QR кодове и Litedash: URI)</translation>
     </message>
     <message>
@@ -443,7 +443,7 @@
         <translation>Отвори &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a flowercoin: URI or payment request</source>
+        <source>Open a litedash: URI or payment request</source>
         <translation>Отвори Litedash: URI или заявка за плащане</translation>
     </message>
     <message>
@@ -1263,9 +1263,9 @@ Address: %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/flowercoin/</source>
+https://www.transifex.com/projects/p/litedash/</source>
         <translation>Липсва език или превода е непълен? Можете да помогнете с превода тук:
-https://www.transifex.com/projects/p/flowercoin/</translation>
+https://www.transifex.com/projects/p/litedash/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1568,8 +1568,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Грешка в заявката за плащане</translation>
     </message>
     <message>
-        <source>Cannot start flowercoin: click-to-pay handler</source>
-        <translation>Не може да стартира flowercoin: кликни за плащане на притежателя</translation>
+        <source>Cannot start litedash: click-to-pay handler</source>
+        <translation>Не може да стартира litedash: кликни за плащане на притежателя</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2292,8 +2292,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Ако променената такса е 1000 duffs и транзакцията е само 250 байта, тогава "за килобайт" само плаща такса 250 duffs,&lt;br /&gt; тогава"за последно" заплаща 1000 duffs. За транзакции по-големи от килобайт едновременно се заплащат от килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for flowercoin transactions than the network can process.</source>
-        <translation>Разплащането само минималната такса ще продължи толкова дълго,докато транзакцията заема по-малък обем в блоковото пространство.&lt;br /&gt; Но имайте предвид, че транзакцията може да се окаже без първоначално потвърждение ако се появи голямо търсене на flowercoin транзакции отколкото мрежата може да обработи.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for litedash transactions than the network can process.</source>
+        <translation>Разплащането само минималната такса ще продължи толкова дълго,докато транзакцията заема по-малък обем в блоковото пространство.&lt;br /&gt; Но имайте предвид, че транзакцията може да се окаже без първоначално потвърждение ако се появи голямо търсене на litedash транзакции отколкото мрежата може да обработи.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2559,8 +2559,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the flowercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</source>
-        <translation>Съобщението което беше прикрепено към flowercoin: URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през Litedash мрежата.</translation>
+        <source>A message that was attached to the litedash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</source>
+        <translation>Съобщението което беше прикрепено към litedash: URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през Litedash мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3320,7 +3320,7 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
 </context>
 <context>
-    <name>flowercoin-core</name>
+    <name>litedash-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Свързва се с посочения адрес и винаги слуша за него. Използвайте [хост]:порт за изписване при IPv6</translation>
@@ -3710,10 +3710,10 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Този продукт включва софтуер, разработен от проекта OpenSSL за използване в OpenSSL Toolkit &lt;https://www.openssl.org/&gt; и криптографски софтуер, написан от Eric Young и UPnP софтуер, написан от Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use flowercoind, or the -server option to flowercoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use litedashd, or the -server option to litedash-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=flowercoinrpc
+rpcuser=litedashrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3721,7 +3721,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Litedash Alert" admin@foo.com
 </source>
-        <translation>За използване на flowercoind, или the -server опция към flowercoin-qt, трябва да зададете rpcpassword в конфигурационния файл: %s Препоръчително е да използвате следната произволна парола: rpcuser=flowercoinrpc rpcpassword=%s (не е нужно да запомняте тази парола) Потребителя и паролата НЕ ТРЯБВА да са еднакви. Ако файла не съществува , създайте го с права за само за четене. Препоръчително е да създадете сигнал за уведомяване за да бъдете осведомени при проблем; Пример: alertnotify=echo %%s | mail -s "Litedash Alert" admin@foo.com 
+        <translation>За използване на litedashd, или the -server опция към litedash-qt, трябва да зададете rpcpassword в конфигурационния файл: %s Препоръчително е да използвате следната произволна парола: rpcuser=litedashrpc rpcpassword=%s (не е нужно да запомняте тази парола) Потребителя и паролата НЕ ТРЯБВА да са еднакви. Ако файла не съществува , създайте го с права за само за четене. Препоръчително е да създадете сигнал за уведомяване за да бъдете осведомени при проблем; Пример: alertnotify=echo %%s | mail -s "Litedash Alert" admin@foo.com 
 </translation>
     </message>
     <message>

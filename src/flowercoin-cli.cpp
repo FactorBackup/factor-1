@@ -25,7 +25,7 @@ std::string HelpMessageCli()
     string strUsage;
     strUsage += _("Options:") + "\n";
     strUsage += "  -?                     " + _("This help message") + "\n";
-    strUsage += "  -conf=<file>           " + strprintf(_("Specify configuration file (default: %s)"), "flowercoin.conf") + "\n";
+    strUsage += "  -conf=<file>           " + strprintf(_("Specify configuration file (default: %s)"), "litedash.conf") + "\n";
     strUsage += "  -datadir=<dir>         " + _("Specify data directory") + "\n";
     strUsage += "  -testnet               " + _("Use the test network") + "\n";
     strUsage += "  -regtest               " + _("Enter regression test mode, which uses a special chain in which blocks can be "
@@ -71,9 +71,9 @@ static bool AppInitRPC(int argc, char* argv[])
         std::string strUsage = _("Litedash Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  flowercoin-cli [options] <command> [params]  " + _("Send command to Litedash Core") + "\n" +
-                  "  flowercoin-cli [options] help                " + _("List commands") + "\n" +
-                  "  flowercoin-cli [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  litedash-cli [options] <command> [params]  " + _("Send command to Litedash Core") + "\n" +
+                  "  litedash-cli [options] help                " + _("List commands") + "\n" +
+                  "  litedash-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessageCli();
         }

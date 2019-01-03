@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout 
 #
-if [ -d "/var/lib/flowercoin/.flowercoin" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/flowercoin/.flowercoin"
+if [ -d "/var/lib/litedash/.litedash" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/litedash/.litedash"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/flowercoind"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/litedashd"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/flowercoin/flowercoin.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/flowercoind}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/flowercoind.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/litedash/litedash.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/litedashd}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/litedashd.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-flowercoin}
-BITCOIND_GROUP=${BITCOIND_GROUP:-flowercoin}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/flowercoind}
+BITCOIND_USER=${BITCOIND_USER:-litedash}
+BITCOIND_GROUP=${BITCOIND_GROUP:-litedash}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/litedashd}
 
 name="Litedash Core Daemon"
 description="Litedash crypto-currency p2p network daemon"
 
-command="/usr/bin/flowercoind"
+command="/usr/bin/litedashd"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run flowercoind."
+		eerror "ERROR: You must set a secure rpcpassword to run litedashd."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "

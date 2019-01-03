@@ -2013,7 +2013,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("flowercoin-scriptch");
+    RenameThread("litedash-scriptch");
     scriptcheckqueue.Thread();
 }
 

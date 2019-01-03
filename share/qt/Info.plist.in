@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.flowercoin.LitedashPayment</string>
+      <string>io.litedash.LitedashPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>flowercoin</string>
+        <string>litedash</string>
       </array>
     </dict>
   </array>
@@ -52,7 +52,7 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.flowercoin.paymentrequest</string>
+      <string>io.litedash.paymentrequest</string>
       <key>UTTypeDescription</key>
       <string>Litedash payment request</string>
       <key>UTTypeConformsTo</key>
@@ -62,7 +62,7 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-flowercoin-payment-request</string>
+        <string>application/x-litedash-payment-request</string>
         <key>public.filename-extension</key>
         <array>
           <string>iondismentrequest</string>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.flowercoin.paymentrequest</string>
+        <string>io.litedash.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

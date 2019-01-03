@@ -33,7 +33,7 @@ Release Process
 
 	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
 	export VERSION=(new version, e.g. 0.8.0)
-	pushd ./flowercoin
+	pushd ./litedash
 	git checkout v${VERSION}
 	popd
 	pushd ./gitian-builder
@@ -54,29 +54,29 @@ Release Process
 
   By default, gitian will fetch source files as needed. For offline builds, they can be fetched ahead of time:
 
-	make -C ../flowercoin/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../litedash/depends download SOURCES_PATH=`pwd`/cache/common
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
 ###Build Litedash Core for Linux, Windows, and OS X:
 
-	./bin/gbuild --commit flowercoin=v${VERSION} ../flowercoin/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../flowercoin/contrib/gitian-descriptors/gitian-linux.yml
-	mv build/out/flowercoin-*.tar.gz build/out/src/flowercoin-*.tar.gz ../
-	./bin/gbuild --commit flowercoin=v${VERSION} ../flowercoin/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs/ ../flowercoin/contrib/gitian-descriptors/gitian-win.yml
-	mv build/out/flowercoin-*.zip build/out/flowercoin-*.exe ../
-	./bin/gbuild --commit bitcoin=v${VERSION} ../flowercoin/contrib/gitian-descriptors/gitian-osx.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../flowercoin/contrib/gitian-descriptors/gitian-osx.yml
-	mv build/out/flowercoin-*-unsigned.tar.gz inputs/flowercoin-osx-unsigned.tar.gz
-	mv build/out/flowercoin-*.tar.gz build/out/flowercoin-*.dmg ../
+	./bin/gbuild --commit litedash=v${VERSION} ../litedash/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../litedash/contrib/gitian-descriptors/gitian-linux.yml
+	mv build/out/litedash-*.tar.gz build/out/src/litedash-*.tar.gz ../
+	./bin/gbuild --commit litedash=v${VERSION} ../litedash/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs/ ../litedash/contrib/gitian-descriptors/gitian-win.yml
+	mv build/out/litedash-*.zip build/out/litedash-*.exe ../
+	./bin/gbuild --commit bitcoin=v${VERSION} ../litedash/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../litedash/contrib/gitian-descriptors/gitian-osx.yml
+	mv build/out/litedash-*-unsigned.tar.gz inputs/litedash-osx-unsigned.tar.gz
+	mv build/out/litedash-*.tar.gz build/out/litedash-*.dmg ../
 	popd
   Build output expected:
 
-  1. source tarball (flowercoin-${VERSION}.tar.gz)
-  2. linux 32-bit and 64-bit binaries dist tarballs (flowercoin-${VERSION}-linux[32|64].tar.gz)
-  3. windows 32-bit and 64-bit installers and dist zips (flowercoin-${VERSION}-win[32|64]-setup.exe, flowercoin-${VERSION}-win[32|64].zip)
-  4. OSX unsigned installer (flowercoin-${VERSION}-osx-unsigned.dmg)
+  1. source tarball (litedash-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit binaries dist tarballs (litedash-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit installers and dist zips (litedash-${VERSION}-win[32|64]-setup.exe, litedash-${VERSION}-win[32|64].zip)
+  4. OSX unsigned installer (litedash-${VERSION}-osx-unsigned.dmg)
   5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|win|osx-unsigned>/(your gitian key)/
 
 ###Next steps:
@@ -100,9 +100,9 @@ Commit your signature to gitian.sigs:
 	pushd ./gitian-builder
 	# Fetch the signature as instructed by Evan
 	cp signature.tar.gz inputs/
-	./bin/gbuild -i ../flowercoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../flowercoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	mv build/out/flowercoin-osx-signed.dmg ../flowercoin-${VERSION}-osx.dmg
+	./bin/gbuild -i ../litedash/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../litedash/contrib/gitian-descriptors/gitian-osx-signer.yml
+	mv build/out/litedash-osx-signed.dmg ../litedash-${VERSION}-osx.dmg
 	popd
 
 Commit your signature for the signed OSX binary:
@@ -151,7 +151,7 @@ rm SHA256SUMS
 
 - Announce the release:
 
-  - Release sticky on flowercointalk: https://flowercointalk.org/index.php?board=1.0 ***TODO***
+  - Release sticky on litedashtalk: https://litedashtalk.org/index.php?board=1.0 ***TODO***
 
   - Litedash-development mailing list
 
@@ -159,7 +159,7 @@ rm SHA256SUMS
 
   - Optionally reddit /r/Iondis, ... but this will usually sort out itself
 
-- Notify Flare (?) ***TODO*** so that he can start building [https://launchpad.net/~iondis/+archive/ubuntu/flowercoin](the PPAs) ***TODO***
+- Notify Flare (?) ***TODO*** so that he can start building [https://launchpad.net/~iondis/+archive/ubuntu/litedash](the PPAs) ***TODO***
 
 - Add release notes for the new version to the directory `doc/release-notes` in git master
 

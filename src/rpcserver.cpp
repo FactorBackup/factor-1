@@ -309,16 +309,16 @@ static const CRPCCommand vRPCCommands[] =
     { "hidden",             "setmocktime",            &setmocktime,            true,      false,      false },
 
     /* Litedash features */
-    { "flowercoin",               "masternode",             &masternode,             true,      true,       false },
-    { "flowercoin",               "masternodelist",         &masternodelist,         true,      true,       false },
-    { "flowercoin",               "masternodebroadcast",    &masternodebroadcast,    true,      true,       false },
-    { "flowercoin",               "mnbudget",               &mnbudget,               true,      true,       false },
-    { "flowercoin",               "mnbudgetvoteraw",        &mnbudgetvoteraw,        true,      true,       false },
-    { "flowercoin",               "mnfinalbudget",          &mnfinalbudget,          true,      true,       false },
-    { "flowercoin",               "mnsync",                 &mnsync,                 true,      true,       false },
-    { "flowercoin",               "spork",                  &spork,                  true,      true,       false },
+    { "litedash",               "masternode",             &masternode,             true,      true,       false },
+    { "litedash",               "masternodelist",         &masternodelist,         true,      true,       false },
+    { "litedash",               "masternodebroadcast",    &masternodebroadcast,    true,      true,       false },
+    { "litedash",               "mnbudget",               &mnbudget,               true,      true,       false },
+    { "litedash",               "mnbudgetvoteraw",        &mnbudgetvoteraw,        true,      true,       false },
+    { "litedash",               "mnfinalbudget",          &mnfinalbudget,          true,      true,       false },
+    { "litedash",               "mnsync",                 &mnsync,                 true,      true,       false },
+    { "litedash",               "spork",                  &spork,                  true,      true,       false },
 #ifdef ENABLE_WALLET
-    { "flowercoin",               "darksend",               &darksend,               false,     false,      true  }, /* not threadSafe because of SendMoney */
+    { "litedash",               "darksend",               &darksend,               false,     false,      true  }, /* not threadSafe because of SendMoney */
 
     /* Wallet */
     { "wallet",             "addmultisigaddress",     &addmultisigaddress,     true,      false,      true },
@@ -587,10 +587,10 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-            _("To use flowercoind, or the -server option to flowercoin-qt, you must set an rpcpassword in the configuration file:\n"
+            _("To use litedashd, or the -server option to litedash-qt, you must set an rpcpassword in the configuration file:\n"
               "%s\n"
               "It is recommended you use the following random password:\n"
-              "rpcuser=flowercoinrpc\n"
+              "rpcuser=litedashrpc\n"
               "rpcpassword=%s\n"
               "(you do not need to remember this password)\n"
               "The username and password MUST NOT be the same.\n"
@@ -1047,7 +1047,7 @@ json_spirit::Value CRPCTable::execute(const std::string &strMethod, const json_s
 }
 
 std::string HelpExampleCli(string methodname, string args){
-    return "> flowercoin-cli " + methodname + " " + args + "\n";
+    return "> litedash-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args){

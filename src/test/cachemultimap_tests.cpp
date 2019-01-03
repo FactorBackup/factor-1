@@ -2,7 +2,7 @@
 
 #include "cachemultimap.h"
 
-#include "test/test_flowercoin.h"
+#include "test/test_litedash.h"
 
 #include <algorithm>
 #include <iostream>

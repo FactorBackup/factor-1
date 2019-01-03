@@ -1,9 +1,9 @@
 Litedash Core staging tree 0.12
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/iondis/flowercoin.svg?branch=master)](https://travis-ci.org/iondis/flowercoin) `v0.12.0.x:` [![Build Status](https://travis-ci.org/iondis/flowercoin.svg?branch=v0.12.0.x)](https://travis-ci.org/iondis/flowercoin/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/iondis/flowercoin.svg?branch=v0.12.1.x)](https://travis-ci.org/iondis/flowercoin/branches)
+`master:` [![Build Status](https://travis-ci.org/iondis/litedash.svg?branch=master)](https://travis-ci.org/iondis/litedash) `v0.12.0.x:` [![Build Status](https://travis-ci.org/iondis/litedash.svg?branch=v0.12.0.x)](https://travis-ci.org/iondis/litedash/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/iondis/litedash.svg?branch=v0.12.1.x)](https://travis-ci.org/iondis/litedash/branches)
 
-https://www.flowercoin.org
+https://www.litedash.org
 
 Copyright (c) 2009-2015 Bitcoin Core Developers
 
@@ -20,7 +20,7 @@ are carried out collectively by the network. Litedash Core is the name of open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Litedash Core software, see https://www.flowercoin.org/downloads.
+the Litedash Core software, see https://www.litedash.org/downloads.
 
 
 License
@@ -68,7 +68,7 @@ Translations
 ------------
 
 Changes to translations as well as new translations can be submitted to
-[Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/flowercoin/).
+[Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/litedash/).
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.
@@ -76,7 +76,7 @@ Translations are periodically pulled from Transifex and merged into the git repo
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
 
-Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/flowercoin-translators). ***TODO***
+Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/litedash-translators). ***TODO***
 
 Development tips and tricks
 ---------------------------
@@ -99,7 +99,7 @@ to see it.
 
 **testnet and regtest modes**
 
-Run with the -testnet option to run with "play flowercoin" on the test network, if you
+Run with the -testnet option to run with "play litedash" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the -regtest option.

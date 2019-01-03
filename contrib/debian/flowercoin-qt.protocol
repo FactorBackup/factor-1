@@ -1,6 +1,6 @@
 [Protocol]
-exec=flowercoin-qt '%u'
-protocol=flowercoin
+exec=litedash-qt '%u'
+protocol=litedash
 input=none
 output=none
 helper=true

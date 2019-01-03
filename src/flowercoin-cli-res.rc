@@ -19,10 +19,10 @@ BEGIN
             VALUE "CompanyName",        "Litedash"
             VALUE "FileDescription",    "Litedash-cli (OSS RPC client for Litedash)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "flowercoin-cli"
+            VALUE "InternalName",       "litedash-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "flowercoin-cli.exe"
+            VALUE "OriginalFilename",   "litedash-cli.exe"
             VALUE "ProductName",        "Litedash-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

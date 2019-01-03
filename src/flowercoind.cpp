@@ -65,7 +65,7 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/flowercoin.conf are parsed in qt/flowercoin.cpp's main()
+    // If Qt is used, parameters/litedash.conf are parsed in qt/litedash.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
@@ -80,7 +80,7 @@ bool AppInit(int argc, char* argv[])
         else
         {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  flowercoind [options]                     " + _("Start Litedash Core Daemon") + "\n";
+                  "  litedashd [options]                     " + _("Start Litedash Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -119,12 +119,12 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "flowercoin:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "litedash:"))
                 fCommandLine = true;
 
         if (fCommandLine)
         {
-            fprintf(stderr, "Error: There is no RPC client functionality in flowercoind anymore. Use the flowercoin-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in litedashd anymore. Use the litedash-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
@@ -188,7 +188,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect flowercoind signal handlers
+    // Connect litedashd signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

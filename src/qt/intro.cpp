@@ -191,8 +191,8 @@ void Intro::pickDataDirectory()
         settings.setValue("strDataDir", dataDir);
     }
     /* Only override -datadir if different from the default, to make it possible to
-     * override -datadir in the flowercoin.conf file in the default data directory
-     * (to be consistent with flowercoind behavior)
+     * override -datadir in the litedash.conf file in the default data directory
+     * (to be consistent with litedashd behavior)
      */
     if(dataDir != getDefaultDataDirectory())
         SoftSetArg("-datadir", GUIUtil::qstringToBoostPath(dataDir).string()); // use OS locale for path setting

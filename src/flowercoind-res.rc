@@ -19,10 +19,10 @@ BEGIN
             VALUE "CompanyName",        "Litedash"
             VALUE "FileDescription",    "Darkcoind (OSS daemon/client for Litedash)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "flowercoind"
+            VALUE "InternalName",       "litedashd"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "flowercoind.exe"
+            VALUE "OriginalFilename",   "litedashd.exe"
             VALUE "ProductName",        "Darkcoind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

@@ -188,7 +188,7 @@
         <translation>Portefeuille chiffré</translation>
     </message>
     <message>
-        <source>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your flowercoins from being stolen by malware infecting your computer.</source>
+        <source>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litedashs from being stolen by malware infecting your computer.</source>
         <translation>Litedash va à présent se fermer pour terminer le chiffrement. N'oubliez pas que le chiffrement de votre portefeuille n'est pas une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
     </message>
     <message>
@@ -263,8 +263,8 @@
         <translation>&amp;Recevoir</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and flowercoin: URIs)</source>
-        <translation>Demande de paiements (Générer des QR code et des URIs flowercoin)</translation>
+        <source>Request payments (generates QR codes and litedash: URIs)</source>
+        <translation>Demande de paiements (Générer des QR code et des URIs litedash)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -443,8 +443,8 @@
         <translation>Ouvrir un &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a flowercoin: URI or payment request</source>
-        <translation>Ouvrir une URI ou demande de paiement flowercoin</translation>
+        <source>Open a litedash: URI or payment request</source>
+        <translation>Ouvrir une URI ou demande de paiement litedash</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1263,9 +1263,9 @@ Adresse : %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/flowercoin/</source>
+https://www.transifex.com/projects/p/litedash/</source>
         <translation>Langage manquant ou traduction incomplète ? Participez aux traductions ici :
-https://www.transifex.com/projects/p/flowercoin/</translation>
+https://www.transifex.com/projects/p/litedash/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1568,8 +1568,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Erreur de demande de paiement</translation>
     </message>
     <message>
-        <source>Cannot start flowercoin: click-to-pay handler</source>
-        <translation>Impossible de démarrer flowercoin: click-to-pay le gestionnaire</translation>
+        <source>Cannot start litedash: click-to-pay handler</source>
+        <translation>Impossible de démarrer litedash: click-to-pay le gestionnaire</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2292,7 +2292,7 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Si les frais personnalisés sont à 1000 duffs et que la transaction fait seulement 250 octets, alors "par kilooctet" payera seulement 250 duffs de frais,&lt;br /&gt;alors que "total au moins" payera 1000 duffs. Pour les transactions de plus d'un kilooctet les deux payeront par kilooctet.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for flowercoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for litedash transactions than the network can process.</source>
         <translation>Payer les frais minimums fonctionne tant qu'il y a moins de volume de transactions que de place dans les blocs.&lt;br/&gt;Mais soyez conscients que ceci peut amener a des transactions qui ne seront jamais confirmées lorsqu'il y aura plus de demande que la capacité du réseau.</translation>
     </message>
     <message>
@@ -2559,7 +2559,7 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Message :</translation>
     </message>
     <message>
-        <source>A message that was attached to the flowercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</source>
+        <source>A message that was attached to the litedash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</source>
         <translation>Un message qui était joint au Litedash : URI qui sera sauvegardée avec la transaction pour référence. Note : Ce message ne sera pas envoyé à travers le réseau Litedash.</translation>
     </message>
     <message>
@@ -3320,7 +3320,7 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
 </context>
 <context>
-    <name>flowercoin-core</name>
+    <name>litedash-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Se lier à l'adresse donnée et toujours l'écouter. Utilisez la notation [host]:port pour l'IPv6</translation>
@@ -3710,10 +3710,10 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Ce produit comprend des logiciels développés par le projet OpenSSL afin d'être utilisés dans la boîte à outils OpenSSL &lt;https://www.openssl.org/&gt;, un logiciel de chiffrement écrit par Eric Young et un logiciel UPnP développé par Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use flowercoind, or the -server option to flowercoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use litedashd, or the -server option to litedash-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=flowercoinrpc
+rpcuser=litedashrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3721,10 +3721,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Litedash Alert" admin@foo.com
 </source>
-        <translation>Pour utiliser flowercoind, ou le paramètre -server de flowercoin-qt, vous devez définir un rpc mot de passe dans le fichier de configuration:
+        <translation>Pour utiliser litedashd, ou le paramètre -server de litedash-qt, vous devez définir un rpc mot de passe dans le fichier de configuration:
 %s
 Il est recommandé que vous utilisiez ce mot de passe aléatoire:
-rpcuser=flowercoinrpc
+rpcuser=litedashrpc
 rpcpassword=%s
 (Vous ne devez pas vous souvenir de ce mot de passe)
 Le nom d'utilisateur et le mot de passe NE DOIVENT PAS être équivalent.
@@ -4217,7 +4217,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Litedash" admin@foo.com
     </message>
     <message>
         <source>Keep N LITEDASH anonymized (default: %u)</source>
-        <translation>Maintenir N flowercoin anonymisé en permanence (défaut: %u)</translation>
+        <translation>Maintenir N litedash anonymisé en permanence (défaut: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

@@ -12,8 +12,8 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via InstantSend
 
 This mechanism has been integrated into Bitcore-Node-Litedash which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/iondis/insight-api-flowercoin#web-socket-api](https://github.com/iondis/insight-api-flowercoin#web-socket-api) 
-* API: [https://github.com/iondis/insight-api-flowercoin#instantsend-transactions](https://github.com/iondis/insight-api-flowercoin#instantsend-transactions) 
+* WebSocket: [https://github.com/iondis/insight-api-litedash#web-socket-api](https://github.com/iondis/insight-api-litedash#web-socket-api) 
+* API: [https://github.com/iondis/insight-api-litedash#instantsend-transactions](https://github.com/iondis/insight-api-litedash#instantsend-transactions) 
 
 ####Command line option
 

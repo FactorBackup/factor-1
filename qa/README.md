@@ -31,9 +31,9 @@ Possible options:
 
 ```
   -h, --help            show this help message and exit
-  --nocleanup           Leave flowercoinds and test.* datadir on exit or error
-  --noshutdown          Don't stop flowercoinds after the test execution
-  --srcdir=SRCDIR       Source directory containing flowercoind/flowercoin-cli
+  --nocleanup           Leave litedashds and test.* datadir on exit or error
+  --noshutdown          Don't stop litedashds after the test execution
+  --srcdir=SRCDIR       Source directory containing litedashd/litedash-cli
                         (default: ../../src)
   --tmpdir=TMPDIR       Root directory for datadirs
   --tracerpc            Print out all RPC calls as they are made
@@ -58,7 +58,7 @@ to recover with:
 
 ```bash
 rm -rf cache
-killall flowercoind
+killall litedashd
 ```
 
 Writing tests

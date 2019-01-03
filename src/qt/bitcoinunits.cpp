@@ -44,9 +44,9 @@ QString BitcoinUnits::id(int unit)
 {
     switch(unit)
     {
-        case LITEDASH: return QString("flowercoin");
-        case mLITEDASH: return QString("mflowercoin");
-        case uLITEDASH: return QString::fromUtf8("uflowercoin");
+        case LITEDASH: return QString("litedash");
+        case mLITEDASH: return QString("mlitedash");
+        case uLITEDASH: return QString::fromUtf8("ulitedash");
         case duffs: return QString("duffs");
         default: return QString("???");
     }

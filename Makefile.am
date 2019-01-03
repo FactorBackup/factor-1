@@ -4,9 +4,9 @@ SUBDIRS = src
 
 GZIP_ENV="-9n"
 
-BITCOIND_BIN=$(top_builddir)/src/flowercoind$(EXEEXT)
-BITCOIN_QT_BIN=$(top_builddir)/src/qt/flowercoin-qt$(EXEEXT)
-BITCOIN_CLI_BIN=$(top_builddir)/src/flowercoin-cli$(EXEEXT)
+BITCOIND_BIN=$(top_builddir)/src/litedashd$(EXEEXT)
+BITCOIN_QT_BIN=$(top_builddir)/src/qt/litedash-qt$(EXEEXT)
+BITCOIN_CLI_BIN=$(top_builddir)/src/litedash-cli$(EXEEXT)
 BITCOIN_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
 
 OSX_APP=Litedash-Qt.app
@@ -31,9 +31,9 @@ OSX_PACKAGING = $(OSX_DEPLOY_SCRIPT) $(OSX_FANCY_PLIST) $(OSX_INSTALLER_ICONS) \
   $(top_srcdir)/contrib/macdeploy/detached-sig-create.sh
 
 COVERAGE_INFO = baseline_filtered_combined.info baseline.info block_test.info \
-  leveldb_baseline.info test_flowercoin_filtered.info total_coverage.info \
+  leveldb_baseline.info test_litedash_filtered.info total_coverage.info \
   baseline_filtered.info block_test_filtered.info \
-  leveldb_baseline_filtered.info test_flowercoin_coverage.info test_flowercoin.info
+  leveldb_baseline_filtered.info test_litedash_coverage.info test_litedash.info
 
 dist-hook:
 	-$(MAKE) -C $(top_distdir)/src/leveldb clean
@@ -147,16 +147,16 @@ leveldb_baseline_filtered.info: leveldb_baseline.info
 baseline_filtered_combined.info: leveldb_baseline_filtered.info baseline_filtered.info
 	$(LCOV) -a leveldb_baseline_filtered.info -a baseline_filtered.info -o $@
 
-test_flowercoin.info: baseline_filtered_combined.info
+test_litedash.info: baseline_filtered_combined.info
 	$(MAKE) -C src/ check
-	$(LCOV) -c -d $(abs_builddir)/src -t test_flowercoin -o $@
+	$(LCOV) -c -d $(abs_builddir)/src -t test_litedash -o $@
 	$(LCOV) -z -d $(abs_builddir)/src
 	$(LCOV) -z -d $(abs_builddir)/src/leveldb
 
-test_flowercoin_filtered.info: test_flowercoin.info
+test_litedash_filtered.info: test_litedash.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-block_test.info: test_flowercoin_filtered.info
+block_test.info: test_litedash_filtered.info
 	$(MKDIR_P) qa/tmp
 	-@TIMEOUT=15 qa/pull-tester/run-bitcoind-for-test.sh $(JAVA) -jar $(JAVA_COMPARISON_TOOL) qa/tmp/compTool 0
 	$(LCOV) -c -d $(abs_builddir)/src --t BitcoinJBlockTest -o $@
@@ -166,13 +166,13 @@ block_test.info: test_flowercoin_filtered.info
 block_test_filtered.info: block_test.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-test_flowercoin_coverage.info: baseline_filtered_combined.info test_flowercoin_filtered.info
-	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_flowercoin_filtered.info -o $@
+test_litedash_coverage.info: baseline_filtered_combined.info test_litedash_filtered.info
+	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_litedash_filtered.info -o $@
 
-total_coverage.info:  baseline_filtered_combined.info test_flowercoin_filtered.info block_test_filtered.info
-	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_flowercoin_filtered.info -a block_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
+total_coverage.info:  baseline_filtered_combined.info test_litedash_filtered.info block_test_filtered.info
+	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_litedash_filtered.info -a block_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
 
-test_flowercoin.coverage/.dirstamp:  test_flowercoin_coverage.info
+test_litedash.coverage/.dirstamp:  test_litedash_coverage.info
 	$(GENHTML) -s $< -o $(@D)
 	@touch $@
 
@@ -180,7 +180,7 @@ total.coverage/.dirstamp: total_coverage.info
 	$(GENHTML) -s $< -o $(@D)
 	@touch $@
 
-cov: test_flowercoin.coverage/.dirstamp total.coverage/.dirstamp
+cov: test_litedash.coverage/.dirstamp total.coverage/.dirstamp
 
 endif
 
@@ -199,4 +199,4 @@ CLEANFILES = $(OSX_DMG) $(BITCOIN_WIN_INSTALLER)
 .INTERMEDIATE: $(COVERAGE_INFO)
 
 clean-local:
-	rm -rf test_flowercoin.coverage/ total.coverage/ $(OSX_APP)
+	rm -rf test_litedash.coverage/ total.coverage/ $(OSX_APP)

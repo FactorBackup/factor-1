@@ -235,8 +235,8 @@
     </message>
     <message>
         <location line="-57"/>
-        <source>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your flowercoins from being stolen by malware infecting your computer.</source>
-        <translation>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your flowercoins from being stolen by malware infecting your computer.</translation>
+        <source>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litedashs from being stolen by malware infecting your computer.</source>
+        <translation>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litedashs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -336,8 +336,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Request payments (generates QR codes and flowercoin: URIs)</source>
-        <translation>Request payments (generates QR codes and flowercoin: URIs)</translation>
+        <source>Request payments (generates QR codes and litedash: URIs)</source>
+        <translation>Request payments (generates QR codes and litedash: URIs)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -562,8 +562,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Open a flowercoin: URI or payment request</source>
-        <translation>Open a flowercoin: URI or payment request</translation>
+        <source>Open a litedash: URI or payment request</source>
+        <translation>Open a litedash: URI or payment request</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1587,9 +1587,9 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/flowercoin/</source>
+https://www.transifex.com/projects/p/litedash/</source>
         <translation>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/flowercoin/</translation>
+https://www.transifex.com/projects/p/litedash/</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1990,8 +1990,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="-400"/>
-        <source>Cannot start flowercoin: click-to-pay handler</source>
-        <translation>Cannot start flowercoin: click-to-pay handler</translation>
+        <source>Cannot start litedash: click-to-pay handler</source>
+        <translation>Cannot start litedash: click-to-pay handler</translation>
     </message>
     <message>
         <location line="+104"/>
@@ -2925,8 +2925,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for flowercoin transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for flowercoin transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for litedash transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for litedash transactions than the network can process.</translation>
     </message>
     <message>
         <location line="-59"/>
@@ -3268,8 +3268,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the flowercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</source>
-        <translation>A message that was attached to the flowercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</translation>
+        <source>A message that was attached to the litedash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</source>
+        <translation>A message that was attached to the litedash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</translation>
     </message>
     <message>
         <location line="+426"/>
@@ -4242,9 +4242,9 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
 </context>
 <context>
-    <name>flowercoin-core</name>
+    <name>litedash-core</name>
     <message>
-        <location filename="../flowercoinstrings.cpp" line="+22"/>
+        <location filename="../litedashstrings.cpp" line="+22"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Bind to given address and always listen on it. Use [host]:port notation for IPv6</translation>
     </message>
@@ -4730,10 +4730,10 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>To use flowercoind, or the -server option to flowercoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use litedashd, or the -server option to litedash-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=flowercoinrpc
+rpcuser=litedashrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -4741,10 +4741,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Litedash Alert&quot; admin@foo.com
 </source>
-        <translation>To use flowercoind, or the -server option to flowercoin-qt, you must set an rpcpassword in the configuration file:
+        <translation>To use litedashd, or the -server option to litedash-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=flowercoinrpc
+rpcuser=litedashrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

@@ -457,7 +457,7 @@ void static BitcoinMiner(CWallet *pwallet)
 {
     LogPrintf("LitedashMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("flowercoin-miner");
+    RenameThread("litedash-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);

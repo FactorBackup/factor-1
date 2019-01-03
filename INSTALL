@@ -7,10 +7,10 @@ Use the autogen script to prepare the build environment.
     make
 
 Precompiled binaries are available at github, see
-https://github.com/flowercoinproject/flowercoin-binaries
+https://github.com/litedashproject/litedash-binaries
 
 Always verify the signatures and checksums.
 
-See doc/build-*.md for instructions on building flowercoind,
+See doc/build-*.md for instructions on building litedashd,
 the intended-for-services, no-graphical-interface, reference
 implementation of Litedash.

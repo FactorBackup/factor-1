@@ -51,14 +51,14 @@ using namespace boost;
 using namespace std;
 
 const int BITCOIN_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
-const QString BITCOIN_IPC_PREFIX("flowercoin:");
+const QString BITCOIN_IPC_PREFIX("litedash:");
 // BIP70 payment protocol messages
 const char* BIP70_MESSAGE_PAYMENTACK = "PaymentACK";
 const char* BIP70_MESSAGE_PAYMENTREQUEST = "PaymentRequest";
 // BIP71 payment protocol media types
-const char* BIP71_MIMETYPE_PAYMENT = "application/flowercoin-payment";
-const char* BIP71_MIMETYPE_PAYMENTACK = "application/flowercoin-paymentack";
-const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/flowercoin-paymentrequest";
+const char* BIP71_MIMETYPE_PAYMENT = "application/litedash-payment";
+const char* BIP71_MIMETYPE_PAYMENTACK = "application/litedash-paymentack";
+const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/litedash-paymentrequest";
 // BIP70 max payment request size in bytes (DoS protection)
 const qint64 BIP70_MAX_PAYMENTREQUEST_SIZE = 50000;
 
@@ -199,11 +199,11 @@ void PaymentServer::ipcParseCommandLine(int argc, char* argv[])
         if (arg.startsWith("-"))
             continue;
 
-        // If the flowercoin: URI contains a payment request, we are not able to detect the
+        // If the litedash: URI contains a payment request, we are not able to detect the
         // network as that would require fetching and parsing the payment request.
         // That means clicking such an URI which contains a testnet payment request
         // will start a mainnet instance and throw a "wrong network" error.
-        if (arg.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // flowercoin: URI
+        if (arg.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // litedash: URI
         {
             savedPaymentRequests.append(arg);
 
@@ -299,7 +299,7 @@ PaymentServer::PaymentServer(QObject* parent, bool startLocalServer) :
     GOOGLE_PROTOBUF_VERIFY_VERSION;
 
     // Install global event filter to catch QFileOpenEvents
-    // on Mac: sent when you click flowercoin: links
+    // on Mac: sent when you click litedash: links
     // other OSes: helpful when dealing with payment request files (in the future)
     if (parent)
         parent->installEventFilter(this);
@@ -316,7 +316,7 @@ PaymentServer::PaymentServer(QObject* parent, bool startLocalServer) :
         if (!uriServer->listen(name)) {
             // constructor is called early in init, so don't use "emit message()" here
             QMessageBox::critical(0, tr("Payment request error"),
-                tr("Cannot start flowercoin: click-to-pay handler"));
+                tr("Cannot start litedash: click-to-pay handler"));
         }
         else {
             connect(uriServer, SIGNAL(newConnection()), this, SLOT(handleURIConnection()));
@@ -331,12 +331,12 @@ PaymentServer::~PaymentServer()
 }
 
 //
-// OSX-specific way of handling flowercoin: URIs and
+// OSX-specific way of handling litedash: URIs and
 // PaymentRequest mime types
 //
 bool PaymentServer::eventFilter(QObject *object, QEvent *event)
 {
-    // clicking on flowercoin: URIs creates FileOpen events on the Mac
+    // clicking on litedash: URIs creates FileOpen events on the Mac
     if (event->type() == QEvent::FileOpen)
     {
         QFileOpenEvent *fileEvent = static_cast<QFileOpenEvent*>(event);
@@ -358,7 +358,7 @@ void PaymentServer::initNetManager()
     if (netManager != NULL)
         delete netManager;
 
-    // netManager is used to fetch paymentrequests given in flowercoin: URIs
+    // netManager is used to fetch paymentrequests given in litedash: URIs
     netManager = new QNetworkAccessManager(this);
 
     QNetworkProxy proxy;
@@ -398,7 +398,7 @@ void PaymentServer::handleURIOrFile(const QString& s)
         return;
     }
 
-    if (s.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // flowercoin: URI
+    if (s.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // litedash: URI
     {
 #if QT_VERSION < 0x050000
         QUrl uri(s);
@@ -563,7 +563,7 @@ bool PaymentServer::processPaymentRequest(PaymentRequestPlus& request, SendCoins
             addresses.append(QString::fromStdString(CBitcoinAddress(dest).ToString()));
         }
         else if (!recipient.authenticatedMerchant.isEmpty()) {
-            // Insecure payments to custom flowercoin addresses are not supported
+            // Insecure payments to custom litedash addresses are not supported
             // (there is no good way to tell the user where they are paying in a way
             // they'd have a chance of understanding).
             emit message(tr("Payment request rejected"),

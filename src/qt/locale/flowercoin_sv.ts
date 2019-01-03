@@ -176,7 +176,7 @@
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your flowercoins from being stolen by malware infecting your computer.</source>
+        <source>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litedashs from being stolen by malware infecting your computer.</source>
         <translation>Litedash kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina Litedash stjäls av skadeprogram som har infekterat din dator.</translation>
     </message>
     <message>
@@ -252,7 +252,7 @@
         <translation>&amp;Motta</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and flowercoin: URIs)</source>
+        <source>Request payments (generates QR codes and litedash: URIs)</source>
         <translation>Begär betalningar (genererar QR-koder och Litedash:-URI:s)</translation>
     </message>
     <message>
@@ -404,7 +404,7 @@
         <translation>Öppna &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a flowercoin: URI or payment request</source>
+        <source>Open a litedash: URI or payment request</source>
         <translation>Öppna en Litedash-URI eller betalningsbegäran</translation>
     </message>
     <message>
@@ -1106,9 +1106,9 @@ Adress: %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/flowercoin/</source>
+https://www.transifex.com/projects/p/litedash/</source>
         <translation>Fattas språk eller är det en ofullständig översättning? Hjälp till att bidra med översättningar här:
-https://www.transifex.com/projects/p/flowercoin/</translation>
+https://www.transifex.com/projects/p/litedash/</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1335,8 +1335,8 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start flowercoin: click-to-pay handler</source>
-        <translation>Kan inte starta flowercoin: klicka-för-att-betala hanterare</translation>
+        <source>Cannot start litedash: click-to-pay handler</source>
+        <translation>Kan inte starta litedash: klicka-för-att-betala hanterare</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1958,7 +1958,7 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
         <translation>Meddelande:</translation>
     </message>
     <message>
-        <source>A message that was attached to the flowercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</source>
+        <source>A message that was attached to the litedash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</source>
         <translation>Ett meddelande som bifogades till Litedash: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över Litedash-nätverket.</translation>
     </message>
     <message>
@@ -2656,7 +2656,7 @@ https://www.transifex.com/projects/p/flowercoin/</translation>
     </message>
 </context>
 <context>
-    <name>flowercoin-core</name>
+    <name>litedash-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Sammanbind till fastställd adress och avlyssna alltid den. Använd [host]:port-notation för IPv6</translation>

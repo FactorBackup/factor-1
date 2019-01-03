@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/flowercoin-config.h"
+#include "config/litedash-config.h"
 #endif
 
 #include "util.h"
@@ -232,8 +232,8 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "flowercoin" is a composite category enabling all Litedash-related debug output
-            if(ptrCategory->count(string("flowercoin"))) {
+            // "litedash" is a composite category enabling all Litedash-related debug output
+            if(ptrCategory->count(string("litedash"))) {
                 ptrCategory->insert(string("darksend"));
                 ptrCategory->insert(string("instantx"));
                 ptrCategory->insert(string("masternode"));
@@ -396,7 +396,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "flowercoin";
+    const char* pszModule = "litedash";
 #endif
     if (pex)
         return strprintf(
@@ -420,7 +420,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\Litedash
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\Litedash
     // Mac: ~/Library/Application Support/Litedash
-    // Unix: ~/.flowercoin
+    // Unix: ~/.litedash
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "Litedash";
@@ -438,7 +438,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "Litedash";
 #else
     // Unix
-    return pathRet / ".flowercoin";
+    return pathRet / ".litedash";
 #endif
 #endif
 }
@@ -485,7 +485,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "flowercoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "litedash.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -504,7 +504,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()){
-        // Create empty flowercoin.conf if it does not excist
+        // Create empty litedash.conf if it does not excist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -516,7 +516,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
     {
-        // Don't overwrite existing settings so command line settings override flowercoin.conf
+        // Don't overwrite existing settings so command line settings override litedash.conf
         string strKey = string("-") + it->string_key;
         if (mapSettingsRet.count(strKey) == 0)
         {
@@ -533,7 +533,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 #ifndef WIN32
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "flowercoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "litedashd.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

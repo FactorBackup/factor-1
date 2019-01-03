@@ -3,13 +3,13 @@ Description=Litedash's distributed currency daemon
 After=network.target
 
 [Service]
-User=flowercoin
-Group=flowercoin
+User=litedash
+Group=litedash
 
 Type=forking
-PIDFile=/var/lib/flowercoind/flowercoind.pid
-ExecStart=/usr/bin/flowercoind -daemon -pid=/var/lib/flowercoind/flowercoind.pid \
--conf=/etc/flowercoin/flowercoin.conf -datadir=/var/lib/flowercoind -disablewallet
+PIDFile=/var/lib/litedashd/litedashd.pid
+ExecStart=/usr/bin/litedashd -daemon -pid=/var/lib/litedashd/litedashd.pid \
+-conf=/etc/litedash/litedash.conf -datadir=/var/lib/litedashd -disablewallet
 
 Restart=always
 PrivateTmp=true
