@@ -1,42 +1,42 @@
-Litedash Core staging tree 0.12
+Factor Core staging tree 0.12
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/iondis/litedash.svg?branch=master)](https://travis-ci.org/iondis/litedash) `v0.12.0.x:` [![Build Status](https://travis-ci.org/iondis/litedash.svg?branch=v0.12.0.x)](https://travis-ci.org/iondis/litedash/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/iondis/litedash.svg?branch=v0.12.1.x)](https://travis-ci.org/iondis/litedash/branches)
+`master:` [![Build Status](https://travis-ci.org/pmadi/litedash.svg?branch=master)](https://travis-ci.org/pmadi/litedash) `v0.12.0.x:` [![Build Status](https://travis-ci.org/pmadi/litedash.svg?branch=v0.12.0.x)](https://travis-ci.org/pmadi/litedash/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/pmadi/litedash.svg?branch=v0.12.1.x)](https://travis-ci.org/pmadi/litedash/branches)
 
 https://www.litedash.org
 
 Copyright (c) 2009-2015 Bitcoin Core Developers
 
-Copyright (c) 2014-2015 Litedash Core Developers
+Copyright (c) 2014-2015 Factor Core Developers
 
 
-What is Litedash?
+What is Factor?
 ----------------
 
-Litedash is an experimental new digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. Litedash uses peer-to-peer technology
+Factor is an experimental new digital currency that enables anonymous, instant
+payments to anyone, anywhere in the world. Factor uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Litedash Core is the name of open
+are carried out collectively by the network. Factor Core is the name of open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Litedash Core software, see https://www.litedash.org/downloads.
+the Factor Core software, see https://www.litedash.org/downloads.
 
 
 License
 -------
 
-Litedash Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Factor Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see http://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/iondis/litedash/tags) are created to indicate new official,
-stable release versions of Litedash Core.
+[Tags](https://github.com/pmadi/factor/tags) are created to indicate new official,
+stable release versions of Factor Core.
 
-The contribution workflow is described in [CONTRIBUTING.md](https://github.com/iondis/litedash/blob/v0.12.1.x/CONTRIBUTING.md).
+The contribution workflow is described in [CONTRIBUTING.md](https://github.com/pmadi/factor/blob/v0.12.1.x/CONTRIBUTING.md).
 
 
 Testing
@@ -55,14 +55,14 @@ submit new unit tests for old code. Unit tests can be compiled and run (assuming
 Every pull request is built for both Windows and Linux on a dedicated server,
 and unit and sanity tests are automatically run. The binaries produced may be
 used for manual QA testing — a link to them will appear in a comment on the
-pull request posted by [LitedashPullTester](https://github.com/iondis/PullTester). See https://github.com/TheBlueMatt/test-scripts
+pull request posted by [FactorPullTester](https://github.com/pmadi/PullTester). See https://github.com/TheBlueMatt/test-scripts
 for the build/test scripts. ***TODO***
 
 ### Manual Quality Assurance (QA) Testing
 
 Large changes should have a test plan, and should be tested by somebody other
 than the developer who wrote the code.
-See https://github.com/iondis/QA/ for how to create a test plan. ***TODO***
+See https://github.com/pmadi/QA/ for how to create a test plan. ***TODO***
 
 Translations
 ------------
@@ -108,7 +108,8 @@ that run in -regtest mode.
 
 **DEBUG_LOCKORDER**
 
-Litedash Core is a multithreaded application, and deadlocks or other multithreading bugs
+Factor Core is a multithreaded application, and deadlocks or other multithreading bugs
 can be very difficult to track down. Compiling with -DDEBUG_LOCKORDER (configure
 CXXFLAGS="-DDEBUG_LOCKORDER -g") inserts run-time checks to keep track of which locks
 are held, and adds warnings to the debug.log file if inconsistencies are detected.
+# factor
