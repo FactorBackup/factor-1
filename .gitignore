@@ -6,12 +6,12 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/flowercoin
-src/flowercoind
-src/flowercoin-cli
-src/flowercoin-tx
-src/test/test_flowercoin
-src/qt/test/test_flowercoin-qt
+src/litedash
+src/litedashd
+src/litedash-cli
+src/litedash-tx
+src/test/test_litedash
+src/qt/test/test_litedash-qt
 
 # autoreconf
 Makefile.in
