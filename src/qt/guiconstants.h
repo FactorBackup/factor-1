@@ -46,7 +46,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "Flowercoin"
-#define QAPP_ORG_DOMAIN "dmrtsvetkov.io"
+#define QAPP_ORG_DOMAIN "iondis.io"
 #define QAPP_APP_NAME_DEFAULT "Flowercoin-Qt"
 #define QAPP_APP_NAME_TESTNET "Flowercoin-Qt-testnet"
 

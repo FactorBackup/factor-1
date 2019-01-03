@@ -34,7 +34,7 @@ Drag Flowercoin-Qt to your applications folder, and then run Flowercoin-Qt.
 
 * See the documentation at the [Flowercoin Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [#dmrtsvetkov](http://webchat.freenode.net?channels=dmrtsvetkov) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=dmrtsvetkov).
+* Ask for help on [#iondis](http://webchat.freenode.net?channels=iondis) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=iondis).
 * Ask for help on the [FlowercoinTalk](https://flowercointalk.org/) forums.
 
 Building
@@ -58,7 +58,7 @@ The Flowercoin repo's [root README](https://github.com/iondis/litedash/blob/mast
 
 ### Resources
 * Discuss on the [FlowercoinTalk](https://flowercointalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#dmrtsvetkov](http://webchat.freenode.net/?channels=dmrtsvetkov) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=dmrtsvetkov).
+* Discuss on [#iondis](http://webchat.freenode.net/?channels=iondis) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=iondis).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

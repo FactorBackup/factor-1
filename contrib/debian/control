@@ -22,7 +22,7 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage: http://www.dmrtsvetkov.io/
+Homepage: http://www.iondis.io/
 Vcs-Git: git://github.com/iondis/litedash.git
 Vcs-Browser: http://github.com/iondis/litedash
 

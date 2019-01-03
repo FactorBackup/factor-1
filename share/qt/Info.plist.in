@@ -32,7 +32,7 @@
   <string>Flowercoin-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.dmrtsvetkov.Flowercoin-Qt</string>
+  <string>io.iondis.Flowercoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -65,7 +65,7 @@
         <string>application/x-flowercoin-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>dmrtsvetkovmentrequest</string>
+          <string>iondismentrequest</string>
         </array>
       </dict>
     </dict>

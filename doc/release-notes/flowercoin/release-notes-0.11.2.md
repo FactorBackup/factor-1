@@ -3,7 +3,7 @@
 
 Flowercoin Core version 0.11.2 is now available from:
 
-  https://dmrtsvetkov.io/downloads
+  https://iondis.io/downloads
 
 Please report bugs using the issue tracker at github:
 

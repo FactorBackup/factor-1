@@ -37,8 +37,8 @@ CActiveMasternode activeMasternode;
 
 /* *** BEGIN DARKSEND MAGIC - FLOWERCOIN **********
     Copyright (c) 2014-2015, Flowercoin Developers
-        eduffield - evan@dmrtsvetkov.io
-        udjinm6   - udjinm6@dmrtsvetkov.io
+        eduffield - evan@iondis.io
+        udjinm6   - udjinm6@iondis.io
 */
 
 void CDarksendPool::ProcessMessageDarksend(CNode* pfrom, std::string& strCommand, CDataStream& vRecv)
