@@ -2,6 +2,6 @@
 host = https://www.transifex.com
 
 [flowercoin.qt-translation-010x]
-file_filter = src/qt/locale/flowercoin_<lang>.ts
-source_file = src/qt/locale/flowercoin_en.ts
+file_filter = src/qt/locale/litedash_<lang>.ts
+source_file = src/qt/locale/litedash_en.ts
 source_lang = en
