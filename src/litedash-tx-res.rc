@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Litedash"
-            VALUE "FileDescription",    "litedash-tx (CLI Litedash transaction editor utility)"
+            VALUE "CompanyName",        "Factor"
+            VALUE "FileDescription",    "litedash-tx (CLI Factor transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "litedash-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR

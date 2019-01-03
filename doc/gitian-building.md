@@ -1,9 +1,9 @@
 Gitian building
 ================
 
-*Setup instructions for a gitian build of Litedash using a Debian VM or physical system.*
+*Setup instructions for a gitian build of Factor using a Debian VM or physical system.*
 
-Gitian is the deterministic build process that is used to build the Litedash
+Gitian is the deterministic build process that is used to build the Factor
 Core executables. It provides a way to be reasonably sure that the
 executables are really built from source on GitHub. It also makes sure that
 the same, tested dependencies are used and statically built into the executable.
@@ -11,7 +11,7 @@ the same, tested dependencies are used and statically built into the executable.
 Multiple developers build the source code by following a specific descriptor
 ("recipe"), cryptographically sign the result, and upload the resulting signature.
 These results are compared and only if they match, the build is accepted and uploaded
-to iondis.io.
+to pmadi.io.
 
 More independent gitian builders are needed, which is why I wrote this
 guide. It is preferred to follow these steps yourself instead of using someone else's
@@ -26,7 +26,7 @@ Table of Contents
 - [Installing gitian](#installing-gitian)
 - [Setting up gitian images](#setting-up-gitian-images)
 - [Getting and building the inputs](#getting-and-building-the-inputs)
-- [Building Litedash](#building-litedash)
+- [Building Factor](#building-litedash)
 - [Building an alternative repository](#building-an-alternative-repository)
 - [Signing externally](#signing-externally)
 - [Uploading signatures](#uploading-signatures)
@@ -281,7 +281,7 @@ Clone the git repositories for litedash and gitian and then checkout the litedas
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/iondis/litedash.git
+git clone https://github.com/pmadi/factor.git
 cd litedash
 git checkout v${VERSION}
 cd ..
@@ -326,10 +326,10 @@ under 'Fetch and build inputs' to install sources which require manual intervent
 the next step: 'Seed the Gitian sources cache', which will fetch all necessary source files allowing
 for gitian to work offline.
 
-Building Litedash
+Building Factor
 ----------------
 
-To build Litedash (for Linux, OSX and Windows) just follow the steps under 'perform
+To build Factor (for Linux, OSX and Windows) just follow the steps under 'perform
 gitian builds' in [doc/release-process.md](release-process.md) in the litedash repository.
 
 This may take a long time as it also builds the dependencies needed for each descriptor.
@@ -350,7 +350,7 @@ Output from `gbuild` will look something like
     remote: Total 35606 (delta 0), reused 0 (delta 0)
     Receiving objects: 100% (35606/35606), 26.52 MiB | 4.28 MiB/s, done.
     Resolving deltas: 100% (25724/25724), done.
-    From https://github.com/iondis/litedash
+    From https://github.com/pmadi/factor
     ... (new tags, new branch etc)
     --- Building for precise x86_64 ---
     Stopping target if it is up
@@ -408,6 +408,6 @@ Uploading signatures (not yet implemented)
 ---------------------
 
 In the future it will be possible to push your signatures (both the `.assert` and `.assert.sig` files) to the
-[litedash/gitian.sigs](https://github.com/iondis/gitian.sigs/) repository, or if that's not possible to create a pull
+[litedash/gitian.sigs](https://github.com/pmadi/gitian.sigs/) repository, or if that's not possible to create a pull
 request.
 There will be an official announcement when this repository is online.

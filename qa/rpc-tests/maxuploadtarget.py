@@ -87,7 +87,7 @@ class MaxUploadTest(BitcoinTestFramework):
  
     def add_options(self, parser):
         parser.add_option("--testbinary", dest="testbinary",
-                          default=os.getenv("LITEDASHD", "litedashd"),
+                          default=os.getenv("FACTORD", "litedashd"),
                           help="litedashd binary to test")
 
     def setup_chain(self):

@@ -1,9 +1,9 @@
-Litedash Core 0.12.0
+Factor Core 0.12.0
 =====================
 
 Intro
 -----
-Litedash is a free open source peer-to-peer electronic cash system that is
+Factor is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -13,8 +13,8 @@ Setup
 -----
 Unpack the files into a directory and run litedash-qt.exe.
 
-Litedash Core is the original Litedash client and it builds the backbone of the network.
-However, it downloads and stores the entire history of Litedash transactions;
+Factor Core is the original Factor client and it builds the backbone of the network.
+However, it downloads and stores the entire history of Factor transactions;
 depending on the speed of your computer and network connection, the synchronization
 process can take anywhere from a few hours to a day or more.
 

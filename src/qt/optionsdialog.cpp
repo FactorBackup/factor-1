@@ -82,8 +82,8 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
     
     /* Theme selector */
-    ui->theme->addItem(QString("LITEDASH-blue"), QVariant("drkblue"));
-    ui->theme->addItem(QString("LITEDASH-traditional"), QVariant("trad"));
+    ui->theme->addItem(QString("FACTOR-blue"), QVariant("drkblue"));
+    ui->theme->addItem(QString("FACTOR-traditional"), QVariant("trad"));
 
     
     /* Language selector */

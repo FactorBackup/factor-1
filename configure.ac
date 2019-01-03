@@ -6,7 +6,7 @@ define(_CLIENT_VERSION_REVISION, 0)
 define(_CLIENT_VERSION_BUILD, 1)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2017)
-AC_INIT([Litedash Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[info@litedash.org],[litedash])
+AC_INIT([Factor Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[info@litedash.org],[litedash])
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([src/config/litedash-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
@@ -14,9 +14,9 @@ AC_CONFIG_MACRO_DIR([build-aux/m4])
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef LITEDASH_CONFIG_H])
-AH_TOP([#define LITEDASH_CONFIG_H])
-AH_BOTTOM([#endif //LITEDASH_CONFIG_H])
+AH_TOP([#ifndef FACTOR_CONFIG_H])
+AH_TOP([#define FACTOR_CONFIG_H])
+AH_BOTTOM([#endif //FACTOR_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME

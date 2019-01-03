@@ -93,7 +93,7 @@ public:
 };
 
 /**
- * Litedash RPC command dispatcher.
+ * Factor RPC command dispatcher.
  */
 class CRPCTable
 {

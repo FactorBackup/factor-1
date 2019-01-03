@@ -1,8 +1,8 @@
-// Copyright (c) 2014-2017 The Litedash Core developers
+// Copyright (c) 2014-2017 The Factor Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-//#define ENABLE_LITEDASH_DEBUG
+//#define ENABLE_FACTOR_DEBUG
 
 #include "activemasternode.h"
 #include "darksend.h"

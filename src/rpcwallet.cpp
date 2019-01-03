@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Litedash developers
+// Copyright (c) 2014-2015 The Factor developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -84,7 +84,7 @@ Value getnewaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "getnewaddress ( \"account\" )\n"
-            "\nReturns a new Litedash address for receiving payments.\n"
+            "\nReturns a new Factor address for receiving payments.\n"
             "If 'account' is specified (recommended), it is added to the address book \n"
             "so payments received with the address will be credited to 'account'.\n"
             "\nArguments:\n"
@@ -160,7 +160,7 @@ Value getaccountaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() != 1)
         throw runtime_error(
             "getaccountaddress \"account\"\n"
-            "\nReturns the current Litedash address for receiving payments to this account.\n"
+            "\nReturns the current Factor address for receiving payments to this account.\n"
             "\nArguments:\n"
             "1. \"account\"       (string, required) The account name for the address. It can also be set to the empty string \"\" to represent the default account. The account does not need to exist, it will be created and a new address created  if there is no account by the given name.\n"
             "\nResult:\n"
@@ -188,7 +188,7 @@ Value getrawchangeaddress(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "getrawchangeaddress\n"
-            "\nReturns a new Litedash address, for receiving change.\n"
+            "\nReturns a new Factor address, for receiving change.\n"
             "This is for use with raw transactions, NOT normal use.\n"
             "\nResult:\n"
             "\"address\"    (string) The address\n"
@@ -229,7 +229,7 @@ Value setaccount(const Array& params, bool fHelp)
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Litedash address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Factor address");
 
 
     string strAccount;
@@ -272,7 +272,7 @@ Value getaccount(const Array& params, bool fHelp)
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Litedash address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Factor address");
 
     string strAccount;
     map<CTxDestination, CAddressBookData>::iterator mi = pwalletMain->mapAddressBook.find(address.Get());
@@ -331,7 +331,7 @@ void SendMoney(const CTxDestination &address, CAmount nValue, CWalletTx& wtxNew,
         throw JSONRPCError(RPC_WALLET_ERROR, strError);
     }
 
-    // Parse Litedash address
+    // Parse Factor address
     CScript scriptPubKey = GetScriptForDestination(address);
 
     // Create and send the transaction
@@ -373,7 +373,7 @@ Value sendtoaddress(const Array& params, bool fHelp)
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Litedash address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Factor address");
 
     // Amount
     CAmount nAmount = AmountFromValue(params[1]);
@@ -417,7 +417,7 @@ Value sendtoaddressix(const Array& params, bool fHelp)
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Litedash address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Factor address");
 
     // Amount
     CAmount nAmount = AmountFromValue(params[1]);
@@ -555,10 +555,10 @@ Value getreceivedbyaddress(const Array& params, bool fHelp)
             + HelpExampleRpc("getreceivedbyaddress", "\"XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg\", 6")
        );
 
-    // Litedash address
+    // Factor address
     CBitcoinAddress address = CBitcoinAddress(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Litedash address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Factor address");
     CScript scriptPubKey = GetScriptForDestination(address.Get());
     if (!IsMine(*pwalletMain,scriptPubKey))
         return (double)0.0;
@@ -851,7 +851,7 @@ Value sendfrom(const Array& params, bool fHelp)
     string strAccount = AccountFromValue(params[0]);
     CBitcoinAddress address(params[1].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Litedash address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Factor address");
     CAmount nAmount = AmountFromValue(params[2]);
     int nMinDepth = 1;
     if (params.size() > 3)
@@ -924,7 +924,7 @@ Value sendmany(const Array& params, bool fHelp)
     {
         CBitcoinAddress address(s.name_);
         if (!address.IsValid())
-            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, string("Invalid Litedash address: ")+s.name_);
+            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, string("Invalid Factor address: ")+s.name_);
 
         if (setAddress.count(address))
             throw JSONRPCError(RPC_INVALID_PARAMETER, string("Invalid parameter, duplicated address: ")+s.name_);
@@ -966,7 +966,7 @@ Value addmultisigaddress(const Array& params, bool fHelp)
     {
         string msg = "addmultisigaddress nrequired [\"key\",...] ( \"account\" )\n"
             "\nAdd a nrequired-to-sign multisignature address to the wallet.\n"
-            "Each key is a Litedash address or hex-encoded public key.\n"
+            "Each key is a Factor address or hex-encoded public key.\n"
             "If 'account' is specified, assign address to that account.\n"
 
             "\nArguments:\n"
@@ -2031,7 +2031,7 @@ Value settxfee(const Array& params, bool fHelp)
             "settxfee amount\n"
             "\nSet the transaction fee per kB.\n"
             "\nArguments:\n"
-            "1. amount         (numeric, required) The transaction fee in LITEDASH/kB rounded to the nearest 0.00000001\n"
+            "1. amount         (numeric, required) The transaction fee in FACTOR/kB rounded to the nearest 0.00000001\n"
             "\nResult\n"
             "true|false        (boolean) Returns true if successful\n"
             "\nExamples:\n"

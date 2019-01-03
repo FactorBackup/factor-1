@@ -62,12 +62,12 @@
         <translation>Địa chỉ nhận</translation>
     </message>
     <message>
-        <source>These are your Litedash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Đây là các địa chỉ Litedash của bạn để gửi thanh toán. Luôn luôn kiểm tra số tiền và địa chỉ nhận trước khi bạn gửi tiền.</translation>
+        <source>These are your Factor addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Đây là các địa chỉ Factor của bạn để gửi thanh toán. Luôn luôn kiểm tra số tiền và địa chỉ nhận trước khi bạn gửi tiền.</translation>
     </message>
     <message>
-        <source>These are your Litedash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Đây là các địa chỉ Litedash của bạn để nhận thanh toán. Gợi ý là sử dụng một địa chỉ nhận mới cho mỗi giao dịch.</translation>
+        <source>These are your Factor addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Đây là các địa chỉ Factor của bạn để nhận thanh toán. Gợi ý là sử dụng một địa chỉ nhận mới cho mỗi giao dịch.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Xác nhận mã hoá ví</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITEDASH&lt;/b&gt;!</source>
-        <translation>Chú ý: Nếu bạn mã hoá ví và mất mật khẩu, bạn sẽ &lt;b&gt;MẤT TẤT CẢ LITEDASH CỦA BẠN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FACTOR&lt;/b&gt;!</source>
+        <translation>Chú ý: Nếu bạn mã hoá ví và mất mật khẩu, bạn sẽ &lt;b&gt;MẤT TẤT CẢ FACTOR CỦA BẠN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Ví đã được mã hoá.</translation>
     </message>
     <message>
-        <source>Litedash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litedashs from being stolen by malware infecting your computer.</source>
-        <translation>Litedash sẽ được đóng lại bây giờ để hoàn thành tiến trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ litedash khỏi bị trộm bởi những mã độc lây nhiễm vào máy tính của bạn.</translation>
+        <source>Factor will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litedashs from being stolen by malware infecting your computer.</source>
+        <translation>Factor sẽ được đóng lại bây giờ để hoàn thành tiến trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ litedash khỏi bị trộm bởi những mã độc lây nhiễm vào máy tính của bạn.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Litedash Core</source>
-        <translation>Litedash Core</translation>
+        <source>Factor Core</source>
+        <translation>Factor Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,8 +255,8 @@
         <translation>&amp;Gửi</translation>
     </message>
     <message>
-        <source>Send coins to a Litedash address</source>
-        <translation>Gửi tiền vào địa chỉ Litedash</translation>
+        <source>Send coins to a Factor address</source>
+        <translation>Gửi tiền vào địa chỉ Factor</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -283,12 +283,12 @@
         <translation>Thoát ứng dụng</translation>
     </message>
     <message>
-        <source>&amp;About Litedash Core</source>
-        <translation>&amp;Về Litedash Core</translation>
+        <source>&amp;About Factor Core</source>
+        <translation>&amp;Về Factor Core</translation>
     </message>
     <message>
-        <source>Show information about Litedash Core</source>
-        <translation>Hiển thị thông tin về Litedash Core</translation>
+        <source>Show information about Factor Core</source>
+        <translation>Hiển thị thông tin về Factor Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Tuỳ chọn...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Litedash</source>
-        <translation>Thay đổi tuỳ chọn cấu hình cho Litedash</translation>
+        <source>Modify configuration options for Factor</source>
+        <translation>Thay đổi tuỳ chọn cấu hình cho Factor</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Ký vào &amp;thông điệp...</translation>
     </message>
     <message>
-        <source>Sign messages with your Litedash addresses to prove you own them</source>
-        <translation>Ký vào thông điệp với địa chỉ Litedash để chứng minh bạn là chủ của chúng</translation>
+        <source>Sign messages with your Factor addresses to prove you own them</source>
+        <translation>Ký vào thông điệp với địa chỉ Factor để chứng minh bạn là chủ của chúng</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Kiểm tra thông điệp...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litedash addresses</source>
-        <translation>Kiểm tra thông điệp để đảm bảo rằng nó đã được ký bằng địa chỉ Litedash nhất định</translation>
+        <source>Verify messages to ensure they were signed with specified Factor addresses</source>
+        <translation>Kiểm tra thông điệp để đảm bảo rằng nó đã được ký bằng địa chỉ Factor nhất định</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -451,8 +451,8 @@
         <translation>&amp;Các Tuỳ chọn dòng lệnh</translation>
     </message>
     <message>
-        <source>Litedash Core client</source>
-        <translation>Phần mềm Litedash Core</translation>
+        <source>Factor Core client</source>
+        <translation>Phần mềm Factor Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Đang đồng bộ những dữ liệu bổ sung: %p%</translation>
     </message>
     <message>
-        <source>Show the Litedash Core help message to get a list with possible Litedash command-line options</source>
-        <translation>Hiển thị hướng dẫn của Litedash Core để có danh sách đầy đủ các tuỳ chọn dòng lệnh của Litedash.</translation>
+        <source>Show the Factor Core help message to get a list with possible Factor command-line options</source>
+        <translation>Hiển thị hướng dẫn của Factor Core để có danh sách đầy đủ các tuỳ chọn dòng lệnh của Factor.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Bảng Thanh công cụ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litedash network</source>
-        <translation><numerusform>%n kết nối hiện thời tới mạng lưới của Litedash</numerusform></translation>
+        <source>%n active connection(s) to Factor network</source>
+        <translation><numerusform>%n kết nối hiện thời tới mạng lưới của Factor</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -864,28 +864,28 @@ Kiểu: %3
         <translation>Hãy chọn mức độ riêng tư.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 LITEDASH</source>
-        <translation>Sử dụng 2 masternode khác nhau để trộn số tiền lên đến 1000 LITEDASH</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 FACTOR</source>
+        <translation>Sử dụng 2 masternode khác nhau để trộn số tiền lên đến 1000 FACTOR</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 LITEDASH</source>
-        <translation>Sử dụng 8 masternode khác nhau để trộn số tiền lên đến 1000 LITEDASH</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 FACTOR</source>
+        <translation>Sử dụng 8 masternode khác nhau để trộn số tiền lên đến 1000 FACTOR</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Sử dụng 16 masternode khác nhau</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 LITEDASH to anonymize 1000 LITEDASH</source>
-        <translation>Tuỳ chọn này là nhanh nhất và sẽ mất chi phí khoảng ~0.025 LITEDASH để ẩn danh 1000 LITEDASH</translation>
+        <source>This option is the quickest and will cost about ~0.025 FACTOR to anonymize 1000 FACTOR</source>
+        <translation>Tuỳ chọn này là nhanh nhất và sẽ mất chi phí khoảng ~0.025 FACTOR để ẩn danh 1000 FACTOR</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 LITEDASH to anonymize 1000 LITEDASH</source>
-        <translation>Tuỳ chọn này là tương đối nhanh và sẽ mất chi phí khoảng ~0.05 LITEDASH để ẩn danh 1000 LITEDASH</translation>
+        <source>This option is moderately fast and will cost about 0.05 FACTOR to anonymize 1000 FACTOR</source>
+        <translation>Tuỳ chọn này là tương đối nhanh và sẽ mất chi phí khoảng ~0.05 FACTOR để ẩn danh 1000 FACTOR</translation>
     </message>
     <message>
-        <source>0.1 LITEDASH per 1000 LITEDASH you anonymize.</source>
-        <translation>0.1 LITEDASH cho mỗi 1000 LITEDASH bạn muốn ẩn danh.</translation>
+        <source>0.1 FACTOR per 1000 FACTOR you anonymize.</source>
+        <translation>0.1 FACTOR cho mỗi 1000 FACTOR bạn muốn ẩn danh.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -896,16 +896,16 @@ Kiểu: %3
         <translation>Cấu hình Darksend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Litedash's configuration screen.</source>
-        <translation>Darksend được thiết lập thành công về mức cơ bản (%1 và 2 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình Litedash.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Factor's configuration screen.</source>
+        <translation>Darksend được thiết lập thành công về mức cơ bản (%1 và 2 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình Factor.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Litedash's configuration screen.</source>
-        <translation>Darksend được thiết lập thành công về mức cao (%1 và 8 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình Litedash.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Factor's configuration screen.</source>
+        <translation>Darksend được thiết lập thành công về mức cao (%1 và 8 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình Factor.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Litedash's configuration screen.</source>
-        <translation>Darksend được thiết lập thành công về mức tối đa (%1 và 16 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình Litedash.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Factor's configuration screen.</source>
+        <translation>Darksend được thiết lập thành công về mức tối đa (%1 và 16 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình Factor.</translation>
     </message>
 </context>
 <context>
@@ -947,8 +947,8 @@ Kiểu: %3
         <translation>Sửa địa chỉ gửi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litedash address.</source>
-        <translation>Địa chỉ vừa nhập "%1" không phải địa chỉ Litedash hợp lệ.</translation>
+        <source>The entered address "%1" is not a valid Factor address.</source>
+        <translation>Địa chỉ vừa nhập "%1" không phải địa chỉ Factor hợp lệ.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -989,8 +989,8 @@ Kiểu: %3
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Litedash Core</source>
-        <translation>Litedash Core</translation>
+        <source>Factor Core</source>
+        <translation>Factor Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Kiểu: %3
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Litedash Core</source>
-        <translation>Về Litedash Core</translation>
+        <source>About Factor Core</source>
+        <translation>Về Factor Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Kiểu: %3
         <translation>Chào mừng</translation>
     </message>
     <message>
-        <source>Welcome to Litedash Core.</source>
-        <translation>Chào mừng đến với Litedash Core.</translation>
+        <source>Welcome to Factor Core.</source>
+        <translation>Chào mừng đến với Factor Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Litedash Core will store its data.</source>
-        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà Litedash Core sẽ lưu dữ liệu.</translation>
+        <source>As this is the first time the program is launched, you can choose where Factor Core will store its data.</source>
+        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà Factor Core sẽ lưu dữ liệu.</translation>
     </message>
     <message>
-        <source>Litedash Core will download and store a copy of the Litedash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Litedash Core sẽ tải và lưu một bản của sổ cái Litedash. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
+        <source>Factor Core will download and store a copy of the Factor block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Factor Core sẽ tải và lưu một bản của sổ cái Factor. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Kiểu: %3
         <translation>Sử dụng thư mục dữ liệu tuỳ chọn:</translation>
     </message>
     <message>
-        <source>Litedash Core</source>
-        <translation>Litedash Core</translation>
+        <source>Factor Core</source>
+        <translation>Factor Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1122,12 +1122,12 @@ Kiểu: %3
         <translation>&amp;Chính</translation>
     </message>
     <message>
-        <source>Automatically start Litedash after logging in to the system.</source>
-        <translation>Tự động khởi động Litedash sau khi đăng nhập hệ thống.</translation>
+        <source>Automatically start Factor after logging in to the system.</source>
+        <translation>Tự động khởi động Factor sau khi đăng nhập hệ thống.</translation>
     </message>
     <message>
-        <source>&amp;Start Litedash on system login</source>
-        <translation>&amp;Khởi động Litedash khi đăng nhập hệ thống</translation>
+        <source>&amp;Start Factor on system login</source>
+        <translation>&amp;Khởi động Factor khi đăng nhập hệ thống</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1154,8 +1154,8 @@ Kiểu: %3
         <translation>Số lượng này hoạt động như là một ngưỡng để tắt Darksend một khi nó đạt đến.</translation>
     </message>
     <message>
-        <source>Amount of Litedash to keep anonymized</source>
-        <translation>Lượng Litedash muốn giữ vô danh</translation>
+        <source>Amount of Factor to keep anonymized</source>
+        <translation>Lượng Factor muốn giữ vô danh</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1174,8 +1174,8 @@ Kiểu: %3
         <translation>Cho phép các kết nối tới</translation>
     </message>
     <message>
-        <source>Connect to the Litedash network through a SOCKS5 proxy.</source>
-        <translation>Kết nối với mạng lưới Litedash thông qua một SOCK5 proxy.</translation>
+        <source>Connect to the Factor network through a SOCKS5 proxy.</source>
+        <translation>Kết nối với mạng lưới Factor thông qua một SOCK5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1206,8 +1206,8 @@ Kiểu: %3
         <translation>&amp;Mạng</translation>
     </message>
     <message>
-        <source>Automatically open the Litedash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Tự động mở cổng phần mềm Litedash trên rounter. Nó chỉ làm việc khi router của bạn hỗ trợ UPnP và nó phải được bật.</translation>
+        <source>Automatically open the Factor client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Tự động mở cổng phần mềm Factor trên rounter. Nó chỉ làm việc khi router của bạn hỗ trợ UPnP và nó phải được bật.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1258,8 +1258,8 @@ Kiểu: %3
         <translation>&amp;Ngôn ngữ người dùng:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Litedash.</source>
-        <translation>Ngôn ngữ người dùng có thể thiết lập ở đây. Thiết lập này sẽ có tác dụng sau khi khởi động lại Litedash.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Factor.</source>
+        <translation>Ngôn ngữ người dùng có thể thiết lập ở đây. Thiết lập này sẽ có tác dụng sau khi khởi động lại Factor.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1347,8 +1347,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Biểu mẫu</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litedash network after a connection is established, but this process has not completed yet.</source>
-        <translation>Thông tin được hiển thị có thể đã lỗi thời. Ví của bạn sẽ tự động đồng bộ với mạng lưới Litedash sau khi kết nối được thiết lập, tuy nhiên quá trình này chưa hoàn thành.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Factor network after a connection is established, but this process has not completed yet.</source>
+        <translation>Thông tin được hiển thị có thể đã lỗi thời. Ví của bạn sẽ tự động đồng bộ với mạng lưới Factor sau khi kết nối được thiết lập, tuy nhiên quá trình này chưa hoàn thành.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1431,8 +1431,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Số tiền và số vòng:</translation>
     </message>
     <message>
-        <source>0 LITEDASH / 0 Rounds</source>
-        <translation>0 LITEDASH / 0 Vòng</translation>
+        <source>0 FACTOR / 0 Rounds</source>
+        <translation>0 FACTOR / 0 Vòng</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1588,8 +1588,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Địa chỉ thanh toán không hợp lệ %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Litedash address or malformed URI parameters.</source>
-        <translation>URI không thể phân tích. Nó có thể bởi địa chỉ Litedash không hợp lệ hoặc thông số URI dị hình.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Factor address or malformed URI parameters.</source>
+        <translation>URI không thể phân tích. Nó có thể bởi địa chỉ Factor không hợp lệ hoặc thông số URI dị hình.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1674,8 +1674,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Số lượng</translation>
     </message>
     <message>
-        <source>Enter a Litedash address (e.g. %1)</source>
-        <translation>Hãy nhập một địa chỉ Litedash (VD: %1)</translation>
+        <source>Enter a Factor address (e.g. %1)</source>
+        <translation>Hãy nhập một địa chỉ Factor (VD: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1764,8 +1764,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Số kết nối</translation>
     </message>
     <message>
-        <source>Open the Litedash debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Mở file nhật kỹ lỗi Litedash từ thư mục hiện tại. Nó có thể mất vài giây trong trường hợp file log lớn.</translation>
+        <source>Open the Factor debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Mở file nhật kỹ lỗi Factor từ thư mục hiện tại. Nó có thể mất vài giây trong trường hợp file log lớn.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1972,8 +1972,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Ra:</translation>
     </message>
     <message>
-        <source>Welcome to the Litedash RPC console.</source>
-        <translation>Chào mừng đến với giao tiếp Litedash RPC</translation>
+        <source>Welcome to the Factor RPC console.</source>
+        <translation>Chào mừng đến với giao tiếp Factor RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2035,8 +2035,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Tái &amp;sử dụng lại địa chỉ nhận đã có (không khuyến khích)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litedash network.</source>
-        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở. Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới Litedash.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Factor network.</source>
+        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở. Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới Factor.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,8 +2047,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Một nhãn tuỳ chọn để liên kết với địa chỉ nhận mới.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Litedash network.</source>
-        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở.&lt;br&gt;Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới Litedash.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Factor network.</source>
+        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở.&lt;br&gt;Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới Factor.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2496,8 +2496,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Thanh toán chỉ mức phí tối thiểu của %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Litedash address</source>
-        <translation>Cảnh báo: Địa chỉ Litedash không hợp lệ</translation>
+        <source>Warning: Invalid Factor address</source>
+        <translation>Cảnh báo: Địa chỉ Factor không hợp lệ</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Trả &amp;Cho</translation>
     </message>
     <message>
-        <source>The Litedash address to send the payment to</source>
-        <translation>Địa chỉ Litedash để gửi thanh toán</translation>
+        <source>The Factor address to send the payment to</source>
+        <translation>Địa chỉ Factor để gửi thanh toán</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,8 +2559,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Thông điệp:</translation>
     </message>
     <message>
-        <source>A message that was attached to the litedash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litedash network.</source>
-        <translation>Một thông điệp được đính với litedash: URI đó sẽ được lưu trữ với các giao dịch cho các bạn tham khảo. Lưu ý: Thông điệp này sẽ không được gửi qua mạng Litedash. </translation>
+        <source>A message that was attached to the litedash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Factor network.</source>
+        <translation>Một thông điệp được đính với litedash: URI đó sẽ được lưu trữ với các giao dịch cho các bạn tham khảo. Lưu ý: Thông điệp này sẽ không được gửi qua mạng Factor. </translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Litedash Core is shutting down...</source>
-        <translation>Litedash Core đang được tắt...</translation>
+        <source>Factor Core is shutting down...</source>
+        <translation>Factor Core đang được tắt...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Bạn có thể ký vào thông điệp với địa chỉ của bạn để chứng minh bạn là chủ của nó. Hãy cẩn thận không ký vào những gì mơ hồ, như là thứ lừa đảo để lừa bạn ký xác nhận của bạn vào đó cho họ. Chỉ ký vào những gì mà bạn hoàn thoàn đồng ý.</translation>
     </message>
     <message>
-        <source>The Litedash address to sign the message with</source>
-        <translation>Địa chỉ Litedash để ký cho thông điệp</translation>
+        <source>The Factor address to sign the message with</source>
+        <translation>Địa chỉ Factor để ký cho thông điệp</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Copy chữ ký hiện tại vào bộ đệm của hệ thống</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litedash address</source>
-        <translation>Ký vào thông điệp để chứng tỏ bạn sở hữu địa chỉ Litedash</translation>
+        <source>Sign the message to prove you own this Factor address</source>
+        <translation>Ký vào thông điệp để chứng tỏ bạn sở hữu địa chỉ Factor</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Hãy nhập địa chỉ ký, thông điệp (hãy chắc chắn rằng bạn copy cả các dấu xuống dòng, dấu cách, tab,... một cách chính xác) và chữ ký dưới đây để xác thực cho thông điệp. Hãy cẩn thận không thêm vào chữ ký hơn so với bản thân nó trong thông điệp đã ký, để tránh bị đánh lừa bởi kiểu tấn công người trung gian.</translation>
     </message>
     <message>
-        <source>The Litedash address the message was signed with</source>
-        <translation>Địa chỉ Litedash mà thông điệp được ký bởi</translation>
+        <source>The Factor address the message was signed with</source>
+        <translation>Địa chỉ Factor mà thông điệp được ký bởi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litedash address</source>
-        <translation>Kiểm tra lại thông điệp để đảm bảo rằng nó được ký với địa chỉ Litedash cụ thể</translation>
+        <source>Verify the message to ensure it was signed with the specified Factor address</source>
+        <translation>Kiểm tra lại thông điệp để đảm bảo rằng nó được ký với địa chỉ Factor cụ thể</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Litedash Core</source>
-        <translation>Litedash Core</translation>
+        <source>Factor Core</source>
+        <translation>Factor Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Litedash Core developers</source>
-        <translation>Nhóm phát triển Litedash Core</translation>
+        <source>The Factor Core developers</source>
+        <translation>Nhóm phát triển Factor Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3276,8 +3276,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Gửi tiền</translation>
     </message>
     <message>
-        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 LITEDASH.</source>
-        <translation>InstantX không hỗ trợ để gửi giá trị lớn đến như vậy. Giới hạn giao dịch hiện tại đến %1 LITEDASH.</translation>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 FACTOR.</source>
+        <translation>InstantX không hỗ trợ để gửi giá trị lớn đến như vậy. Giới hạn giao dịch hiện tại đến %1 FACTOR.</translation>
     </message>
 </context>
 <context>
@@ -3326,8 +3326,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Liên kết với địa chỉ nhất định và luôn luôn lắng nghe trên đó. Sử dụng ký hiệu [host]:port cho IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Litedash Core is probably already running.</source>
-        <translation>Không nhận được một khoá trong thư mục %s. Litedash Core có thể đã đang chạy.</translation>
+        <source>Cannot obtain a lock on data directory %s. Factor Core is probably already running.</source>
+        <translation>Không nhận được một khoá trong thư mục %s. Factor Core có thể đã đang chạy.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,16 +3382,16 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Đây là phiên bản chưa chính thức - hãy dùng và tự chấp nhận mạo hiểm - đừng dùng để đào coin hoặc các ứng dụng thương mại.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Litedash Core is probably already running.</source>
-        <translation>Không thể để ràng buộc vào %s trên máy tính này. Litedash Core có thể đã chạy.</translation>
+        <source>Unable to bind to %s on this computer. Factor Core is probably already running.</source>
+        <translation>Không thể để ràng buộc vào %s trên máy tính này. Factor Core có thể đã chạy.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
         <translation>Không tìm đủ ngân sách Darksend denominated cho giao dịch này.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 LITEDASH.</source>
-        <translation>Không tìm đủ ngân sách Darksend denominated cho giao dịch mà nó không bằng 1000 LITEDASH</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 FACTOR.</source>
+        <translation>Không tìm đủ ngân sách Darksend denominated cho giao dịch mà nó không bằng 1000 FACTOR</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3614,8 +3614,8 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Xoá hết tất cả các giao dịch ví và chỉ phục hồi những phần đó của blockchain qua -rescan khi khởi động</translation>
     </message>
     <message>
-        <source>Disable all Litedash specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Tắt tất cả các chức năng đặc trưng của Litedash (Masternode, Darksend, InstantX, Lập ngân sách) (0-1, ngầm định: %u)</translation>
+        <source>Disable all Factor specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Tắt tất cả các chức năng đặc trưng của Factor (Masternode, Darksend, InstantX, Lập ngân sách) (0-1, ngầm định: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3634,12 +3634,12 @@ https://www.transifex.com/projects/p/litedash/</translation>
         <translation>Lỗi: Thấy tham số không được hỗ trợ -socks. Thiết lập phiên bản SOCKS là không thể được nữa, chỉ hỗ trợ proxy SOCKS5.</translation>
     </message>
     <message>
-        <source>Fees (in LITEDASH/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Phí (tính theo LITEDASH/Kb) nhỏ hơn số này được coi là không mất phí cho việc chuyển tiền (ngầm định: %s)</translation>
+        <source>Fees (in FACTOR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Phí (tính theo FACTOR/Kb) nhỏ hơn số này được coi là không mất phí cho việc chuyển tiền (ngầm định: %s)</translation>
     </message>
     <message>
-        <source>Fees (in LITEDASH/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Phí (theo LITEDASH/Kb) nhỏ hơn số này được coi không mất phí cho việc khởi tạo giao dịch (ngầm định: %s)</translation>
+        <source>Fees (in FACTOR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Phí (theo FACTOR/Kb) nhỏ hơn số này được coi không mất phí cho việc khởi tạo giao dịch (ngầm định: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3719,7 +3719,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Litedash Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Factor Alert" admin@foo.com
 </source>
         <translation>Để sử dụng litedashd, hoặc tuỳ chọn -server với litedash-qt, bạn phải đặt một mật khẩu rpcpassword trong tệp cấu hình:
 %s
@@ -3730,12 +3730,12 @@ rpcpassword=%s
 Username và mật khẩu KHÔNG ĐƯỢC giống nhau.
 Nếu tệp chưa có, thì hãy tạo ra với quyền chỉ đọc.
 Gợi ý bạn rằng cần đặt alertnotify để bạn nhận được thông báo về các vấn đề;
-ví dụ: alertnotify=echo %%s | mail -s "Litedash Alert" admin@foo.com
+ví dụ: alertnotify=echo %%s | mail -s "Factor Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 LITEDASH.</source>
-        <translation>Không tìm được đủ ngân sách cho giao dịch mà nó không đủ 1000 LITEDASH.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 FACTOR.</source>
+        <translation>Không tìm được đủ ngân sách cho giao dịch mà nó không đủ 1000 FACTOR.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3746,8 +3746,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Litedash Alert" admin@foo.com
         <translation>Cảnh báo: -maxtxfee được đặt rất cao! Mức Phí cao này sẽ được trả cho mỗi một giao dịch đơn.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Litedash Core will not work properly.</source>
-        <translation>Cánh báo: Hãy vui lòng kiểm tra ngày giờ máy tính của bạn cho chính xác! Nếu đồng hồ của bạn sai thì Litedash Core sẽ không làm việc một cách hoàn hảo.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Factor Core will not work properly.</source>
+        <translation>Cánh báo: Hãy vui lòng kiểm tra ngày giờ máy tính của bạn cho chính xác! Nếu đồng hồ của bạn sai thì Factor Core sẽ không làm việc một cách hoàn hảo.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,8 +3799,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Litedash Alert" admin@foo.com
         <translation>Bản quyền (C) 2009-%i bởi Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Litedash Core Developers</source>
-        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển Litedash Core</translation>
+        <source>Copyright (C) 2014-%i The Factor Core Developers</source>
+        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển Factor Core</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3831,8 +3831,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Litedash Alert" admin@foo.com
         <translation>Lỗi kết nối tới Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Litedash Core</source>
-        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của Litedash Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Factor Core</source>
+        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của Factor Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3847,8 +3847,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Litedash Alert" admin@foo.com
         <translation>Lỗi: Tìm thấy tham số không được hỗ trợ -tor, thay vào đó hãy sử dụng -onion</translation>
     </message>
     <message>
-        <source>Fee (in LITEDASH/kB) to add to transactions you send (default: %s)</source>
-        <translation>Phí (theo LITEDASH/Kb) sẽ thêm vào các giao dịch mà bạn gửi (ngầm định: %s)</translation>
+        <source>Fee (in FACTOR/kB) to add to transactions you send (default: %s)</source>
+        <translation>Phí (theo FACTOR/Kb) sẽ thêm vào các giao dịch mà bạn gửi (ngầm định: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3903,8 +3903,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Litedash Alert" admin@foo.com
         <translation>Thông tin</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Litedash Core is shutting down.</source>
-        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. Litedash Core đang được tắt.</translation>
+        <source>Initialization sanity check failed. Factor Core is shutting down.</source>
+        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. Factor Core đang được tắt.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4155,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Litedash Alert" admin@foo.com
         <translation>Sử dụng UPnP để ánh xạ cổng lắng nghe (ngầm định: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Litedash Core to complete</source>
-        <translation>Ví cần được ghi lại: khởi động lại Litedash Core để hoàn tất</translation>
+        <source>Wallet needed to be rewritten: restart Factor Core to complete</source>
+        <translation>Ví cần được ghi lại: khởi động lại Factor Core để hoàn tất</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4215,8 +4215,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Litedash Alert" admin@foo.com
         <translation>Khoá KeePassHttp cho liên lạc mã hoá AES với KeePass</translation>
     </message>
     <message>
-        <source>Keep N LITEDASH anonymized (default: %u)</source>
-        <translation>Giữ N LITEDASH đã được ẩn danh (ngầm định: %u)</translation>
+        <source>Keep N FACTOR anonymized (default: %u)</source>
+        <translation>Giữ N FACTOR đã được ẩn danh (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

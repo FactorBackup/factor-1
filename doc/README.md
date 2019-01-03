@@ -1,4 +1,4 @@
-Litedash Core 0.12.0
+Factor Core 0.12.0
 =====================
 
 Setup
@@ -7,11 +7,11 @@ Setup
 
 Running
 ---------------------
-The following are some helpful notes on how to run Litedash on your native platform.
+The following are some helpful notes on how to run Factor on your native platform.
 
 ### Unix
 
-You need the Qt4 run-time libraries to run Litedash-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run Factor-Qt. On Debian or Ubuntu:
 
 	sudo apt-get install libqtgui4
 
@@ -28,25 +28,25 @@ Unpack the files into a directory, and then run litedash-qt.exe.
 
 ### OSX
 
-Drag Litedash-Qt to your applications folder, and then run Litedash-Qt.
+Drag Factor-Qt to your applications folder, and then run Factor-Qt.
 
 ### Need Help?
 
-* See the documentation at the [Litedash Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [Factor Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [#iondis](http://webchat.freenode.net?channels=iondis) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=iondis).
-* Ask for help on the [LitedashTalk](https://litedashtalk.org/) forums.
+* Ask for help on [#pmadi](http://webchat.freenode.net?channels=pmadi) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=pmadi).
+* Ask for help on the [FactorTalk](https://litedashtalk.org/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Litedash on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Factor on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
 
 Development
 ---------------------
-The Litedash repo's [root README](https://github.com/iondis/litedash/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Factor repo's [root README](https://github.com/pmadi/factor/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Coding Guidelines](coding.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -57,8 +57,8 @@ The Litedash repo's [root README](https://github.com/iondis/litedash/blob/master
 - [Unit Tests](unit-tests.md)
 
 ### Resources
-* Discuss on the [LitedashTalk](https://litedashtalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#iondis](http://webchat.freenode.net/?channels=iondis) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=iondis).
+* Discuss on the [FactorTalk](https://litedashtalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on [#pmadi](http://webchat.freenode.net/?channels=pmadi) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=pmadi).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

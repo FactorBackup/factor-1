@@ -16,9 +16,9 @@ enum GovernanceObjectType {
     ValueOverride = 1, 
 
     // -------------------------------
-    // LitedashNetwork - is the root node
-    LitedashNetwork = 1000,
-    LitedashNetworkVariable = 1001,
+    // FactorNetwork - is the root node
+    FactorNetwork = 1000,
+    FactorNetworkVariable = 1001,
     Category = 1002,
 
     // Actors

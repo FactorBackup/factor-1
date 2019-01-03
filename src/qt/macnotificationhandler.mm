@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.iondis.Litedash-Qt";
+        return @"io.pmadi.Factor-Qt";
     } else {
         return [self __bundleIdentifier];
     }

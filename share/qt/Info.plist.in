@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Litedash Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Factor Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Litedash-Qt</string>
+  <string>Factor-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.iondis.Litedash-Qt</string>
+  <string>io.pmadi.Factor-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,7 +40,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.litedash.LitedashPayment</string>
+      <string>io.litedash.FactorPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>litedash</string>
@@ -54,7 +54,7 @@
       <key>UTTypeIdentifier</key>
       <string>io.litedash.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Litedash payment request</string>
+      <string>Factor payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -65,7 +65,7 @@
         <string>application/x-litedash-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>iondismentrequest</string>
+          <string>pmadimentrequest</string>
         </array>
       </dict>
     </dict>

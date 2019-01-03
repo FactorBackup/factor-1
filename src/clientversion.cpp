@@ -13,7 +13,7 @@
  * for both litedashd and litedash-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Litedash Core");
+const std::string CLIENT_NAME("Factor Core");
 
 /**
  * Client version number

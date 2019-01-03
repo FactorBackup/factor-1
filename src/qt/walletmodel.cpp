@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Litedash developers
+// Copyright (c) 2014-2015 The Factor developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -289,7 +289,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
 
 
         if(recipients[0].useInstantX && total > GetSporkValue(SPORK_5_MAX_VALUE)*COIN){
-            emit message(tr("Send Coins"), tr("InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 LITEDASH.").arg(GetSporkValue(SPORK_5_MAX_VALUE)),
+            emit message(tr("Send Coins"), tr("InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 FACTOR.").arg(GetSporkValue(SPORK_5_MAX_VALUE)),
                          CClientUIInterface::MSG_ERROR);
             return TransactionCreationFailed;
         }
@@ -298,7 +298,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
         transaction.setTransactionFee(nFeeRequired);
 
         if(recipients[0].useInstantX && newTx->GetValueOut() > GetSporkValue(SPORK_5_MAX_VALUE)*COIN){
-            emit message(tr("Send Coins"), tr("InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 LITEDASH.").arg(GetSporkValue(SPORK_5_MAX_VALUE)),
+            emit message(tr("Send Coins"), tr("InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 FACTOR.").arg(GetSporkValue(SPORK_5_MAX_VALUE)),
                          CClientUIInterface::MSG_ERROR);
             return TransactionCreationFailed;
         }

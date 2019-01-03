@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#  litedashd The Litedash Core server.
+#  litedashd The Factor Core server.
 #
 #
 # chkconfig: 345 80 20

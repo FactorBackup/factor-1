@@ -22,15 +22,15 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage: http://www.iondis.io/
-Vcs-Git: git://github.com/iondis/litedash.git
-Vcs-Browser: http://github.com/iondis/litedash
+Homepage: http://www.pmadi.io/
+Vcs-Git: git://github.com/pmadi/factor.git
+Vcs-Browser: http://github.com/pmadi/factor
 
 Package: litedashd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Litedash is a free open source peer-to-peer electronic cash system that
+ Factor is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -46,7 +46,7 @@ Package: litedash-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Litedash is a free open source peer-to-peer electronic cash system that
+ Factor is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -55,4 +55,4 @@ Description: peer-to-peer network based digital currency - Qt GUI
  Full transaction history is stored locally at each client.  This
  requires 1+ GB of space, slowly growing.
  .
- This package provides Litedash-Qt, a GUI for Litedash based on Qt.
+ This package provides Factor-Qt, a GUI for Factor based on Qt.

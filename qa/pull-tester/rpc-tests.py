@@ -62,10 +62,10 @@ for arg in sys.argv[1:]:
 
 #Set env vars
 buildDir = BUILDDIR
-if "LITEDASHD" not in os.environ:
-    os.environ["LITEDASHD"] = buildDir + '/src/litedashd' + EXEEXT
-if "LITEDASHCLI" not in os.environ:
-    os.environ["LITEDASHCLI"] = buildDir + '/src/litedash-cli' + EXEEXT
+if "FACTORD" not in os.environ:
+    os.environ["FACTORD"] = buildDir + '/src/litedashd' + EXEEXT
+if "FACTORCLI" not in os.environ:
+    os.environ["FACTORCLI"] = buildDir + '/src/litedash-cli' + EXEEXT
 
 if EXEEXT == ".exe" and "-win" not in opts:
     # https://github.com/bitcoin/bitcoin/commit/d52802551752140cf41f0d9a225a43e84404d3e9
@@ -149,7 +149,7 @@ testScriptsExt = [
     'p2p-acceptblock.py', # NOTE: needs litedash_hash to pass
     'mempool_packages.py',
     'maxuploadtarget.py',
-    # 'replace-by-fee.py', # RBF is disabled in Litedash Core
+    # 'replace-by-fee.py', # RBF is disabled in Factor Core
 ]
 
 def runtests():

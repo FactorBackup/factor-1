@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Litedash developers
+// Copyright (c) 2014-2015 The Factor developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -19,9 +19,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(LITEDASH);
-    unitlist.append(mLITEDASH);
-    unitlist.append(uLITEDASH);
+    unitlist.append(FACTOR);
+    unitlist.append(mFACTOR);
+    unitlist.append(uFACTOR);
     unitlist.append(duffs);
     return unitlist;
 }
@@ -30,9 +30,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case LITEDASH:
-    case mLITEDASH:
-    case uLITEDASH:
+    case FACTOR:
+    case mFACTOR:
+    case uFACTOR:
     case duffs:
         return true;
     default:
@@ -44,9 +44,9 @@ QString BitcoinUnits::id(int unit)
 {
     switch(unit)
     {
-        case LITEDASH: return QString("litedash");
-        case mLITEDASH: return QString("mlitedash");
-        case uLITEDASH: return QString::fromUtf8("ulitedash");
+        case FACTOR: return QString("litedash");
+        case mFACTOR: return QString("mlitedash");
+        case uFACTOR: return QString::fromUtf8("ulitedash");
         case duffs: return QString("duffs");
         default: return QString("???");
     }
@@ -58,9 +58,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case LITEDASH: return QString("LITEDASH");
-            case mLITEDASH: return QString("mLITEDASH");
-            case uLITEDASH: return QString::fromUtf8("μLITEDASH");
+            case FACTOR: return QString("FACTOR");
+            case mFACTOR: return QString("mFACTOR");
+            case uFACTOR: return QString::fromUtf8("μFACTOR");
             case duffs: return QString("duffs");
             default: return QString("???");
         }
@@ -69,9 +69,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case LITEDASH: return QString("tLITEDASH");
-            case mLITEDASH: return QString("mtLITEDASH");
-            case uLITEDASH: return QString::fromUtf8("μtLITEDASH");
+            case FACTOR: return QString("tFACTOR");
+            case mFACTOR: return QString("mtFACTOR");
+            case uFACTOR: return QString::fromUtf8("μtFACTOR");
             case duffs: return QString("tduffs");
             default: return QString("???");
         }
@@ -84,10 +84,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case LITEDASH: return QString("Litedash");
-            case mLITEDASH: return QString("Milli-Litedash (1 / 1" THIN_SP_UTF8 "000)");
-            case uLITEDASH: return QString("Micro-Litedash (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-Litedash (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case FACTOR: return QString("Factor");
+            case mFACTOR: return QString("Milli-Factor (1 / 1" THIN_SP_UTF8 "000)");
+            case uFACTOR: return QString("Micro-Factor (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-Factor (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -95,10 +95,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case LITEDASH: return QString("TestLitedashs");
-            case mLITEDASH: return QString("Milli-TestLitedash (1 / 1" THIN_SP_UTF8 "000)");
-            case uLITEDASH: return QString("Micro-TestLitedash (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestLitedash (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case FACTOR: return QString("TestFactors");
+            case mFACTOR: return QString("Milli-TestFactor (1 / 1" THIN_SP_UTF8 "000)");
+            case uFACTOR: return QString("Micro-TestFactor (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-TestFactor (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -108,9 +108,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case LITEDASH:  return 100000000;
-    case mLITEDASH: return 100000;
-    case uLITEDASH: return 100;
+    case FACTOR:  return 100000000;
+    case mFACTOR: return 100000;
+    case uFACTOR: return 100;
     case duffs: return 1;
     default:   return 100000000;
     }
@@ -120,9 +120,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case LITEDASH: return 8;
-    case mLITEDASH: return 5;
-    case uLITEDASH: return 2;
+    case FACTOR: return 8;
+    case mFACTOR: return 5;
+    case uFACTOR: return 2;
     case duffs: return 0;
     default: return 0;
     }

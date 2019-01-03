@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Litedash"
-            VALUE "FileDescription",    "Darkcoind (OSS daemon/client for Litedash)"
+            VALUE "CompanyName",        "Factor"
+            VALUE "FileDescription",    "Darkcoind (OSS daemon/client for Factor)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "litedashd"
             VALUE "LegalCopyright",     COPYRIGHT_STR

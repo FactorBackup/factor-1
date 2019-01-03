@@ -762,16 +762,16 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 border:0;
 }
 
-/* About Litedash Dialog */
+/* About Factor Dialog */
 QDialog#AboutDialog {
 background-color:#F8F6F6;
 }
 
-QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Litedash Contents */
+QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Factor Contents */
 margin-left:10px;
 }
 
-QDialog#AboutDialog QLabel#label_2 { /* Margin for About Litedash text */
+QDialog#AboutDialog QLabel#label_2 { /* Margin for About Factor text */
 margin-right:10px;
 }
 

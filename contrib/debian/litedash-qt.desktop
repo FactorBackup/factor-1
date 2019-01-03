@@ -1,9 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Litedash
-Comment=Litedash P2P Cryptocurrency
-Comment[fr]=Litedash, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Litedash, eşten eşe kriptografik sanal para birimi
+Name=Factor
+Comment=Factor P2P Cryptocurrency
+Comment[fr]=Factor, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Factor, eşten eşe kriptografik sanal para birimi
 Exec=litedash-qt %u
 Terminal=false
 Type=Application

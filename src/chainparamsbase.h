@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between litedash-cli and litedashd)
- * of a given instance of the Litedash system.
+ * of a given instance of the Factor system.
  */
 class CBaseChainParams
 {

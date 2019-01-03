@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The Litedash Core developers
+// Copyright (c) 2014-2017 The Factor Core developers
 
 /*
  * FIELDS AND CLASSIFICATION
@@ -45,7 +45,7 @@
  * =========================
  *
  *   // network
- *   CLitedashNetwork lvl, network-type, network-status, network-error, milestone-status*
+ *   CFactorNetwork lvl, network-type, network-status, network-error, milestone-status*
  *   CCategory lvl, category-type, status, status-error
  *   CNetworkGlobalVariable lvl, global-type, status, status-error
  *   // base: actor
@@ -79,7 +79,7 @@
  *  TREE STRUCTURE
  *  ===========================================
  * 
- *  LITEDASH NETWORK (ROOT)
+ *  FACTOR NETWORK (ROOT)
  *      -> NETWORK GLOBOLS
  *          -> SWITCHES, SETTINGS
  *      -> CATEGORIES
@@ -130,7 +130,7 @@ public:
 };
 
 // // root node
-class CLitedashNetwork : public CGovernanceObject
+class CFactorNetwork : public CGovernanceObject
 {
 private:
     std::string strName;
@@ -138,7 +138,7 @@ private:
 
 
 public:
-    CLitedashNetwork(UniValue objIn)
+    CFactorNetwork(UniValue objIn)
     {
         strName = objIn["name"].get_str();
         strURL = objIn["name"].get_str();
@@ -174,9 +174,9 @@ public:
 
 };
 
-// // can be under: LitedashNetwork
+// // can be under: FactorNetwork
 // //   -- signature requirements : Key1(User)
-// class CLitedashNetworkVariable : public CGovernanceObject
+// class CFactorNetworkVariable : public CGovernanceObject
 // {
 // private:
 
@@ -279,7 +279,7 @@ public:
 //     // isRootCategory()
 //     // {
 //     //     // root categories won't have categories as parents
-//     //     return (IsType() == LitedashNetwork);
+//     //     return (IsType() == FactorNetwork);
 //     // }
 
 //     // isSubcategoryOf(std::string strParentName)
