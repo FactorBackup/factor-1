@@ -163,8 +163,8 @@ public:
         fTestnetToBeDeprecatedFieldRPC = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "048dfd6cff381f178157b0387a0d9d8a8da4372e0ecfd410eca148bd92d24c5faf5a0a532be85e683dc59730395d5c8bb492dc319d2197277ec72d5d73b219a47f";
-        strMasternodePaymentsPubKey = "048dfd6cff381f178157b0387a0d9d8a8da4372e0ecfd410eca148bd92d24c5faf5a0a532be85e683dc59730395d5c8bb492dc319d2197277ec72d5d73b219a47f";
+        strSporkKey = "044c8a94a966fd3dc95d579713d2c5730463747c16a659b47b3313af99ff8049116051077252b0aa727539c5011e4b19e7a3f620e46f016de155a37818e227be83";
+        strMasternodePaymentsPubKey = "044c8a94a966fd3dc95d579713d2c5730463747c16a659b47b3313af99ff8049116051077252b0aa727539c5011e4b19e7a3f620e46f016de155a37818e227be83";
         strDarksendPoolDummyAddress = "FjZSmNRuwHydMtbHmtRPi6AwcCZpWS4xTU";
         nStartMasternodePayments = 1559995459;
     }
@@ -225,8 +225,8 @@ public:
         fTestnetToBeDeprecatedFieldRPC = true;
 
         nPoolMaxTransactions = 2;
-        strSporkKey = "048814444bf1bcf070132b3ab6c4115d06aa7ac3bc0776205c4356de2ba012450e39f71fbc1ba41016cf9a3947332a660d11dd19e1fbcdda98ebe1b2110ad3c699";
-        strMasternodePaymentsPubKey = "048814444bf1bcf070132b3ab6c4115d06aa7ac3bc0776205c4356de2ba012450e39f71fbc1ba41016cf9a3947332a660d11dd19e1fbcdda98ebe1b2110ad3c699";
+        strSporkKey = "04e15b0602a0bc61fd24b878e96277429c7ca6c056a3e45571fe3b0db4171f6a029860ea12e87a650c49d95b31771cfb4ff2d7e3fed96f1b6b61a988f1b2b9e06b";
+        strMasternodePaymentsPubKey = "04e15b0602a0bc61fd24b878e96277429c7ca6c056a3e45571fe3b0db4171f6a029860ea12e87a650c49d95b31771cfb4ff2d7e3fed96f1b6b61a988f1b2b9e06b";
         strDarksendPoolDummyAddress = "y1EZuxhhNMAUofTBEeLqGE1bJrpC2TWRNp";
         nStartMasternodePayments = 1559995465;
     }
