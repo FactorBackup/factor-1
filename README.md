@@ -1,11 +1,3 @@
-Factor Core staging tree 0.12
-===============================
-
-`master:` [![Build Status](https://travis-ci.org/pmadi/factor.svg?branch=master)](https://travis-ci.org/pmadi/factor) `v0.12.0.x:` [![Build Status](https://travis-ci.org/pmadi/factor.svg?branch=v0.12.0.x)](https://travis-ci.org/pmadi/factor/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/pmadi/factor.svg?branch=v0.12.1.x)](https://travis-ci.org/pmadi/factor/branches)
-
-https://www.factor.org
-
-Copyright (c) 2009-2015 Bitcoin Core Developers
 
 Copyright (c) 2014-2015 Factor Core Developers
 
@@ -112,4 +104,3 @@ Factor Core is a multithreaded application, and deadlocks or other multithreadin
 can be very difficult to track down. Compiling with -DDEBUG_LOCKORDER (configure
 CXXFLAGS="-DDEBUG_LOCKORDER -g") inserts run-time checks to keep track of which locks
 are held, and adds warnings to the debug.log file if inconsistencies are detected.
-# factor
