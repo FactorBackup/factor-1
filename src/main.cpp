@@ -1550,12 +1550,12 @@ int64_t GetBlockValue(int nBits, int nHeight, const CAmount& nFees)
             if (nSubsidy < 5) nSubsidy = 5;
         } else { // CPU mining calc
             nSubsidy = (11111.0 / (pow((dDiff+51.0)/6.0,2.0)));
-            if (nSubsidy > 500) nSubsidy = 732000;
+            if (nSubsidy > 500) nSubsidy = 500;
             if (nSubsidy < 25) nSubsidy = 25;
         }
     } else {
         nSubsidy = (1111.0 / (pow((dDiff+1.0),2.0)));
-        if (nSubsidy > 500) nSubsidy = 732000;
+        if (nSubsidy > 500) nSubsidy = 500;
         if (nSubsidy < 1) nSubsidy = 1;
     }
 
