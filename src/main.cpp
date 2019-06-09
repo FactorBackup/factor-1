@@ -1542,20 +1542,20 @@ int64_t GetBlockValue(int nBits, int nHeight, const CAmount& nFees)
     if(nHeight > 4500 || Params().NetworkID() != CBaseChainParams::MAIN) dDiff = ConvertBitsToDouble(nBits);
 
     int64_t nSubsidy = 0;
-    if(nHeight >= 5465) {
-        if((nHeight >= 17000 && dDiff > 75) || nHeight >= 24000) { // GPU/ASIC difficulty calc
+    if(nHeight >= 465) {
+        if((nHeight >= 1700 && dDiff > 75) || nHeight >= 2400) { // GPU/ASIC difficulty calc
             // 2222222/(((x+2600)/9)^2)
             nSubsidy = (2222222.0 / (pow((dDiff+2600.0)/9.0,2.0)));
             if (nSubsidy > 25) nSubsidy = 25;
             if (nSubsidy < 5) nSubsidy = 5;
         } else { // CPU mining calc
             nSubsidy = (11111.0 / (pow((dDiff+51.0)/6.0,2.0)));
-            if (nSubsidy > 500) nSubsidy = 732000;
+            if (nSubsidy > 500) nSubsidy = 55000;
             if (nSubsidy < 25) nSubsidy = 25;
         }
     } else {
         nSubsidy = (1111.0 / (pow((dDiff+1.0),2.0)));
-        if (nSubsidy > 500) nSubsidy = 732000;
+        if (nSubsidy > 500) nSubsidy = 55000;
         if (nSubsidy < 1) nSubsidy = 1;
     }
 
@@ -1586,7 +1586,7 @@ int64_t GetBlockValue(int nBits, int nHeight, const CAmount& nFees)
 
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue)
 {
-    int64_t ret = blockValue/1; // start at 20%
+    int64_t ret = blockValue/5; // start at 20%
 
     if(Params().NetworkID() == CBaseChainParams::TESTNET) {
         if(nHeight > 46000)             ret += blockValue / 20; //25% - 2014-10-07
