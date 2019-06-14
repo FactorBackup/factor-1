@@ -208,6 +208,12 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
+        /*vSeeds.push_back(CDNSSeedData("dashpay.io", "testnet-seed.dashpay.io"));
+        vSeeds.push_back(CDNSSeedData("dash.qa", "testnet-seed.dash.qa"));
+        *///legacy seeders
+        vSeeds.push_back(CDNSSeedData("darkcoin.io",  "testnet-seed.darkcoin.io"));
+        vSeeds.push_back(CDNSSeedData("darkcoin.qa", "testnet-seed.darkcoin.qa"));
+        vSeeds.push_back(CDNSSeedData("masternode.io", "test.dnsseed.masternode.io"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(139);                    // Testnet factor addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = list_of( 19);                    // Testnet factor script addresses start with '8' or '9'
@@ -268,12 +274,6 @@ public:
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.
-        /*vSeeds.push_back(CDNSSeedData("dashpay.io", "testnet-seed.dashpay.io"));
-        vSeeds.push_back(CDNSSeedData("dash.qa", "testnet-seed.dash.qa"));
-        *///legacy seeders
-        vSeeds.push_back(CDNSSeedData("165.22.116.58",  "165.22.116.58"));
-        vSeeds.push_back(CDNSSeedData("165.22.118.78", "165.22.118.78"));
-        vSeeds.push_back(CDNSSeedData("165.22.112.126", "165.22.112.126"));
 
         fRequireRPCPassword = false;
         fMiningRequiresPeers = false;
