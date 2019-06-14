@@ -107,7 +107,7 @@ def filterbyasn(ips, max_per_asn, max_total):
     pool = multiprocessing.Pool(processes=16)
 
     # OpenDNS servers
-    my_resolver.nameservers = ['165.22.116.58', '165.22.116.58']
+    my_resolver.nameservers = ['159.89.221.65', '159.89.221.65']
 
     # Resolve ASNs in parallel
     asns = [pool.apply_async(resolveasn, args=(my_resolver, ip['ip'])) for ip in ips_ipv4]
