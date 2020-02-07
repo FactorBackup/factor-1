@@ -108,15 +108,11 @@ are held, and adds warnings to the debug.log file if inconsistencies are detecte
 
 ### Coin Specs
 <table>
-<tr><td>Algo</td><td>Quark</td></tr>
-<tr><td>Block Time</td><td>60 Seconds</td></tr>
+<tr><td>Algo</td><td>Factor</td></tr>
+<tr><td>Block Time</td><td>1 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoW Phase)</td><td>43,199,500 FTC</td></tr>
-<tr><td>Max Coin Supply (PoS Phase)</td><td>Infinite</td></tr>
-<tr><td>Premine</td><td>60,000 FTC*</td></tr>
+<tr><td>Max Coin Supply (PoW,POS Phase)</td><td>10,000,000,000 FTC</td></tr>
 </table>
-
-*60,000 FTC Premine was burned in
 
 ### Reward Distribution
 
